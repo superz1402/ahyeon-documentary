@@ -105,8 +105,9 @@ for idx, c in enumerate(tl["clips"]):
     vins.append(f"[v{idx}]")
 fc.append("".join(vins) + f"amix=inputs={len(vins)}:normalize=0,volume=1.0[voice]")
 fc.append("[1:a]aloop=loop=-1:size=2e9,atrim=0:" + str(TOTAL) + ",aresample=48000,volume=0.32,afade=t=in:st=0:d=2.5,afade=t=out:st=" + str(TOTAL - 4) + ":d=4[bed]")
-fc.append("[bed][voice]sidechaincompress=threshold=0.015:ratio=7:attack=120:release=700[bedd]")
-fc.append("[voice][bedd]amix=inputs=2:normalize=0,loudnorm=I=-14:TP=-1.5:LRA=11[aout]")
+fc.append("[voice]asplit=2[sc][vmix]")
+fc.append("[bed][sc]sidechaincompress=threshold=0.015:ratio=7:attack=120:release=700[bedd]")
+fc.append("[vmix][bedd]amix=inputs=2:normalize=0,loudnorm=I=-14:TP=-1.5:LRA=11[aout]")
 
 cmd = (["ffmpeg", "-y", "-loglevel", "error", "-threads", "0"] + inputs +
        ["-filter_complex", ";".join(fc),
