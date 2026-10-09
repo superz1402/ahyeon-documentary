@@ -1,0 +1,20 @@
+1
+00:00:00,050 --> 00:00:07,384
+Mediabase deserves a plain-language translation, because it is the least glamorous and most serious number in the story.
+
+2
+00:00:07,384 --> 00:00:13,608
+It counts actual radio spins — airplay logged from monitored stations across the United States.
+
+3
+00:00:13,608 --> 00:00:18,054
+No streaming bundles, no fan purchasing power, no algorithm.
+
+4
+00:00:18,054 --> 00:00:22,976
+Real programmers, playing a Korean-language title track in daytime rotation.
+
+5
+00:00:22,976 --> 00:00:32,396
+For a genre that spent two decades being told its ceiling was the internet, charting on US radio in year three is the kind of line that ends arguments.
+

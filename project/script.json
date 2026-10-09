@@ -1,0 +1,1442 @@
+{
+ "title": "JUNG AHYEON — The One Who Was Worth the Wait",
+ "slug": "ahyeon",
+ "language": "en",
+ "voice": "en-US-AndrewNeural",
+ "target_total_s": 1740,
+ "fps": 30,
+ "width": 1920,
+ "height": 1080,
+ "brand": {
+  "bg": "#0a0a0a",
+  "accent": "#c9a84c",
+  "ink": "#f5f0e6",
+  "dim": "#8a8378"
+ },
+ "fonts": {
+  "display": "/usr/share/fonts/truetype/noto-serif-sc/NotoSerifSC-SemiBold.ttf",
+  "display_black": "/usr/share/fonts/truetype/noto-serif-sc/NotoSerifSC-Black.ttf",
+  "body": "/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf"
+ },
+ "lexicon": {
+  "Ahyeon": "AH-hyun",
+  "Chuncheon": "CHUN-chon",
+  "MONSTIEZ": "MON-steez",
+  "Kyocera": "KEE-oh-seh-rah",
+  "KSPO": "K-S-P-O",
+  "Pharita": "fah-REE-tah",
+  "Rami": "RAH-mee",
+  "Rora": "ROH-rah",
+  "Chiquita": "chee-KEE-tah",
+  "YG": "Y-G",
+  "Asa": "AH-sah",
+  "Ruka": "ROO-kah",
+  "Sheesh": "SHEESH",
+  "Babymons7er": "BABY-MONSTER",
+  "BABYMONS7ER": "BABY-MON-SEVEN-ER",
+  "Travis Scott": "TRAV-is SKOTT"
+ },
+ "cold_open_pause_s": 1.2,
+ "beat_gap_s": 0.55,
+ "intro_music_s": 8.0,
+ "outro_music_s": 22.0,
+ "segments": [
+  {
+   "id": "seg0",
+   "act": "COLD OPEN",
+   "chapter_title": "The One Who Was Missing",
+   "beats": [
+    {
+     "id": "b001",
+     "narration": "On November 27th, 2023, a K-pop debut broke the internet. Twenty-two point five nine million views in twenty-four hours — the most-watched debut music video in the history of the genre. Six girls on stage. Neon, chrome, choreography tuned to the frame.",
+     "pause_after": 0.6,
+     "on_screen": [
+      "22,590,104 views — first 24 hours",
+      "NOVEMBER 27, 2023"
+     ],
+     "visuals": [
+      {
+       "kind": "image",
+       "query": "seoul night city neon skyline"
+      },
+      {
+       "kind": "card",
+       "card": "stat",
+       "kicker": "THE RECORD",
+       "big": "22.59M",
+       "small": "views in 24 hours — most-viewed K-pop debut MV ever"
+      }
+     ]
+    },
+    {
+     "id": "b002",
+     "narration": "But if you knew what to look for, something was off. Six voices on a seven-part arrangement. A formation choreographed for seven. And in the comments, the same question, over and over, in every language the internet speaks.",
+     "pause_after": 0.6,
+     "visuals": [
+      {
+       "kind": "card",
+       "card": "quote",
+       "quote": "Where is the seventh member?",
+       "attr": "the question under every debut video"
+      },
+      {
+       "kind": "image",
+       "query": "concert crowd lights dark arena"
+      }
+     ]
+    },
+    {
+     "id": "b003",
+     "narration": "Eight days earlier, on November 15th, YG Entertainment had made an announcement that split its fandom in two. Its most hyped trainee in a decade — a fifteen-year-old the internet had already nicknamed the next great idol — would not be debuting with her group. Health reasons. No return date.",
+     "pause_after": 0.8,
+     "on_screen": [
+      "NOVEMBER 15, 2023",
+      "YG ENTERTAINMENT OFFICIAL STATEMENT"
+     ],
+     "visuals": [
+      {
+       "kind": "card",
+       "card": "timeline",
+       "date": "NOV 15, 2023",
+       "event": "YG announces Ahyeon will not join debut — health reasons"
+      },
+      {
+       "kind": "image",
+       "query": "seoul apartment window rain night"
+      }
+     ]
+    },
+    {
+     "id": "b004",
+     "narration": "Her name was Jung Ahyeon. She was fourteen months away from headlining an arena, three years from a dome. This is the story of the most-watched debut in K-pop history — the one that happened without her. And of the wait that turned a trainee into a headliner.",
+     "pause_after": 1.2,
+     "visuals": [
+      {
+       "kind": "card",
+       "card": "title",
+       "kicker": "A DOCUMENTARY",
+       "title": "JUNG AHYEON",
+       "subtitle": "The One Who Was Worth the Wait"
+      },
+      {
+       "kind": "image",
+       "query": "empty concert stage single spotlight"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "seg1",
+   "act": "ACT I",
+   "chapter_title": "A Voice From Chuncheon",
+   "beats": [
+    {
+     "id": "b101",
+     "narration": "Chuncheon. Capital of Gangwon Province, two hours north of Seoul by train. A lake city. Quiet. Famous for noodles and duck boats, not idols. In the last twenty years, virtually every K-pop star has been mined from Seoul, Busan, or overseas casting calls. Almost nobody comes from here.",
+     "pause_after": 0.5,
+     "on_screen": [
+      "CHUNCHEON, GANGWON-DO",
+      "POP. ~280,000"
+     ],
+     "visuals": [
+      {
+       "kind": "image",
+       "query": "chuncheon korea lake city"
+      },
+      {
+       "kind": "image",
+       "query": "korea small city street morning"
+      },
+      {
+       "kind": "card",
+       "card": "chapter",
+       "act": "ACT I",
+       "title": "A Voice From Chuncheon"
+      }
+     ]
+    },
+    {
+     "id": "b102",
+     "narration": "Jung Ahyeon was born there on April 11th, 2007. By the account later put out around her debut, she was a child who performed before she could properly read — musical theater first, then singing, then rap, absorbing English from age five and Mandarin from seven. A trilingual kid from a lake city with a voice that did not sound local.",
+     "pause_after": 0.5,
+     "on_screen": [
+      "BORN APRIL 11, 2007"
+     ],
+     "visuals": [
+      {
+       "kind": "image",
+       "query": "korea school children music class"
+      },
+      {
+       "kind": "image",
+       "query": "microphone vintage dark studio"
+      }
+     ]
+    },
+    {
+     "id": "b103",
+     "narration": "To understand what happened next, you have to understand what YG Entertainment is. In the 2010s and 2020s it built BLACKPINK — the biggest girl group on the planet. YG's entire brand is scarcity. Few debuts. Long training. Editorial patience. When YG announces a girl group, the industry treats it like a product launch from Apple.",
+     "pause_after": 0.6,
+     "on_screen": [
+      "YG ENTERTAINMENT",
+      "HOME OF BIGBANG · 2NE1 · BLACKPINK"
+     ],
+     "visuals": [
+      {
+       "kind": "image",
+       "query": "seoul skyscraper corporate glass night"
+      },
+      {
+       "kind": "card",
+       "card": "stat",
+       "kicker": "THE LABEL STANDARD",
+       "big": "BLACKPINK",
+       "small": "the most-subscribed music artist channel in YouTube history"
+      }
+     ]
+    },
+    {
+     "id": "b104",
+     "narration": "By 2018, the machinery behind that brand had started turning on its next project. Internally: the next girl group. Externally: nothing. For years, nothing. YG does not leak. YG waits. And somewhere in that silence, a pre-teen from Chuncheon walked into an audition room and changed her own life.",
+     "pause_after": 0.6,
+     "visuals": [
+      {
+       "kind": "image",
+       "query": "dance studio mirror empty practice room"
+      },
+      {
+       "kind": "image",
+       "query": "audition stage lights dark"
+      }
+     ]
+    },
+    {
+     "id": "b105",
+     "narration": "She signed as a trainee at around eleven years old. What followed were five years of the YG system — the same assembly line that forged 2NE1 and BLACKPINK. Vocal reps. Rap reps. Dance until the mirrors fog. Monthly evaluations where one bad performance can freeze your file for a year. Most trainees wash out. The system is designed that way.",
+     "pause_after": 0.6,
+     "on_screen": [
+      "5 YEARS OF TRAINING"
+     ],
+     "visuals": [
+      {
+       "kind": "card",
+       "card": "stat",
+       "kicker": "THE SYSTEM",
+       "big": "5 YEARS",
+       "small": "of YG training before the world ever saw her face"
+      },
+      {
+       "kind": "image",
+       "query": "shoes dance studio floor practice"
+      },
+      {
+       "kind": "image",
+       "query": "night office building korea lit windows"
+      }
+     ]
+    },
+    {
+     "id": "b106",
+     "narration": "And through all five of those years, the public never knew she existed. No survival show. No rumor mill. Just a locked file inside a company famous for locked files. It is one of the strangest quirks of this story: K-pop's most anticipated debut of the decade belonged to a girl whose name had never once trended.",
+     "pause_after": 0.8,
+     "visuals": [
+      {
+       "kind": "image",
+       "query": "locked door corridor dim light"
+      },
+      {
+       "kind": "image",
+       "query": "server room dark blue lights"
+      }
+     ]
+    },
+    {
+     "id": "b107",
+     "narration": "The audition circuit that produced her is its own economy. Hundreds of thousands of Korean kids audition every year across the big agencies and the mid-tier ones. Of those signed, the large majority are released from their contracts before debut. The math is closer to elite athletics than to music school — early specialization, private coaching, and a pyramid with almost no middle.",
+     "pause_after": 0.6,
+     "on_screen": [
+      "THE PYRAMID"
+     ],
+     "visuals": [
+      {
+       "kind": "image",
+       "query": "seoul subway station crowd blur"
+      },
+      {
+       "kind": "image",
+       "query": "stack of papers desk dim light"
+      }
+     ]
+    },
+    {
+     "id": "b108",
+     "narration": "And YG's version of the pyramid is steeper than most. The company debuted exactly two girl groups in the fourteen years between 2NE1 and BABYMONSTER. That is the entire point — and the entire risk. When you launch that rarely, you cannot launch small. Every debut is a bet of the label's whole reputation. Which is why, in 2023, everything about this project was engineered to be oversized.",
+     "pause_after": 0.8,
+     "on_screen": [
+      "2NE1 (2009) → BLACKPINK (2016) → BABYMONSTER (2023)"
+     ],
+     "visuals": [
+      {
+       "kind": "card",
+       "card": "timeline",
+       "date": "2009 → 2016 → 2023",
+       "event": "YG girl groups: 2NE1 → BLACKPINK → BABYMONSTER — two debuts in fourteen years"
+      },
+      {
+       "kind": "image",
+       "query": "chess pieces dark gold light"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "seg2",
+   "act": "ACT II",
+   "chapter_title": "Next Movement",
+   "beats": [
+    {
+     "id": "b201",
+     "narration": "New Year's Day, 2023. YG posts a trailer with a name and almost nothing else: BABYMONSTER — Next Movement. Sixty seconds of silhouettes, studio footage, and a logo. No faces. No names. No debut date. It collected millions of views in days, because after seven years of waiting, the heirs to BLACKPINK finally had a name.",
+     "pause_after": 0.6,
+     "on_screen": [
+      "JANUARY 1, 2023",
+      "\"BABYMONSTER — NEXT MOVEMENT\""
+     ],
+     "visuals": [
+      {
+       "kind": "card",
+       "card": "timeline",
+       "date": "JAN 1, 2023",
+       "event": "\"YG Next Movement\" trailer — the project gets a name"
+      },
+      {
+       "kind": "image",
+       "query": "film trailer dark screen projector light"
+      }
+     ]
+    },
+    {
+     "id": "b202",
+     "narration": "Then came the reveals. One member at a time, one performance film each, posted straight to YouTube like case files being opened. On January 12th, the second file unsealed: a fifteen-year-old from Chuncheon, rapping and singing take after take in a practice room, with a control of dynamics that made comment sections stop pretending to be neutral.",
+     "pause_after": 0.6,
+     "on_screen": [
+      "JANUARY 12, 2023",
+      "SECOND MEMBER REVEALED — AGE 15"
+     ],
+     "visuals": [
+      {
+       "kind": "card",
+       "card": "timeline",
+       "date": "JAN 12, 2023",
+       "event": "Ahyeon revealed as 2nd member — age 15"
+      },
+      {
+       "kind": "image",
+       "query": "practice room microphone teenager silhouette"
+      }
+     ]
+    },
+    {
+     "id": "b203",
+     "narration": "The internet did what the internet does. It found her old clips. It froze frames. It compared her tone to the label's legends and crowned her within a week — little Jennie, they called her, after BLACKPINK's sharpest all-rounder. For a fifteen-year-old, that nickname was both a throne and a cage, though nobody framing it as a compliment understood the second part yet.",
+     "pause_after": 0.6,
+     "on_screen": [
+      "\"LITTLE JENNIE\""
+     ],
+     "visuals": [
+      {
+       "kind": "card",
+       "card": "quote",
+       "quote": "Little Jennie.",
+       "attr": "the internet's verdict, April 2024 interviews"
+      },
+      {
+       "kind": "image",
+       "query": "phone screen scrolling social media dark"
+      }
+     ]
+    },
+    {
+     "id": "b204",
+     "narration": "Through spring, the full roster came into focus. Seven members from Korea, Thailand, and Japan. Ruka. Pharita. Asa. Ahyeon. Rami. Rora. Chiquita. YG's first girl group in seven years, built deliberately as seven — a number the company would later weld directly into the brand itself. On paper, the strongest rookie lineup any major label had fielded in a decade.",
+     "pause_after": 0.6,
+     "on_screen": [
+      "7 MEMBERS",
+      "KOREA · THAILAND · JAPAN"
+     ],
+     "visuals": [
+      {
+       "kind": "card",
+       "card": "stat",
+       "kicker": "THE LINEUP",
+       "big": "7",
+       "small": "members — Ruka · Pharita · Asa · Ahyeon · Rami · Rora · Chiquita"
+      },
+      {
+       "kind": "image",
+       "query": "seven silhouettes stage fog lights"
+      }
+     ]
+    },
+    {
+     "id": "b205",
+     "narration": "Spring became summer. In May 2023, a pre-debut song called Dream hit number one on Billboard's Hot Trending Songs chart — a song nobody could buy, performed by girls nobody could see yet. The YouTube channel crossed a million subscribers in fifty-two days, the fastest any K-pop girl group had ever done it. And the debut date kept not arriving.",
+     "pause_after": 0.6,
+     "on_screen": [
+      "MAY 2023 — \"DREAM\" #1 BILLBOARD HOT TRENDING",
+      "1M SUBS IN 52 DAYS — FASTEST GG EVER"
+     ],
+     "visuals": [
+      {
+       "kind": "card",
+       "card": "stat",
+       "kicker": "PRE-DEBUT",
+       "big": "#1",
+       "small": "Billboard Hot Trending Songs — \"Dream\", May 2023"
+      },
+      {
+       "kind": "card",
+       "card": "stat",
+       "kicker": "THE CHANNEL",
+       "big": "52 DAYS",
+       "small": "to 1M subscribers — fastest K-pop girl group in history"
+      },
+      {
+       "kind": "image",
+       "query": "hourglass sand time dark background"
+      }
+     ]
+    },
+    {
+     "id": "b207",
+     "narration": "The reveal films themselves became objects of study. Each member performed alone in a plain studio — one take, one lighting rig, no styling theatrics — because YG was selling raw material, not packaging. The comment sections turned into scouting combine reports. Tone, breath control, stage instinct, star presence, scored frame by frame by an audience that had been trained by a decade of survival shows to know exactly what it was looking at.",
+     "pause_after": 0.6,
+     "visuals": [
+      {
+       "kind": "image",
+       "query": "empty studio softbox light equipment"
+      },
+      {
+       "kind": "image",
+       "query": "person silhouette studio backdrop"
+      }
+     ]
+    },
+    {
+     "id": "b208",
+     "narration": "Ahyeon's file was the one that kept circulating. The rap segments landed with the cadence of someone who'd studied the label's founders, not just its stars. The vocal takes swung from chest voice into a light head register without the seams most trainees leave showing. And underneath the technique, the thing scouts call presence — the camera finding her even when she wasn't the one performing.",
+     "pause_after": 0.8,
+     "visuals": [
+      {
+       "kind": "image",
+       "query": "sound waveform visualization dark gold"
+      },
+      {
+       "kind": "card",
+       "card": "quote",
+       "quote": "The camera finds her.",
+       "attr": "the trainee-file consensus, early 2023"
+      }
+     ]
+    },
+    {
+     "id": "b206",
+     "narration": "Behind closed doors, the final evaluations were running. YG filmed them — seven trainees, performing for the founder's approval, the tapes later released as a series called Last Evaluation. What those tapes captured, nobody in the audience fully processed at the time. Watch them back today and you are watching six girls audition for a debut that had already happened, and one girl auditioning for a group she would have to join late.",
+     "pause_after": 0.9,
+     "on_screen": [
+      "\"LAST EVALUATION\" (2023)"
+     ],
+     "visuals": [
+      {
+       "kind": "card",
+       "card": "chapter",
+       "act": "ACT II",
+       "title": "Next Movement"
+      },
+      {
+       "kind": "image",
+       "query": "judges table empty dark studio"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "seg3",
+   "act": "ACT III",
+   "chapter_title": "Dangerously",
+   "beats": [
+    {
+     "id": "b301",
+     "narration": "Then, mid-2023, a pre-debut cover landed on the channel and refused to leave the charts of the internet's attention. Ahyeon, alone with a microphone, singing Charlie Puth's Dangerously. No choreography. No safety net. Just dynamics — a verse held in a whisper, a chorus that opened like a door.",
+     "pause_after": 0.6,
+     "on_screen": [
+      "\"DANGEROUSLY\" — CHARLIE PUTH COVER"
+     ],
+     "visuals": [
+      {
+       "kind": "card",
+       "card": "chapter",
+       "act": "ACT III",
+       "title": "Dangerously"
+      },
+      {
+       "kind": "image",
+       "query": "single microphone spotlight black background"
+      }
+     ]
+    },
+    {
+     "id": "b302",
+     "narration": "Covers like this surface every week in K-pop and vanish by Friday. This one did the opposite. It moved through TikTok and Twitter in translations, stitched and reacted to for weeks. And then it reached the one person whose song it was.",
+     "pause_after": 0.6,
+     "visuals": [
+      {
+       "kind": "image",
+       "query": "smartphone video viral screen glow"
+      },
+      {
+       "kind": "image",
+       "query": "network connections abstract light strands"
+      }
+     ]
+    },
+    {
+     "id": "b303",
+     "narration": "Charlie Puth didn't just notice it — he adopted it. In interviews he praised the voice outright, and before the year was out, the connection had turned tangible: Puth wrote and gifted a song for the group, called Like That — a track widely understood to be his answer to that cover. A global pop star personally forwarding material because a fifteen-year-old's take on his song stopped him scrolling.",
+     "pause_after": 0.7,
+     "on_screen": [
+      "CHARLIE PUTH → \"LIKE THAT\"",
+      "GIFTED TO BABYMONSTER"
+     ],
+     "visuals": [
+      {
+       "kind": "card",
+       "card": "stat",
+       "kicker": "THE CO-SIGN",
+       "big": "\"Like That\"",
+       "small": "written & gifted to BABYMONSTER by Charlie Puth"
+      },
+      {
+       "kind": "image",
+       "query": "piano keys studio moody light"
+      }
+     ]
+    },
+    {
+     "id": "b304x",
+     "narration": "Vocally, the cover was a statement of range. Puth writes melodies that sit in an awkward middle zone — too low for pure belt, too high for comfort — and the Dangerously chorus demands you cross that zone in public, audibly, on camera. Her version treated the verse as a whisper and the bridge as a launchpad, which is exactly the dynamics-first approach that later became her stage signature.",
+     "pause_after": 0.6,
+     "visuals": [
+      {
+       "kind": "image",
+       "query": "audio mixing console knobs closeup"
+      },
+      {
+       "kind": "image",
+       "query": "mountain range silhouette gradient dusk"
+      }
+     ]
+    },
+    {
+     "id": "b304y",
+     "narration": "The rollout metrics around her told the same story from the business side. Pre-registration for the debut had become, per YG's own releases, the largest in the channel's history for a rookie act. Brand anticipation indexes ranked a group that had performed zero official songs inside the top tier of upcoming launches. This is the part of K-pop outsiders consistently underestimate: by the time a group debuts, the market has already spent months pricing it — and the market had priced this one as the biggest launch of the year.",
+     "pause_after": 0.7,
+     "on_screen": [
+      "THE MARKET HAD PRICED IT"
+     ],
+     "visuals": [
+      {
+       "kind": "image",
+       "query": "stock market screen numbers glow"
+      },
+      {
+       "kind": "card",
+       "card": "quote",
+       "quote": "The biggest launch of the year.",
+       "attr": "the market's pricing, autumn 2023"
+      }
+     ]
+    },
+    {
+     "id": "b304",
+     "narration": "By autumn 2023, the shape of the debut was public: November 27th. Batter Up. The most pre-registered debut in YouTube's K-pop history. Advertisers had bought in before a single chorus had been heard. The rollout was a machine at full RPM — and Jung Ahyeon was in the center of the formation of every teaser released up to that point.",
+     "pause_after": 0.7,
+     "on_screen": [
+      "NOV 27, 2023 — \"BATTER UP\""
+     ],
+     "visuals": [
+      {
+       "kind": "card",
+       "card": "timeline",
+       "date": "NOV 27, 2023",
+       "event": "\"Batter Up\" — scheduled debut"
+      },
+      {
+       "kind": "image",
+       "query": "stadium lights ramp up night"
+      }
+     ]
+    },
+    {
+     "id": "b305",
+     "narration": "Two weeks before the date, the machine stopped. A statement from YG, brief as a telegram: Ahyeon would not participate in the debut. Health and recovery first. No timeline offered, because there wasn't one. The comments under a debut teaser turned into a vigil.",
+     "pause_after": 0.9,
+     "on_screen": [
+      "NOVEMBER 15, 2023",
+      "OFFICIAL YG STATEMENT"
+     ],
+     "visuals": [
+      {
+       "kind": "card",
+       "card": "timeline",
+       "date": "NOV 15, 2023",
+       "event": "YG: Ahyeon will not join the debut — health reasons"
+      },
+      {
+       "kind": "image",
+       "query": "empty chair single light dark room"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "seg4",
+   "act": "ACT IV",
+   "chapter_title": "The Wait",
+   "beats": [
+    {
+     "id": "b401",
+     "narration": "Here is what most people outside K-pop miss about a missing member: the show does not stop. A debut is a years-long production with budgets, broadcast slots, and a launch window that cannot move. On November 27th, 2023, BABYMONSTER debuted as six — and the industry watched to see whether a seven-piece group with a hole in it could still break records.",
+     "pause_after": 0.6,
+     "on_screen": [
+      "DEBUT: 6 OF 7"
+     ],
+     "visuals": [
+      {
+       "kind": "card",
+       "card": "chapter",
+       "act": "ACT IV",
+       "title": "The Wait"
+      },
+      {
+       "kind": "image",
+       "query": "six chairs stage spotlight empty seventh"
+      }
+     ]
+    },
+    {
+     "id": "b402",
+     "narration": "Batter Up answered in one day. Twenty-two point five nine million views in twenty-four hours — a record for any K-pop group debut, ever. One hundred million in eighteen days. The channel kept setting speed limits: fastest girl group to a million subscribers, fastest to two. The machine worked perfectly. And the entire time, the fastest-growing comment section on every upload was a countdown to a name that wasn't there.",
+     "pause_after": 0.7,
+     "on_screen": [
+      "22.59M — FIRST 24H",
+      "100M — FIRST 18 DAYS"
+     ],
+     "visuals": [
+      {
+       "kind": "card",
+       "card": "stat",
+       "kicker": "DEBUT RECORD",
+       "big": "22.59M",
+       "small": "first-24h views — most-viewed K-pop debut MV in history"
+      },
+      {
+       "kind": "card",
+       "card": "stat",
+       "kicker": "VELOCITY",
+       "big": "100M",
+       "small": "views in 18 days — \"Batter Up\""
+      },
+      {
+       "kind": "image",
+       "query": "rocket launch night long exposure"
+      }
+     ]
+    },
+    {
+     "id": "b403x",
+     "narration": "The debut era rolled on without pause. Award-show rotations, year-end stages, brand shoots — a full rookie campaign executed at six. Behind the scenes, the group's formation photographs kept one position subtly offset, the way teams do when a roster is known to change. Fans read the framing like weather patterns. The company, to its credit, never once performed the absence — no tribute edits, no sympathy messaging. The work carried on, and the empty chair stayed empty in silence.",
+     "pause_after": 0.7,
+     "on_screen": [
+      "THE SIX-MEMBER ERA"
+     ],
+     "visuals": [
+      {
+       "kind": "image",
+       "query": "camera crew film set industry"
+      },
+      {
+       "kind": "image",
+       "query": "winter branch sky minimal"
+      }
+     ]
+    },
+    {
+     "id": "b404a",
+     "narration": "For the members themselves, the period demanded a specific kind of discipline. Six teenagers, some of them fifteen and sixteen, answering interview questions about a seventh member they shared a dorm practice schedule with — day after day, market after market. Their collective answer became a running theme of the debut era: she is part of this, the formation is temporary, the group is seven. Said differently by every member, in every language, for four straight months.",
+     "pause_after": 0.7,
+     "visuals": [
+      {
+       "kind": "image",
+       "query": "dorm hallway night light soft"
+      },
+      {
+       "kind": "card",
+       "card": "quote",
+       "quote": "The formation is temporary. The group is seven.",
+       "attr": "the debut-era answer, all six members, all markets"
+      }
+     ]
+    },
+    {
+     "id": "b403",
+     "narration": "In February 2024, the pre-debut single Stuck In The Middle showed a softer register — and Ahyeon's absence on it said more than any statement. Fans began tracking her like astronomers tracking an object behind the sun. Sightings: none. Statements: none. But if you knew YG's patterns, the silence had a shape. The company had done this before, with artists it intended to keep.",
+     "pause_after": 0.7,
+     "on_screen": [
+      "FEB 1, 2024 — \"STUCK IN THE MIDDLE\""
+     ],
+     "visuals": [
+      {
+       "kind": "image",
+       "query": "night sky stars telescope silhouette"
+      },
+      {
+       "kind": "image",
+       "query": "winter window frost morning light korea"
+      }
+     ]
+    },
+    {
+     "id": "b404",
+     "narration": "The fandom organized around the gap. Message boards ran recovery wishes in a dozen languages. Fan projects adopted her symbol before there was an official one. And in March 2024, the company that never leaks let one sentence out of the building: the seventh member was returning. The debut had been a launch window. This was the payload.",
+     "pause_after": 0.7,
+     "visuals": [
+      {
+       "kind": "card",
+       "card": "quote",
+       "quote": "She is coming back.",
+       "attr": "YG notice, March 2024 — the sentence the fandom waited 4 months for"
+      },
+      {
+       "kind": "image",
+       "query": "sunrise over clouds airplane window"
+      }
+     ]
+    },
+    {
+     "id": "b404b",
+     "narration": "The announcement itself was three sentences long. No video, no teaser, no photo. In an industry that bills a member's return as a comeback special with countdown content, YG handled the most anticipated return of the year like a press release from a different decade — and the restraint read as confidence. The fans who had spent four months organizing welcome projects didn't get a warning. They got a date.",
+     "pause_after": 0.7,
+     "visuals": [
+      {
+       "kind": "image",
+       "query": "typewriter paper closeup vintage"
+      },
+      {
+       "kind": "image",
+       "query": "calendar page flip time lapse dark"
+      }
+     ]
+    },
+    {
+     "id": "b405",
+     "narration": "The vehicle for the return had a name engineered for exactly this moment: BABYMONS7ER — the seven welded into the word itself. First mini album. April 1st, 2024. Not a comeback, in any real sense. A debut, done twice, with the missing frequency restored.",
+     "pause_after": 0.8,
+     "on_screen": [
+      "APRIL 1, 2024",
+      "BABYMONS7ER"
+     ],
+     "visuals": [
+      {
+       "kind": "card",
+       "card": "timeline",
+       "date": "APR 1, 2024",
+       "event": "BABYMONS7ER — the 7 becomes official"
+      },
+      {
+       "kind": "card",
+       "card": "stat",
+       "kicker": "PRE-ORDERS",
+       "big": "460K+",
+       "small": "first-week album pre-orders — a rookie record run"
+      },
+      {
+       "kind": "image",
+       "query": "number seven neon gold dark"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "seg5",
+   "act": "ACT V",
+   "chapter_title": "Sheesh",
+   "beats": [
+    {
+     "id": "b501",
+     "narration": "Sheesh opened with a bass line like a dropped gate and a hook built for stadiums. The music video passed two hundred million views in under a year and change — and on April 17th, 2026, it would become the fastest girl-group debut MV ever to four hundred million, doing it in seven hundred and forty-seven days. But the number that mattered most in April 2024 wasn't a view count.",
+     "pause_after": 0.6,
+     "on_screen": [
+      "\"SHEESH\" — APR 1, 2024"
+     ],
+     "visuals": [
+      {
+       "kind": "card",
+       "card": "chapter",
+       "act": "ACT V",
+       "title": "Sheesh"
+      },
+      {
+       "kind": "card",
+       "card": "stat",
+       "kicker": "THE LONG TAIL",
+       "big": "400M",
+       "small": "\"Sheesh\" — fastest girl-group debut MV to 400M (747 days, Apr 2026)"
+      }
+     ]
+    },
+    {
+     "id": "b502",
+     "narration": "It was this: after one hundred and thirty-eight days of silence, Jung Ahyeon was singing again — and this time, officially, in the center. The arrangements suddenly made sense. The seven-part harmonies had their seventh. Choreographers stopped designing around empty air. For the first time since January 2023, BABYMONSTER was mathematically complete.",
+     "pause_after": 0.6,
+     "visuals": [
+      {
+       "kind": "image",
+       "query": "orchestra harmony abstract sound waves gold"
+      },
+      {
+       "kind": "image",
+       "query": "puzzle piece final piece light"
+      }
+     ]
+    },
+    {
+     "id": "b503a",
+     "narration": "The album numbers told the story of a fanbase that had spent the wait converting anxiety into infrastructure. Four hundred sixty thousand first-week pre-orders — a figure most established groups would celebrate — for a group whose full lineup had existed publicly for about a month. The Circle chart debut at number three. Music show wins arrived within the first week, with the standard rookie grace period skipped entirely.",
+     "pause_after": 0.6,
+     "on_screen": [
+      "CIRCLE ALBUM CHART — #3"
+     ],
+     "visuals": [
+      {
+       "kind": "card",
+       "card": "stat",
+       "kicker": "CIRCLE CHART",
+       "big": "#3",
+       "small": "album chart debut — BABYMONS7ER, April 2024"
+      },
+      {
+       "kind": "image",
+       "query": "vinyl records collection dark light"
+      }
+     ]
+    },
+    {
+     "id": "b503b",
+     "narration": "Live, the Sheesh era made the case in person. Her stage rap in the second verse drew a hard line under the vocal-versus-rapper question — the flip from sung chorus into a tightened, percussive delivery became the clip that editors reached for first. Vocally, the belt at the final hook became the moment crowds came to film. A star turn, executed in month one of the actual career.",
+     "pause_after": 0.7,
+     "visuals": [
+      {
+       "kind": "image",
+       "query": "concert phone lights raised hands"
+      },
+      {
+       "kind": "card",
+       "card": "quote",
+       "quote": "Rapper on the verse. Belter on the hook.",
+       "attr": "the Sheesh-era live consensus"
+      }
+     ]
+    },
+    {
+     "id": "b503",
+     "narration": "Then came the strangest track on the album. Like That — the song Charlie Puth wrote after the Dangerously cover went through him like a current. Her cover had reached the writer; the writer had answered with new material. Very few careers contain a loop that clean: a fifteen-year-old sings a song into the internet, and two years later the author of that song hands her the sequel.",
+     "pause_after": 0.7,
+     "on_screen": [
+      "COVER → GIFT → RECORD",
+      "DANGEROUSLY → \"LIKE THAT\""
+     ],
+     "visuals": [
+      {
+       "kind": "card",
+       "card": "quote",
+       "quote": "The cover reached the writer. The writer answered.",
+       "attr": "the Like That loop — NME, YG Life, 2023–2024"
+      },
+      {
+       "kind": "image",
+       "query": "letter envelope vintage light table"
+      }
+     ]
+    },
+    {
+     "id": "b504",
+     "narration": "The press cycle had its own gravity. In debut interviews she was asked, inevitably, about the nickname — little Jennie, the comparison to the label's most famous all-rounder. Her answer became the most quoted sentence of her first year: that she hoped to find her own color. It is a small sentence. It is also the entire plot of what came next.",
+     "pause_after": 0.8,
+     "on_screen": [
+      "\"I HOPE TO FIND MY OWN COLOR\""
+     ],
+     "visuals": [
+      {
+       "kind": "card",
+       "card": "quote",
+       "quote": "I hope to find my own color.",
+       "attr": "Jung Ahyeon, debut interviews — April 2024"
+      },
+      {
+       "kind": "image",
+       "query": "paint color pigment mixing dark"
+      }
+     ]
+    },
+    {
+     "id": "b504a",
+     "narration": "Finding your own color, in idol terms, is not a metaphor — it is a production problem with a deadline. It means the arrangement of your voice inside the group's sound: which frequencies you claim, which registers you lend to harmonies, which ad-libs are yours by law. Comparisons blur that map, because a comparison asks you to occupy someone else's frequencies. The fix is not to imitate less. It is to write parts that only one person can sing — and then sing them until the map redraws itself.",
+     "pause_after": 0.8,
+     "visuals": [
+      {
+       "kind": "image",
+       "query": "color palette paint swatches dark"
+      },
+      {
+       "kind": "image",
+       "query": "sound mixing board sliders closeup"
+      }
+     ]
+    },
+    {
+     "id": "b505",
+     "narration": "Because the industry was already scoring her against it. Idol survival culture in Korea runs on comparison — vocal tone versus tone, screen time versus screen time. For every comment celebrating her range, there was a spreadsheet measuring her against BLACKPINK's timeline. The nickname had given her a head start and a debt at the same time. Her response, over the next twenty-four months, was to make the spreadsheets irrelevant.",
+     "pause_after": 0.7,
+     "visuals": [
+      {
+       "kind": "image",
+       "query": "spreadsheet data screen dark analytics"
+      },
+      {
+       "kind": "image",
+       "query": "marathon runner long distance dusk"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "seg6",
+   "act": "ACT VI",
+   "chapter_title": "Monster Era",
+   "beats": [
+    {
+     "id": "b601",
+     "narration": "July 2024 brought Forever — a summer single that let the vocals breathe. November 1st, 2024 brought the first full-length statement: DRIP. Eight hundred twenty thousand first-week copies. A million in domestic sales. Billboard 200 entry at one forty-nine. RIAJ platinum in Japan. And on the title track, a guest verse from G-Dragon — the king of the label personally appearing on the heirs' record, which in YG terms is a coronation.",
+     "pause_after": 0.7,
+     "on_screen": [
+      "NOV 1, 2024 — DRIP",
+      "820K FIRST WEEK · 1M+ DOMESTIC",
+      "BILLBOARD 200 #149"
+     ],
+     "visuals": [
+      {
+       "kind": "card",
+       "card": "chapter",
+       "act": "ACT VI",
+       "title": "Monster Era"
+      },
+      {
+       "kind": "card",
+       "card": "stat",
+       "kicker": "DRIP — NOV 2024",
+       "big": "820K",
+       "small": "first-week copies · 1M+ domestic · Billboard 200 #149 · RIAJ platinum"
+      }
+     ]
+    },
+    {
+     "id": "b601a",
+     "narration": "Before DRIP, though, came the summer single that taught the fanbase how to miss a song on purpose. Forever was built light — retro synth, open vowels, a chorus that asked to be sung in a stadium parking lot. It was also, quietly, a demo of the group's post-hiatus chemistry: parts arranged to interlock seven ways, with the seventh voice threaded through harmonies instead of stacked above them. Arrangers write differently when the full instrument finally exists.",
+     "pause_after": 0.7,
+     "on_screen": [
+      "JUL 1, 2024 — \"FOREVER\""
+     ],
+     "visuals": [
+      {
+       "kind": "card",
+       "card": "timeline",
+       "date": "JUL 1, 2024",
+       "event": "\"Forever\" — the summer single between records"
+      },
+      {
+       "kind": "image",
+       "query": "summer field sunset warm haze"
+      }
+     ]
+    },
+    {
+     "id": "b602",
+     "narration": "But the number that redefined the group came in January 2025. On the 25th, the Hello Monsters world tour opened at Seoul's KSPO Dome — the Olympic gymnastics arena that functions as K-pop's certification board. Fastest female act ever to headline it: eight months after debut. Three hundred thousand tickets across thirty-two shows in twenty cities followed.",
+     "pause_after": 0.7,
+     "on_screen": [
+      "JAN 25, 2025 — KSPO DOME",
+      "FASTEST FEMALE ACT EVER TO HEADLINE — 8 MONTHS"
+     ],
+     "visuals": [
+      {
+       "kind": "card",
+       "card": "stat",
+       "kicker": "KSPO DOME — JAN 2025",
+       "big": "8 MONTHS",
+       "small": "after debut — fastest female act to headline KSPO Dome in history"
+      },
+      {
+       "kind": "card",
+       "card": "stat",
+       "kicker": "HELLO MONSTERS TOUR",
+       "big": "300K",
+       "small": "attendance · 32 shows · 20 cities"
+      },
+      {
+       "kind": "image",
+       "query": "dome arena interior lights concert crowd"
+      }
+     ]
+    },
+    {
+     "id": "b603",
+     "narration": "2025 rolled forward: Hot Sauce in July, a tribute threaded to Seo Taiji, the founding father of Korean pop. We Go Up in October. The group was now releasing at BLACKPINK cadence with a touring operation to match. And Ahyeon's position in it had quietly changed — the girl once booked as the next someone was now being booked as the first Ahyeon.",
+     "pause_after": 0.6,
+     "on_screen": [
+      "JUL 2025 — \"HOT SAUCE\"",
+      "OCT 10, 2025 — WE GO UP"
+     ],
+     "visuals": [
+      {
+       "kind": "card",
+       "card": "timeline",
+       "date": "OCT 10, 2025",
+       "event": "We Go Up EP — second release of 2025"
+      },
+      {
+       "kind": "image",
+       "query": "stage confetti gold dark slow"
+      }
+     ]
+    },
+    {
+     "id": "b603a",
+     "narration": "Tour life restructured the group's year. Thirty-two shows across Asia means airport departures, arena load-ins, and rest days measured in hotel hours — a rhythm that ages rookies fast. Setlists from the tour's first leg show the engineering: each member rotated through solo moments built to showcase a different register of the group's sound. Ahyeon's slot drew the loudest documented reactions of the run, and the fan-cam economy did the rest, one four-minute vertical video at a time.",
+     "pause_after": 0.7,
+     "visuals": [
+      {
+       "kind": "image",
+       "query": "airport night terminal lights window"
+      },
+      {
+       "kind": "image",
+       "query": "road highway night long exposure lights"
+      }
+     ]
+    },
+    {
+     "id": "b604",
+     "narration": "Then, November 2025, the MAMA Awards in Hong Kong. Three members — Ahyeon, Pharita, Rora — performed a medley from KPop Demon Hunters, covering Golden at the biggest award show in Asia. The clip did six point six eight million views and became the night's most-watched performance. And then the internet did what it does: the praise lasted a day, and the discourse about live vocals lasted a week.",
+     "pause_after": 0.7,
+     "on_screen": [
+      "MAMA 2025 — \"GOLDEN\" MEDLEY",
+      "6.68M VIEWS — TOP PERFORMANCE OF THE NIGHT"
+     ],
+     "visuals": [
+      {
+       "kind": "card",
+       "card": "stat",
+       "kicker": "MAMA AWARDS 2025",
+       "big": "6.68M",
+       "small": "views — \"Golden\" medley, the ceremony's most-watched performance"
+      },
+      {
+       "kind": "image",
+       "query": "award show stage spotlights audience"
+      }
+     ]
+    },
+    {
+     "id": "b605",
+     "narration": "Here is the part worth keeping. She did not hide from it. Within weeks she was on music shows singing with a hand-held mic and no ear monitors — the most exposed setup an idol can choose — and letting the results post themselves. Whatever else 2026 would bring, the answer to November's discourse had already been filed in December.",
+     "pause_after": 0.8,
+     "visuals": [
+      {
+       "kind": "card",
+       "card": "quote",
+       "quote": "Hand-held mic. No ear monitors. No safety net.",
+       "attr": "the December answer — Music Core stages, 2026"
+      },
+      {
+       "kind": "image",
+       "query": "hand microphone closeup stage light"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "seg7",
+   "act": "ACT VII",
+   "chapter_title": "The It-Girl Year",
+   "beats": [
+    {
+     "id": "b701",
+     "narration": "2026 did not begin with a song. It began with a chart. In January, Really Like You — a track from the previous autumn — climbed to number one on YouTube's global viral fifty, driven entirely by fan edits and short-form covers, months after release. Industry people call it a reverse chart run. It is what happens when an audience decides a song isn't done.",
+     "pause_after": 0.6,
+     "on_screen": [
+      "JAN 2026 — \"REALLY LIKE YOU\"",
+      "#1 YOUTUBE GLOBAL VIRAL 50"
+     ],
+     "visuals": [
+      {
+       "kind": "card",
+       "card": "chapter",
+       "act": "ACT VII",
+       "title": "The It-Girl Year"
+      },
+      {
+       "kind": "card",
+       "card": "stat",
+       "kicker": "JAN 2026",
+       "big": "#1",
+       "small": "YouTube Global Viral 50 — \"Really Like You\", months after release"
+      }
+     ]
+    },
+    {
+     "id": "b702",
+     "narration": "March brought Vogue Hong Kong, and a cover titled The Only Way Is Up. Not a K-pop magazine. Not a fan service shoot. Vogue — the fashion industry's front page — putting a nineteen-year-old from Chuncheon on its March issue. In the same quarter: a Taipei encore where she addressed the arena in Mandarin, the language she'd studied since she was seven.",
+     "pause_after": 0.6,
+     "on_screen": [
+      "MARCH 2026 — VOGUE HONG KONG",
+      "\"THE ONLY WAY IS UP\""
+     ],
+     "visuals": [
+      {
+       "kind": "card",
+       "card": "stat",
+       "kicker": "MARCH 2026",
+       "big": "VOGUE",
+       "small": "Hong Kong March cover — \"The Only Way Is Up\""
+      },
+      {
+       "kind": "image",
+       "query": "fashion editorial studio lighting gold"
+      }
+     ]
+    },
+    {
+     "id": "b702a",
+     "narration": "The Mandarin moment deserves its own footnote. At the Taipei encore, mid-tour, she addressed the arena in Mandarin — not a rehearsed greeting, by every account, but long enough to count as crowd work. Trilingual stage presence is rare in any generation of idol; using the third language as a connective gesture toward the audience that showed up for you is the kind of detail that converts casual viewers into permanent ones.",
+     "pause_after": 0.7,
+     "on_screen": [
+      "TAIPEI ARENA — MANDARIN ENCORE"
+     ],
+     "visuals": [
+      {
+       "kind": "card",
+       "card": "stat",
+       "kicker": "THE THIRD LANGUAGE",
+       "big": "3",
+       "small": "languages on stage — Korean, English, Mandarin"
+      },
+      {
+       "kind": "image",
+       "query": "arena crowd warm lights evening"
+      }
+     ]
+    },
+    {
+     "id": "b703",
+     "narration": "April was the month the receipts stacked vertically. First, the Korea Grand Music Awards, where fans don't nominate — they vote. Artist of April, solo female category: thirty-three thousand three hundred and eighty votes, eighty-five point eight one percent of the total. Then, on the seventeenth, the trade press confirmed it: Sheesh had crossed four hundred million views, faster than any girl-group debut video ever recorded.",
+     "pause_after": 0.7,
+     "on_screen": [
+      "KGMA — 33,380 VOTES (85.81%)",
+      "APR 17, 2026 — \"SHEESH\" 400M"
+     ],
+     "visuals": [
+      {
+       "kind": "card",
+       "card": "stat",
+       "kicker": "KGMA — ARTIST OF APRIL",
+       "big": "33,380",
+       "small": "votes — 85.81% of the solo female category"
+      },
+      {
+       "kind": "card",
+       "card": "stat",
+       "kicker": "APR 17, 2026",
+       "big": "400M",
+       "small": "\"Sheesh\" in 747 days — fastest girl-group debut MV ever"
+      },
+      {
+       "kind": "image",
+       "query": "trophy gold light dark background"
+      }
+     ]
+    },
+    {
+     "id": "b703a",
+     "narration": "The KGMA result deserves its own arithmetic, because fan-voted awards measure something charts can't: mobilization. Thirty-three thousand votes in a solo category means fanbases coordinating across time zones, on apps, against other mobilized fanbases — and eighty-five percent of the share means it wasn't close. For a member whose fandom identity was built during four months of waiting, the vote was the wait, cashed in.",
+     "pause_after": 0.7,
+     "visuals": [
+      {
+       "kind": "image",
+       "query": "voting ballot box minimal dark"
+      },
+      {
+       "kind": "card",
+       "card": "quote",
+       "quote": "The wait, cashed in.",
+       "attr": "on the KGMA fan vote — 33,380 votes, 85.81%"
+      }
+     ]
+    },
+    {
+     "id": "b704",
+     "narration": "May brought the third mini album: CHOOM — Korean for dance. July brought the statistic that would have been unthinkable at debut: number thirty-five on the US Mediabase Top 40, the American radio chart. First BABYMONSTER entry. K-pop's gatekeeping metric, measured not in YouTube views but in actual spins on US stations.",
+     "pause_after": 0.6,
+     "on_screen": [
+      "MAY 4, 2026 — CHOOM",
+      "JUL 2026 — MEDIABASE TOP 40 #35"
+     ],
+     "visuals": [
+      {
+       "kind": "card",
+       "card": "stat",
+       "kicker": "US RADIO — JUL 2026",
+       "big": "#35",
+       "small": "Mediabase Top 40 — first BABYMONSTER entry"
+      },
+      {
+       "kind": "image",
+       "query": "radio studio mixer board lights"
+      }
+     ]
+    },
+    {
+     "id": "b704a",
+     "narration": "Mediabase deserves a plain-language translation, because it is the least glamorous and most serious number in the story. It counts actual radio spins — airplay logged from monitored stations across the United States. No streaming bundles, no fan purchasing power, no algorithm. Real programmers, playing a Korean-language title track in daytime rotation. For a genre that spent two decades being told its ceiling was the internet, charting on US radio in year three is the kind of line that ends arguments.",
+     "pause_after": 0.8,
+     "visuals": [
+      {
+       "kind": "image",
+       "query": "american highway dusk radio tower"
+      },
+      {
+       "kind": "card",
+       "card": "quote",
+       "quote": "Measured in spins, not streams.",
+       "attr": "what Mediabase #35 actually means"
+      }
+     ]
+    },
+    {
+     "id": "b705",
+     "narration": "June's single SUGAR HONEY ICE TEA went to number one on YouTube's global daily music chart and sprinted past a hundred million views. And on TikTok, a piece of choreography from the CHOOM era detached itself from the song entirely — the Ahyeon March, a stride so distinctive it became a format. Millions of imitations. Brazilian funk edits. A walk, literally, copied around the world.",
+     "pause_after": 0.7,
+     "on_screen": [
+      "\"SUGAR HONEY ICE TEA\" — #1 GLOBAL DAILY",
+      "THE AHYEON MARCH"
+     ],
+     "visuals": [
+      {
+       "kind": "card",
+       "card": "stat",
+       "kicker": "JUN 2026",
+       "big": "#1",
+       "small": "YouTube Global Daily Top Music Videos — \"SUGAR HONEY ICE TEA\""
+      },
+      {
+       "kind": "image",
+       "query": "city crosswalk crowd walking motion blur"
+      }
+     ]
+    },
+    {
+     "id": "b705a",
+     "narration": "The March itself is worth forty seconds of analysis, because virality of this kind is engineering plus accident. The move is simple enough to learn in one watch — a stride, a shoulder line, a snap of the chin — and distinctive enough to read at thumbnail size. Short-form platforms reward exactly that signature: recognizable in half a second, copyable in ten seconds, hard to do well, which keeps the imitations coming. The name attached to it traveled the way names do now — first a joke, then a tag, then a fact.",
+     "pause_after": 0.7,
+     "visuals": [
+      {
+       "kind": "image",
+       "query": "dance shoes floor studio spotlight"
+      },
+      {
+       "kind": "image",
+       "query": "city night walking crowd neon reflections"
+      }
+     ]
+    },
+    {
+     "id": "b706",
+     "narration": "And on September 3rd, 2026, the number behind all the numbers arrived: the channel passed ten billion cumulative views. Second K-pop girl group in history to get there. Fastest. A catalog barely three years old, outpacing channels that had a decade's head start.",
+     "pause_after": 0.9,
+     "on_screen": [
+      "SEP 3, 2026 — 10 BILLION VIEWS",
+      "FASTEST GG CHANNEL EVER — 2ND EVER TO 10B"
+     ],
+     "visuals": [
+      {
+       "kind": "card",
+       "card": "stat",
+       "kicker": "SEP 3, 2026",
+       "big": "10B",
+       "small": "cumulative channel views — fastest K-pop girl group ever, 2nd ever overall"
+      },
+      {
+       "kind": "image",
+       "query": "data center lights corridor blue"
+      }
+     ]
+    },
+    {
+     "id": "b706a",
+     "narration": "Context for ten billion: the only K-pop girl group channel ahead of it belongs to BLACKPINK, and that channel needed eight years and one of the most dominant runs in music history to get there. BABYMONSTER crossed the line in roughly three, on the strength of a catalog of barely thirty songs. The pace, not the total, is the story — and the pace is what makes the next decade of projections genuinely unstable.",
+     "pause_after": 0.8,
+     "visuals": [
+      {
+       "kind": "card",
+       "card": "stat",
+       "kicker": "THE PACE",
+       "big": "~3 YEARS",
+       "small": "to 10B views — vs 8 for the only channel ahead of it"
+      },
+      {
+       "kind": "image",
+       "query": "speedometer night motion blur"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "seg8",
+   "act": "OUTRO",
+   "chapter_title": "The Dome",
+   "beats": [
+    {
+     "id": "b801",
+     "narration": "September 22nd and 23rd, 2026. Kyocera Dome, Osaka. Fifty-five thousand seats, a structure that has hosted the biggest acts on the planet. For a K-pop group, headlining a Japanese dome is not a tour stop — it is a rank. BABYMONSTER arrived there in year three of their career. For the girl from Chuncheon who missed the debut, it was the first headline of the next decade.",
+     "pause_after": 0.7,
+     "on_screen": [
+      "SEP 22–23, 2026",
+      "KYOCERA DOME, OSAKA"
+     ],
+     "visuals": [
+      {
+       "kind": "card",
+       "card": "timeline",
+       "date": "SEP 22–23, 2026",
+       "event": "Kyocera Dome, Osaka — first dome concerts"
+      },
+      {
+       "kind": "image",
+       "query": "osaka dome night exterior lights"
+      }
+     ]
+    },
+    {
+     "id": "b802",
+     "narration": "Zoom out, and the shape of the story is almost absurd. A debut that broke records without her. Four months of silence. A return that doubled the debut. A nickname she retired by becoming uncomparable. Records for views, votes, radio, and domes — most of them still marked fastest in history. All of it before her twentieth birthday.",
+     "pause_after": 0.7,
+     "visuals": [
+      {
+       "kind": "card",
+       "card": "chapter",
+       "act": "OUTRO",
+       "title": "The Dome"
+      },
+      {
+       "kind": "image",
+       "query": " constellation stars connect abstract"
+      }
+     ]
+    },
+    {
+     "id": "b802a",
+     "narration": "It is worth saying plainly what the last three years actually contained, because speed blinds. A fifteen-year-old announced as a label's future, then removed from the biggest launch of her company's decade for reasons she never controlled. Four months of public silence at an age when most careers haven't started. A return under the heaviest comparison nickname the internet could manufacture. And then — instead of the cautious, managed mediocrity that usually follows a health pause — a run of records, covers, charts, and domes executed at full sprint.",
+     "pause_after": 0.8,
+     "visuals": [
+      {
+       "kind": "image",
+       "query": "lighthouse storm coast night beam"
+      },
+      {
+       "kind": "image",
+       "query": "runner starting blocks stadium empty"
+      }
+     ]
+    },
+    {
+     "id": "b803",
+     "narration": "The most-watched debut in K-pop history was missing someone. Three years later, the missing one is the reason nobody can stop watching. She is nineteen. The dome is open. And the story, as her fans like to say — the ones who waited, the ones who never stopped asking where she was — is very much still being written.",
+     "pause_after": 0.5,
+     "on_screen": [
+      "SHE IS 19",
+      "THE STORY IS STILL BEING WRITTEN"
+     ],
+     "visuals": [
+      {
+       "kind": "card",
+       "card": "title",
+       "kicker": "JUNG AHYEON",
+       "title": "The One Who Was Worth the Wait",
+       "subtitle": "for the MONSTIEZ who waited"
+      },
+      {
+       "kind": "image",
+       "query": "dome crowd lights constellation finale"
+      }
+     ]
+    },
+    {
+     "id": "b803a",
+     "narration": "The butterfly has become the thing her fans carry — the official symbol of a fandom that learned patience as a group activity. It fits, in a way that branding rarely does. A thing that spends its early life unrecognizable from what it becomes, and arrives on the other side of the wait with entirely new wings. You can call that a metaphor if you like. Her fans call it a record of what actually happened.",
+     "pause_after": 0.9,
+     "on_screen": [
+      "FOR THE MONSTIEZ 🦋"
+     ],
+     "visuals": [
+      {
+       "kind": "card",
+       "card": "quote",
+       "quote": "New wings.",
+       "attr": "on the butterfly — the MONSTIEZ symbol of the wait"
+      },
+      {
+       "kind": "image",
+       "query": "butterfly wings macro dark background"
+      }
+     ]
+    },
+    {
+     "id": "b804",
+     "narration": "If this film earned it, subscribe — the next documentary is already in production. Sources for every figure are in the description.",
+     "pause_after": 0.1,
+     "visuals": [
+      {
+       "kind": "card",
+       "card": "credits",
+       "lines": [
+        "RESEARCH · SCRIPT · VOICE · EDIT — SUPER Z AUTONOMOUS STUDIO",
+        "FACTS — WIKIPEDIA · YG PRESS · NME · KOREA HERALD · CHOSUN BIZ",
+        "MEDIA — WIKIMEDIA COMMONS · OPENVERSE · PEXELS-LICENSED ARCHIVES",
+        "MUSIC — CC0 / LICENSED"
+       ],
+       "small_note": "EVERY FIGURE IN THIS FILM IS SOURCED IN THE DESCRIPTION"
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

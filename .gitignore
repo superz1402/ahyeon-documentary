@@ -1,0 +1,8 @@
+project/segments/
+project/master_video.mp4
+project/final.mp4
+project/tts.log
+project/media.log
+project/research_raw/
+*.tmp.mp4
+__pycache__/

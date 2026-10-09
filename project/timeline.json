@@ -1,0 +1,2121 @@
+{
+ "target": 1740,
+ "actual": 1740.0,
+ "fps": 30,
+ "w": 1920,
+ "h": 1080,
+ "intro_music_s": 8.0,
+ "outro_music_s": 22.0,
+ "gap_scale": 1.944,
+ "music": "project/music/bed.mp3",
+ "clips": [
+  {
+   "beat_id": "b001",
+   "seg": "seg0",
+   "start": 8.0,
+   "dur_s": 18.912,
+   "voice": "project/voice/beat_b001.mp3",
+   "visuals": [
+    {
+     "kind": "image",
+     "path": "project/media/img001.jpg",
+     "asset_id": "img001",
+     "license": "CC:BY-SA 2.0",
+     "artist": "mattk1979",
+     "credit": "flickr",
+     "origin_url": "https://www.flickr.com/photos/24879135@N04/49175035266",
+     "title": "Seoul city skyline at night from Namsan Mountain",
+     "dur_s": 9.456,
+     "kb": "in"
+    },
+    {
+     "kind": "card",
+     "path": "project/cards/b001_1.png",
+     "dur_s": 9.456,
+     "kb": "out"
+    }
+   ],
+   "on_screen": [
+    "22,590,104 views \u2014 first 24 hours",
+    "NOVEMBER 27, 2023"
+   ]
+  },
+  {
+   "beat_id": "b002",
+   "seg": "seg0",
+   "start": 28.078,
+   "dur_s": 14.208,
+   "voice": "project/voice/beat_b002.mp3",
+   "visuals": [
+    {
+     "kind": "card",
+     "path": "project/cards/b002_0.png",
+     "dur_s": 7.104,
+     "kb": "left"
+    },
+    {
+     "kind": "image",
+     "path": "project/media/img003.jpg",
+     "asset_id": "img003",
+     "license": "CC:BY-SA 2.0",
+     "artist": "Darron Birgenheier",
+     "credit": "flickr",
+     "origin_url": "https://www.flickr.com/photos/28502132@N05/8147134510",
+     "title": "The Unblinking Eye",
+     "dur_s": 7.104,
+     "kb": "right"
+    }
+   ],
+   "on_screen": []
+  },
+  {
+   "beat_id": "b003",
+   "seg": "seg0",
+   "start": 43.452,
+   "dur_s": 18.912,
+   "voice": "project/voice/beat_b003.mp3",
+   "visuals": [
+    {
+     "kind": "card",
+     "path": "project/cards/b003_0.png",
+     "dur_s": 9.456,
+     "kb": "in"
+    },
+    {
+     "kind": "image",
+     "path": "project/media/img001.jpg",
+     "asset_id": "img001",
+     "license": "CC:BY-SA 2.0",
+     "artist": "mattk1979",
+     "credit": "flickr",
+     "origin_url": "https://www.flickr.com/photos/24879135@N04/49175035266",
+     "title": "Seoul city skyline at night from Namsan Mountain",
+     "dur_s": 9.456,
+     "kb": "out"
+    }
+   ],
+   "on_screen": [
+    "NOVEMBER 15, 2023",
+    "YG ENTERTAINMENT OFFICIAL STATEMENT"
+   ]
+  },
+  {
+   "beat_id": "b004",
+   "seg": "seg0",
+   "start": 63.919,
+   "dur_s": 16.176,
+   "voice": "project/voice/beat_b004.mp3",
+   "visuals": [
+    {
+     "kind": "card",
+     "path": "project/cards/b004_0.png",
+     "dur_s": 8.088,
+     "kb": "left"
+    },
+    {
+     "kind": "image",
+     "path": "project/media/img002.jpg",
+     "asset_id": "img002",
+     "license": "CC:BY-SA 2.0",
+     "artist": "mattk1979",
+     "credit": "flickr",
+     "origin_url": "https://www.flickr.com/photos/24879135@N04/49174548523",
+     "title": "Seoul city skyline at night from Namsan Mountain",
+     "dur_s": 8.088,
+     "kb": "right"
+    }
+   ],
+   "on_screen": []
+  },
+  {
+   "beat_id": "b101",
+   "seg": "seg1",
+   "start": 82.427,
+   "dur_s": 19.968,
+   "voice": "project/voice/beat_b101.mp3",
+   "visuals": [
+    {
+     "kind": "image",
+     "path": "project/media/img002.jpg",
+     "asset_id": "img002",
+     "license": "CC:BY-SA 2.0",
+     "artist": "mattk1979",
+     "credit": "flickr",
+     "origin_url": "https://www.flickr.com/photos/24879135@N04/49174548523",
+     "title": "Seoul city skyline at night from Namsan Mountain",
+     "dur_s": 6.656,
+     "kb": "in"
+    },
+    {
+     "kind": "image",
+     "path": "project/media/img003.jpg",
+     "asset_id": "img003",
+     "license": "CC:BY-SA 2.0",
+     "artist": "Darron Birgenheier",
+     "credit": "flickr",
+     "origin_url": "https://www.flickr.com/photos/28502132@N05/8147134510",
+     "title": "The Unblinking Eye",
+     "dur_s": 6.656,
+     "kb": "out"
+    },
+    {
+     "kind": "card",
+     "path": "project/cards/b101_2.png",
+     "dur_s": 6.656,
+     "kb": "left"
+    }
+   ],
+   "on_screen": [
+    "CHUNCHEON, GANGWON-DO",
+    "POP. ~280,000"
+   ]
+  },
+  {
+   "beat_id": "b102",
+   "seg": "seg1",
+   "start": 103.367,
+   "dur_s": 22.68,
+   "voice": "project/voice/beat_b102.mp3",
+   "visuals": [
+    {
+     "kind": "image",
+     "path": "project/media/img004.jpg",
+     "asset_id": "img004",
+     "license": "CC:BY 2.0",
+     "artist": "USAG-Humphreys",
+     "credit": "flickr",
+     "origin_url": "https://www.flickr.com/photos/31687107@N07/4887641208",
+     "title": "PG21-HANBOKSSummer School brings Korean, American kids together",
+     "dur_s": 11.34,
+     "kb": "right"
+    },
+    {
+     "kind": "image",
+     "path": "project/media/img004.jpg",
+     "asset_id": "img004",
+     "license": "CC:BY 2.0",
+     "artist": "USAG-Humphreys",
+     "credit": "flickr",
+     "origin_url": "https://www.flickr.com/photos/31687107@N07/4887641208",
+     "title": "PG21-HANBOKSSummer School brings Korean, American kids together",
+     "dur_s": 11.34,
+     "kb": "in"
+    }
+   ],
+   "on_screen": [
+    "BORN APRIL 11, 2007"
+   ]
+  },
+  {
+   "beat_id": "b103",
+   "seg": "seg1",
+   "start": 127.019,
+   "dur_s": 22.872,
+   "voice": "project/voice/beat_b103.mp3",
+   "visuals": [
+    {
+     "kind": "image",
+     "path": "project/media/img005.jpg",
+     "asset_id": "img005",
+     "license": "CC:BY 2.0",
+     "artist": "USAG-Humphreys",
+     "credit": "flickr",
+     "origin_url": "https://www.flickr.com/photos/31687107@N07/4887650414",
+     "title": "felipa camp 213Summer School brings Korean, American kids together",
+     "dur_s": 11.436,
+     "kb": "out"
+    },
+    {
+     "kind": "card",
+     "path": "project/cards/b103_1.png",
+     "dur_s": 11.436,
+     "kb": "left"
+    }
+   ],
+   "on_screen": [
+    "YG ENTERTAINMENT",
+    "HOME OF BIGBANG \u00b7 2NE1 \u00b7 BLACKPINK"
+   ]
+  },
+  {
+   "beat_id": "b104",
+   "seg": "seg1",
+   "start": 151.057,
+   "dur_s": 20.736,
+   "voice": "project/voice/beat_b104.mp3",
+   "visuals": [
+    {
+     "kind": "image",
+     "path": "project/media/img005.jpg",
+     "asset_id": "img005",
+     "license": "CC:BY 2.0",
+     "artist": "USAG-Humphreys",
+     "credit": "flickr",
+     "origin_url": "https://www.flickr.com/photos/31687107@N07/4887650414",
+     "title": "felipa camp 213Summer School brings Korean, American kids together",
+     "dur_s": 10.368,
+     "kb": "right"
+    },
+    {
+     "kind": "image",
+     "path": "project/media/img006.jpg",
+     "asset_id": "img006",
+     "license": "CC:BY 2.0",
+     "artist": "USAG-Humphreys",
+     "credit": "flickr",
+     "origin_url": "https://www.flickr.com/photos/31687107@N07/4887651586",
+     "title": "felipa camp 254Summer School brings Korean, American kids together",
+     "dur_s": 10.368,
+     "kb": "in"
+    }
+   ],
+   "on_screen": []
+  },
+  {
+   "beat_id": "b105",
+   "seg": "seg1",
+   "start": 172.959,
+   "dur_s": 23.736,
+   "voice": "project/voice/beat_b105.mp3",
+   "visuals": [
+    {
+     "kind": "card",
+     "path": "project/cards/b105_0.png",
+     "dur_s": 7.912,
+     "kb": "out"
+    },
+    {
+     "kind": "image",
+     "path": "project/media/img006.jpg",
+     "asset_id": "img006",
+     "license": "CC:BY 2.0",
+     "artist": "USAG-Humphreys",
+     "credit": "flickr",
+     "origin_url": "https://www.flickr.com/photos/31687107@N07/4887651586",
+     "title": "felipa camp 254Summer School brings Korean, American kids together",
+     "dur_s": 7.912,
+     "kb": "left"
+    },
+    {
+     "kind": "image",
+     "path": "project/media/img009.jpg",
+     "asset_id": "img009",
+     "license": "CC:BY 2.0",
+     "artist": "BLM Oregon & Washington",
+     "credit": "flickr",
+     "origin_url": "https://www.flickr.com/photos/50169152@N06/11519193454",
+     "title": "Sun over the Juniper Dunes Wilderness",
+     "dur_s": 7.912,
+     "kb": "right"
+    }
+   ],
+   "on_screen": [
+    "5 YEARS OF TRAINING"
+   ]
+  },
+  {
+   "beat_id": "b106",
+   "seg": "seg1",
+   "start": 197.861,
+   "dur_s": 20.112,
+   "voice": "project/voice/beat_b106.mp3",
+   "visuals": [
+    {
+     "kind": "image",
+     "path": "project/media/img009.jpg",
+     "asset_id": "img009",
+     "license": "CC:BY 2.0",
+     "artist": "BLM Oregon & Washington",
+     "credit": "flickr",
+     "origin_url": "https://www.flickr.com/photos/50169152@N06/11519193454",
+     "title": "Sun over the Juniper Dunes Wilderness",
+     "dur_s": 10.056,
+     "kb": "in"
+    },
+    {
+     "kind": "image",
+     "path": "project/media/img010.jpg",
+     "asset_id": "img010",
+     "license": "CC:BY 2.0",
+     "artist": "BLM Oregon & Washington",
+     "credit": "flickr",
+     "origin_url": "https://www.flickr.com/photos/50169152@N06/11519299283",
+     "title": "Sun over the Juniper Dunes Wilderness",
+     "dur_s": 10.056,
+     "kb": "out"
+    }
+   ],
+   "on_screen": []
+  },
+  {
+   "beat_id": "b107",
+   "seg": "seg1",
+   "start": 219.528,
+   "dur_s": 23.664,
+   "voice": "project/voice/beat_b107.mp3",
+   "visuals": [
+    {
+     "kind": "image",
+     "path": "project/media/img010.jpg",
+     "asset_id": "img010",
+     "license": "CC:BY 2.0",
+     "artist": "BLM Oregon & Washington",
+     "credit": "flickr",
+     "origin_url": "https://www.flickr.com/photos/50169152@N06/11519299283",
+     "title": "Sun over the Juniper Dunes Wilderness",
+     "dur_s": 11.832,
+     "kb": "left"
+    },
+    {
+     "kind": "image",
+     "path": "project/media/img011.jpg",
+     "asset_id": "img011",
+     "license": "CC:BY 2.0",
+     "artist": "BLM Oregon & Washington",
+     "credit": "flickr",
+     "origin_url": "https://www.flickr.com/photos/50169152@N06/11519034604",
+     "title": "Sun Trees",
+     "dur_s": 11.832,
+     "kb": "right"
+    }
+   ],
+   "on_screen": [
+    "THE PYRAMID"
+   ]
+  },
+  {
+   "beat_id": "b108",
+   "seg": "seg1",
+   "start": 244.358,
+   "dur_s": 26.832,
+   "voice": "project/voice/beat_b108.mp3",
+   "visuals": [
+    {
+     "kind": "card",
+     "path": "project/cards/b108_0.png",
+     "dur_s": 13.416,
+     "kb": "in"
+    },
+    {
+     "kind": "image",
+     "path": "project/media/img011.jpg",
+     "asset_id": "img011",
+     "license": "CC:BY 2.0",
+     "artist": "BLM Oregon & Washington",
+     "credit": "flickr",
+     "origin_url": "https://www.flickr.com/photos/50169152@N06/11519034604",
+     "title": "Sun Trees",
+     "dur_s": 13.416,
+     "kb": "out"
+    }
+   ],
+   "on_screen": [
+    "2NE1 (2009) \u2192 BLACKPINK (2016) \u2192 BABYMONSTER (2023)"
+   ]
+  },
+  {
+   "beat_id": "b201",
+   "seg": "seg2",
+   "start": 272.745,
+   "dur_s": 23.976,
+   "voice": "project/voice/beat_b201.mp3",
+   "visuals": [
+    {
+     "kind": "card",
+     "path": "project/cards/b201_0.png",
+     "dur_s": 11.988,
+     "kb": "left"
+    },
+    {
+     "kind": "image",
+     "path": "project/media/img013.jpg",
+     "asset_id": "img013",
+     "license": "CC:BY 2.0",
+     "artist": "dejankrsmanovic",
+     "credit": "flickr",
+     "origin_url": "https://www.flickr.com/photos/155403590@N07/46099045164",
+     "title": "Mixing Console Details",
+     "dur_s": 11.988,
+     "kb": "right"
+    }
+   ],
+   "on_screen": [
+    "JANUARY 1, 2023",
+    "\"BABYMONSTER \u2014 NEXT MOVEMENT\""
+   ]
+  },
+  {
+   "beat_id": "b202",
+   "seg": "seg2",
+   "start": 297.888,
+   "dur_s": 22.128,
+   "voice": "project/voice/beat_b202.mp3",
+   "visuals": [
+    {
+     "kind": "card",
+     "path": "project/cards/b202_0.png",
+     "dur_s": 11.064,
+     "kb": "in"
+    },
+    {
+     "kind": "image",
+     "path": "project/media/img013.jpg",
+     "asset_id": "img013",
+     "license": "CC:BY 2.0",
+     "artist": "dejankrsmanovic",
+     "credit": "flickr",
+     "origin_url": "https://www.flickr.com/photos/155403590@N07/46099045164",
+     "title": "Mixing Console Details",
+     "dur_s": 11.064,
+     "kb": "out"
+    }
+   ],
+   "on_screen": [
+    "JANUARY 12, 2023",
+    "SECOND MEMBER REVEALED \u2014 AGE 15"
+   ]
+  },
+  {
+   "beat_id": "b203",
+   "seg": "seg2",
+   "start": 321.182,
+   "dur_s": 23.136,
+   "voice": "project/voice/beat_b203.mp3",
+   "visuals": [
+    {
+     "kind": "card",
+     "path": "project/cards/b203_0.png",
+     "dur_s": 11.568,
+     "kb": "left"
+    },
+    {
+     "kind": "image",
+     "path": "project/media/img014.jpg",
+     "asset_id": "img014",
+     "license": "CC:BY 2.0",
+     "artist": "dejankrsmanovic",
+     "credit": "flickr",
+     "origin_url": "https://www.flickr.com/photos/155403590@N07/45909180055",
+     "title": "Mixing Console Buttons",
+     "dur_s": 11.568,
+     "kb": "right"
+    }
+   ],
+   "on_screen": [
+    "\"LITTLE JENNIE\""
+   ]
+  },
+  {
+   "beat_id": "b204",
+   "seg": "seg2",
+   "start": 345.484,
+   "dur_s": 27.96,
+   "voice": "project/voice/beat_b204.mp3",
+   "visuals": [
+    {
+     "kind": "card",
+     "path": "project/cards/b204_0.png",
+     "dur_s": 13.98,
+     "kb": "in"
+    },
+    {
+     "kind": "image",
+     "path": "project/media/img009.jpg",
+     "asset_id": "img009",
+     "license": "CC:BY 2.0",
+     "artist": "BLM Oregon & Washington",
+     "credit": "flickr",
+     "origin_url": "https://www.flickr.com/photos/50169152@N06/11519193454",
+     "title": "Sun over the Juniper Dunes Wilderness",
+     "dur_s": 13.98,
+     "kb": "out"
+    }
+   ],
+   "on_screen": [
+    "7 MEMBERS",
+    "KOREA \u00b7 THAILAND \u00b7 JAPAN"
+   ]
+  },
+  {
+   "beat_id": "b205",
+   "seg": "seg2",
+   "start": 374.61,
+   "dur_s": 23.232,
+   "voice": "project/voice/beat_b205.mp3",
+   "visuals": [
+    {
+     "kind": "card",
+     "path": "project/cards/b205_0.png",
+     "dur_s": 7.744,
+     "kb": "left"
+    },
+    {
+     "kind": "card",
+     "path": "project/cards/b205_1.png",
+     "dur_s": 7.744,
+     "kb": "right"
+    },
+    {
+     "kind": "image",
+     "path": "project/media/img014.jpg",
+     "asset_id": "img014",
+     "license": "CC:BY 2.0",
+     "artist": "dejankrsmanovic",
+     "credit": "flickr",
+     "origin_url": "https://www.flickr.com/photos/155403590@N07/45909180055",
+     "title": "Mixing Console Buttons",
+     "dur_s": 7.744,
+     "kb": "in"
+    }
+   ],
+   "on_screen": [
+    "MAY 2023 \u2014 \"DREAM\" #1 BILLBOARD HOT TRENDING",
+    "1M SUBS IN 52 DAYS \u2014 FASTEST GG EVER"
+   ]
+  },
+  {
+   "beat_id": "b207",
+   "seg": "seg2",
+   "start": 399.008,
+   "dur_s": 29.088,
+   "voice": "project/voice/beat_b207.mp3",
+   "visuals": [
+    {
+     "kind": "image",
+     "path": "project/media/img015.jpg",
+     "asset_id": "img015",
+     "license": "CC:BY 2.0",
+     "artist": "dejankrsmanovic",
+     "credit": "flickr",
+     "origin_url": "https://www.flickr.com/photos/155403590@N07/32961446438",
+     "title": "Modern Mixing Console",
+     "dur_s": 14.544,
+     "kb": "out"
+    },
+    {
+     "kind": "image",
+     "path": "project/media/img015.jpg",
+     "asset_id": "img015",
+     "license": "CC:BY 2.0",
+     "artist": "dejankrsmanovic",
+     "credit": "flickr",
+     "origin_url": "https://www.flickr.com/photos/155403590@N07/32961446438",
+     "title": "Modern Mixing Console",
+     "dur_s": 14.544,
+     "kb": "left"
+    }
+   ],
+   "on_screen": []
+  },
+  {
+   "beat_id": "b208",
+   "seg": "seg2",
+   "start": 429.262,
+   "dur_s": 24.168,
+   "voice": "project/voice/beat_b208.mp3",
+   "visuals": [
+    {
+     "kind": "image",
+     "path": "project/media/img016.jpg",
+     "asset_id": "img016",
+     "license": "CC:CC0 1.0",
+     "artist": "Unknown",
+     "credit": "rawpixel",
+     "origin_url": "https://www.rawpixel.com/image/3293206/free-photo-image-hill-shadow-bishop-peak-93405",
+     "title": "Silhouette San Luis Obispo mountain",
+     "dur_s": 12.084,
+     "kb": "right"
+    },
+    {
+     "kind": "card",
+     "path": "project/cards/b208_1.png",
+     "dur_s": 12.084,
+     "kb": "in"
+    }
+   ],
+   "on_screen": []
+  },
+  {
+   "beat_id": "b206",
+   "seg": "seg2",
+   "start": 454.985,
+   "dur_s": 25.752,
+   "voice": "project/voice/beat_b206.mp3",
+   "visuals": [
+    {
+     "kind": "card",
+     "path": "project/cards/b206_0.png",
+     "dur_s": 12.876,
+     "kb": "out"
+    },
+    {
+     "kind": "image",
+     "path": "project/media/img016.jpg",
+     "asset_id": "img016",
+     "license": "CC:CC0 1.0",
+     "artist": "Unknown",
+     "credit": "rawpixel",
+     "origin_url": "https://www.rawpixel.com/image/3293206/free-photo-image-hill-shadow-bishop-peak-93405",
+     "title": "Silhouette San Luis Obispo mountain",
+     "dur_s": 12.876,
+     "kb": "left"
+    }
+   ],
+   "on_screen": [
+    "\"LAST EVALUATION\" (2023)"
+   ]
+  },
+  {
+   "beat_id": "b301",
+   "seg": "seg3",
+   "start": 482.486,
+   "dur_s": 21.192,
+   "voice": "project/voice/beat_b301.mp3",
+   "visuals": [
+    {
+     "kind": "card",
+     "path": "project/cards/b301_0.png",
+     "dur_s": 10.596,
+     "kb": "right"
+    },
+    {
+     "kind": "image",
+     "path": "project/media/img017.jpg",
+     "asset_id": "img017",
+     "license": "CC:BY 2.0",
+     "artist": "JD Hancock",
+     "credit": "flickr",
+     "origin_url": "https://www.flickr.com/photos/83346641@N00/5284222139",
+     "title": "Iron Man vs. Destro Setup",
+     "dur_s": 10.596,
+     "kb": "in"
+    }
+   ],
+   "on_screen": [
+    "\"DANGEROUSLY\" \u2014 CHARLIE PUTH COVER"
+   ]
+  },
+  {
+   "beat_id": "b302",
+   "seg": "seg3",
+   "start": 504.844,
+   "dur_s": 14.808,
+   "voice": "project/voice/beat_b302.mp3",
+   "visuals": [
+    {
+     "kind": "image",
+     "path": "project/media/img017.jpg",
+     "asset_id": "img017",
+     "license": "CC:BY 2.0",
+     "artist": "JD Hancock",
+     "credit": "flickr",
+     "origin_url": "https://www.flickr.com/photos/83346641@N00/5284222139",
+     "title": "Iron Man vs. Destro Setup",
+     "dur_s": 7.404,
+     "kb": "out"
+    },
+    {
+     "kind": "image",
+     "path": "project/media/img018.jpg",
+     "asset_id": "img018",
+     "license": "CC:BY 2.0",
+     "artist": "JD Hancock",
+     "credit": "flickr",
+     "origin_url": "https://www.flickr.com/photos/83346641@N00/4930253955",
+     "title": "RoboCop vs. Cyborg Setup",
+     "dur_s": 7.404,
+     "kb": "left"
+    }
+   ],
+   "on_screen": []
+  },
+  {
+   "beat_id": "b303",
+   "seg": "seg3",
+   "start": 520.819,
+   "dur_s": 23.976,
+   "voice": "project/voice/beat_b303.mp3",
+   "visuals": [
+    {
+     "kind": "card",
+     "path": "project/cards/b303_0.png",
+     "dur_s": 11.988,
+     "kb": "right"
+    },
+    {
+     "kind": "image",
+     "path": "project/media/img018.jpg",
+     "asset_id": "img018",
+     "license": "CC:BY 2.0",
+     "artist": "JD Hancock",
+     "credit": "flickr",
+     "origin_url": "https://www.flickr.com/photos/83346641@N00/4930253955",
+     "title": "RoboCop vs. Cyborg Setup",
+     "dur_s": 11.988,
+     "kb": "in"
+    }
+   ],
+   "on_screen": [
+    "CHARLIE PUTH \u2192 \"LIKE THAT\"",
+    "GIFTED TO BABYMONSTER"
+   ]
+  },
+  {
+   "beat_id": "b304x",
+   "seg": "seg3",
+   "start": 546.155,
+   "dur_s": 25.416,
+   "voice": "project/voice/beat_b304x.mp3",
+   "visuals": [
+    {
+     "kind": "image",
+     "path": "project/media/img013.jpg",
+     "asset_id": "img013",
+     "license": "CC:BY 2.0",
+     "artist": "dejankrsmanovic",
+     "credit": "flickr",
+     "origin_url": "https://www.flickr.com/photos/155403590@N07/46099045164",
+     "title": "Mixing Console Details",
+     "dur_s": 12.708,
+     "kb": "out"
+    },
+    {
+     "kind": "image",
+     "path": "project/media/img016.jpg",
+     "asset_id": "img016",
+     "license": "CC:CC0 1.0",
+     "artist": "Unknown",
+     "credit": "rawpixel",
+     "origin_url": "https://www.rawpixel.com/image/3293206/free-photo-image-hill-shadow-bishop-peak-93405",
+     "title": "Silhouette San Luis Obispo mountain",
+     "dur_s": 12.708,
+     "kb": "left"
+    }
+   ],
+   "on_screen": []
+  },
+  {
+   "beat_id": "b304y",
+   "seg": "seg3",
+   "start": 572.737,
+   "dur_s": 32.04,
+   "voice": "project/voice/beat_b304y.mp3",
+   "visuals": [
+    {
+     "kind": "image",
+     "path": "project/media/img019.jpg",
+     "asset_id": "img019",
+     "license": "CC:BY 2.0",
+     "artist": "JD Hancock",
+     "credit": "flickr",
+     "origin_url": "https://www.flickr.com/photos/83346641@N00/5042994321",
+     "title": "Donkey Kong vs. King Homer Setup",
+     "dur_s": 16.02,
+     "kb": "right"
+    },
+    {
+     "kind": "card",
+     "path": "project/cards/b304y_1.png",
+     "dur_s": 16.02,
+     "kb": "in"
+    }
+   ],
+   "on_screen": [
+    "THE MARKET HAD PRICED IT"
+   ]
+  },
+  {
+   "beat_id": "b304",
+   "seg": "seg3",
+   "start": 606.138,
+   "dur_s": 22.8,
+   "voice": "project/voice/beat_b304.mp3",
+   "visuals": [
+    {
+     "kind": "card",
+     "path": "project/cards/b304_0.png",
+     "dur_s": 11.4,
+     "kb": "out"
+    },
+    {
+     "kind": "image",
+     "path": "project/media/img019.jpg",
+     "asset_id": "img019",
+     "license": "CC:BY 2.0",
+     "artist": "JD Hancock",
+     "credit": "flickr",
+     "origin_url": "https://www.flickr.com/photos/83346641@N00/5042994321",
+     "title": "Donkey Kong vs. King Homer Setup",
+     "dur_s": 11.4,
+     "kb": "left"
+    }
+   ],
+   "on_screen": [
+    "NOV 27, 2023 \u2014 \"BATTER UP\""
+   ]
+  },
+  {
+   "beat_id": "b305",
+   "seg": "seg3",
+   "start": 630.298,
+   "dur_s": 17.472,
+   "voice": "project/voice/beat_b305.mp3",
+   "visuals": [
+    {
+     "kind": "card",
+     "path": "project/cards/b305_0.png",
+     "dur_s": 8.736,
+     "kb": "right"
+    },
+    {
+     "kind": "image",
+     "path": "project/media/img017.jpg",
+     "asset_id": "img017",
+     "license": "CC:BY 2.0",
+     "artist": "JD Hancock",
+     "credit": "flickr",
+     "origin_url": "https://www.flickr.com/photos/83346641@N00/5284222139",
+     "title": "Iron Man vs. Destro Setup",
+     "dur_s": 8.736,
+     "kb": "in"
+    }
+   ],
+   "on_screen": [
+    "NOVEMBER 15, 2023",
+    "OFFICIAL YG STATEMENT"
+   ]
+  },
+  {
+   "beat_id": "b401",
+   "seg": "seg4",
+   "start": 649.52,
+   "dur_s": 23.52,
+   "voice": "project/voice/beat_b401.mp3",
+   "visuals": [
+    {
+     "kind": "card",
+     "path": "project/cards/b401_0.png",
+     "dur_s": 11.76,
+     "kb": "out"
+    },
+    {
+     "kind": "image",
+     "path": "project/media/img020.jpg",
+     "asset_id": "img020",
+     "license": "CC:BY 2.0",
+     "artist": "SteveNakatani",
+     "credit": "flickr",
+     "origin_url": "https://www.flickr.com/photos/42427670@N08/10954858144",
+     "title": "Minotaur Rocket Launch Wallops Island VA 11-19-13",
+     "dur_s": 11.76,
+     "kb": "left"
+    }
+   ],
+   "on_screen": [
+    "DEBUT: 6 OF 7"
+   ]
+  },
+  {
+   "beat_id": "b402",
+   "seg": "seg4",
+   "start": 674.206,
+   "dur_s": 27.576,
+   "voice": "project/voice/beat_b402.mp3",
+   "visuals": [
+    {
+     "kind": "card",
+     "path": "project/cards/b402_0.png",
+     "dur_s": 9.192,
+     "kb": "right"
+    },
+    {
+     "kind": "card",
+     "path": "project/cards/b402_1.png",
+     "dur_s": 9.192,
+     "kb": "in"
+    },
+    {
+     "kind": "image",
+     "path": "project/media/img020.jpg",
+     "asset_id": "img020",
+     "license": "CC:BY 2.0",
+     "artist": "SteveNakatani",
+     "credit": "flickr",
+     "origin_url": "https://www.flickr.com/photos/42427670@N08/10954858144",
+     "title": "Minotaur Rocket Launch Wallops Island VA 11-19-13",
+     "dur_s": 9.192,
+     "kb": "out"
+    }
+   ],
+   "on_screen": [
+    "22.59M \u2014 FIRST 24H",
+    "100M \u2014 FIRST 18 DAYS"
+   ]
+  },
+  {
+   "beat_id": "b403x",
+   "seg": "seg4",
+   "start": 703.142,
+   "dur_s": 33.288,
+   "voice": "project/voice/beat_b403x.mp3",
+   "visuals": [
+    {
+     "kind": "image",
+     "path": "project/media/img023.jpg",
+     "asset_id": "img023",
+     "license": "CC:BY-SA 2.0",
+     "artist": "pavlinajane",
+     "credit": "flickr",
+     "origin_url": "https://www.flickr.com/photos/60291025@N05/13880957485",
+     "title": "Filmakers in Somerset House",
+     "dur_s": 16.644,
+     "kb": "left"
+    },
+    {
+     "kind": "image",
+     "path": "project/media/img024.jpg",
+     "asset_id": "img024",
+     "license": "CC:BY 2.0",
+     "artist": "shannonkringen",
+     "credit": "flickr",
+     "origin_url": "https://www.flickr.com/photos/18161271@N00/4141349391",
+     "title": "last standing rose",
+     "dur_s": 16.644,
+     "kb": "right"
+    }
+   ],
+   "on_screen": [
+    "THE SIX-MEMBER ERA"
+   ]
+  },
+  {
+   "beat_id": "b404a",
+   "seg": "seg4",
+   "start": 737.791,
+   "dur_s": 30.456,
+   "voice": "project/voice/beat_b404a.mp3",
+   "visuals": [
+    {
+     "kind": "image",
+     "path": "project/media/img021.jpg",
+     "asset_id": "img021",
+     "license": "CC:BY 2.0",
+     "artist": "Michael Seeley",
+     "credit": "flickr",
+     "origin_url": "https://www.flickr.com/photos/76093456@N04/25431492401",
+     "title": "SES9 Falcon9 Launch by SpaceX",
+     "dur_s": 15.228,
+     "kb": "in"
+    },
+    {
+     "kind": "card",
+     "path": "project/cards/b404a_1.png",
+     "dur_s": 15.228,
+     "kb": "out"
+    }
+   ],
+   "on_screen": []
+  },
+  {
+   "beat_id": "b403",
+   "seg": "seg4",
+   "start": 769.607,
+   "dur_s": 25.104,
+   "voice": "project/voice/beat_b403.mp3",
+   "visuals": [
+    {
+     "kind": "image",
+     "path": "project/media/img027.jpg",
+     "asset_id": "img027",
+     "license": "CC:BY 2.0",
+     "artist": "Grand Canyon NPS",
+     "credit": "flickr",
+     "origin_url": "https://www.flickr.com/photos/50693818@N08/9345870975",
+     "title": "Grand Canyon National Park: 23 Annual Star Party 2013 - 6240",
+     "dur_s": 12.552,
+     "kb": "left"
+    },
+    {
+     "kind": "image",
+     "path": "project/media/img021.jpg",
+     "asset_id": "img021",
+     "license": "CC:BY 2.0",
+     "artist": "Michael Seeley",
+     "credit": "flickr",
+     "origin_url": "https://www.flickr.com/photos/76093456@N04/25431492401",
+     "title": "SES9 Falcon9 Launch by SpaceX",
+     "dur_s": 12.552,
+     "kb": "right"
+    }
+   ],
+   "on_screen": [
+    "FEB 1, 2024 \u2014 \"STUCK IN THE MIDDLE\""
+   ]
+  },
+  {
+   "beat_id": "b404",
+   "seg": "seg4",
+   "start": 796.072,
+   "dur_s": 21.528,
+   "voice": "project/voice/beat_b404.mp3",
+   "visuals": [
+    {
+     "kind": "card",
+     "path": "project/cards/b404_0.png",
+     "dur_s": 10.764,
+     "kb": "in"
+    },
+    {
+     "kind": "image",
+     "path": "project/media/img029.jpg",
+     "asset_id": "img029",
+     "license": "CC:BY-SA 2.0",
+     "artist": "timsackton",
+     "credit": "flickr",
+     "origin_url": "https://www.flickr.com/photos/43581314@N08/27925722642",
+     "title": "Sunrise 38,000 Feet Over the Pacific [182/366]",
+     "dur_s": 10.764,
+     "kb": "out"
+    }
+   ],
+   "on_screen": []
+  },
+  {
+   "beat_id": "b404b",
+   "seg": "seg4",
+   "start": 818.96,
+   "dur_s": 25.128,
+   "voice": "project/voice/beat_b404b.mp3",
+   "visuals": [
+    {
+     "kind": "image",
+     "path": "project/media/img032.jpg",
+     "asset_id": "img032",
+     "license": "CC:BY 2.0",
+     "artist": "etharooni",
+     "credit": "flickr",
+     "origin_url": "https://www.flickr.com/photos/22828588@N03/2648639630",
+     "title": "Typiewriter!",
+     "dur_s": 12.564,
+     "kb": "left"
+    },
+    {
+     "kind": "image",
+     "path": "project/media/img022.jpg",
+     "asset_id": "img022",
+     "license": "CC:BY 2.0",
+     "artist": "Michael Seeley",
+     "credit": "flickr",
+     "origin_url": "https://www.flickr.com/photos/76093456@N04/19256701982",
+     "title": "Long Exposure at SpaceX LC-40",
+     "dur_s": 12.564,
+     "kb": "right"
+    }
+   ],
+   "on_screen": []
+  },
+  {
+   "beat_id": "b405",
+   "seg": "seg4",
+   "start": 845.449,
+   "dur_s": 19.296,
+   "voice": "project/voice/beat_b405.mp3",
+   "visuals": [
+    {
+     "kind": "card",
+     "path": "project/cards/b405_0.png",
+     "dur_s": 6.432,
+     "kb": "in"
+    },
+    {
+     "kind": "card",
+     "path": "project/cards/b405_1.png",
+     "dur_s": 6.432,
+     "kb": "out"
+    },
+    {
+     "kind": "image",
+     "path": "project/media/img022.jpg",
+     "asset_id": "img022",
+     "license": "CC:BY 2.0",
+     "artist": "Michael Seeley",
+     "credit": "flickr",
+     "origin_url": "https://www.flickr.com/photos/76093456@N04/19256701982",
+     "title": "Long Exposure at SpaceX LC-40",
+     "dur_s": 6.432,
+     "kb": "left"
+    }
+   ],
+   "on_screen": [
+    "APRIL 1, 2024",
+    "BABYMONS7ER"
+   ]
+  },
+  {
+   "beat_id": "b501",
+   "seg": "seg5",
+   "start": 866.3,
+   "dur_s": 24.816,
+   "voice": "project/voice/beat_b501.mp3",
+   "visuals": [
+    {
+     "kind": "card",
+     "path": "project/cards/b501_0.png",
+     "dur_s": 12.408,
+     "kb": "right"
+    },
+    {
+     "kind": "card",
+     "path": "project/cards/b501_1.png",
+     "dur_s": 12.408,
+     "kb": "in"
+    }
+   ],
+   "on_screen": [
+    "\"SHEESH\" \u2014 APR 1, 2024"
+   ]
+  },
+  {
+   "beat_id": "b502",
+   "seg": "seg5",
+   "start": 892.282,
+   "dur_s": 23.496,
+   "voice": "project/voice/beat_b502.mp3",
+   "visuals": [
+    {
+     "kind": "image",
+     "path": "project/media/img023.jpg",
+     "asset_id": "img023",
+     "license": "CC:BY-SA 2.0",
+     "artist": "pavlinajane",
+     "credit": "flickr",
+     "origin_url": "https://www.flickr.com/photos/60291025@N05/13880957485",
+     "title": "Filmakers in Somerset House",
+     "dur_s": 11.748,
+     "kb": "out"
+    },
+    {
+     "kind": "image",
+     "path": "project/media/img034.jpg",
+     "asset_id": "img034",
+     "license": "CC:BY 2.0",
+     "artist": "jurvetson",
+     "credit": "flickr",
+     "origin_url": "https://www.flickr.com/photos/44124348109@N01/10438860",
+     "title": "IBM's $10 Billion Machine",
+     "dur_s": 11.748,
+     "kb": "left"
+    }
+   ],
+   "on_screen": []
+  },
+  {
+   "beat_id": "b503a",
+   "seg": "seg5",
+   "start": 916.944,
+   "dur_s": 24.0,
+   "voice": "project/voice/beat_b503a.mp3",
+   "visuals": [
+    {
+     "kind": "card",
+     "path": "project/cards/b503a_0.png",
+     "dur_s": 12.0,
+     "kb": "right"
+    },
+    {
+     "kind": "image",
+     "path": "project/media/img038.jpg",
+     "asset_id": "img038",
+     "license": "CC:BY 2.0",
+     "artist": "Piano Piano!",
+     "credit": "flickr",
+     "origin_url": "https://www.flickr.com/photos/11076844@N00/3601432980",
+     "title": "Backside Bruce Springsteen - Cover Me, Shut Out The Light, Dancing In The Dark, Jersey Girl, Maxi-Single 12 inch 45 rpm",
+     "dur_s": 12.0,
+     "kb": "in"
+    }
+   ],
+   "on_screen": [
+    "CIRCLE ALBUM CHART \u2014 #3"
+   ]
+  },
+  {
+   "beat_id": "b503b",
+   "seg": "seg5",
+   "start": 942.11,
+   "dur_s": 23.76,
+   "voice": "project/voice/beat_b503b.mp3",
+   "visuals": [
+    {
+     "kind": "image",
+     "path": "project/media/img039.jpg",
+     "asset_id": "img039",
+     "license": "CC:BY-SA 4.0",
+     "artist": "Floydum",
+     "credit": "wikimedia",
+     "origin_url": "https://commons.wikimedia.org/w/index.php?curid=196984410",
+     "title": "Blake 1",
+     "dur_s": 11.88,
+     "kb": "out"
+    },
+    {
+     "kind": "card",
+     "path": "project/cards/b503b_1.png",
+     "dur_s": 11.88,
+     "kb": "left"
+    }
+   ],
+   "on_screen": []
+  },
+  {
+   "beat_id": "b503",
+   "seg": "seg5",
+   "start": 967.231,
+   "dur_s": 22.464,
+   "voice": "project/voice/beat_b503.mp3",
+   "visuals": [
+    {
+     "kind": "card",
+     "path": "project/cards/b503_0.png",
+     "dur_s": 11.232,
+     "kb": "right"
+    },
+    {
+     "kind": "image",
+     "path": "project/media/img024.jpg",
+     "asset_id": "img024",
+     "license": "CC:BY 2.0",
+     "artist": "shannonkringen",
+     "credit": "flickr",
+     "origin_url": "https://www.flickr.com/photos/18161271@N00/4141349391",
+     "title": "last standing rose",
+     "dur_s": 11.232,
+     "kb": "in"
+    }
+   ],
+   "on_screen": [
+    "COVER \u2192 GIFT \u2192 RECORD",
+    "DANGEROUSLY \u2192 \"LIKE THAT\""
+   ]
+  },
+  {
+   "beat_id": "b504",
+   "seg": "seg5",
+   "start": 991.055,
+   "dur_s": 21.144,
+   "voice": "project/voice/beat_b504.mp3",
+   "visuals": [
+    {
+     "kind": "card",
+     "path": "project/cards/b504_0.png",
+     "dur_s": 10.572,
+     "kb": "out"
+    },
+    {
+     "kind": "image",
+     "path": "project/media/img040.jpg",
+     "asset_id": "img040",
+     "license": "CC:BY-SA 2.0",
+     "artist": "wbaiv",
+     "credit": "flickr",
+     "origin_url": "https://www.flickr.com/photos/9998127@N06/39395595782",
+     "title": "B29A pilot's station, Model Master Acryl paint suggestions. 95-15-9A",
+     "dur_s": 10.572,
+     "kb": "left"
+    }
+   ],
+   "on_screen": [
+    "\"I HOPE TO FIND MY OWN COLOR\""
+   ]
+  },
+  {
+   "beat_id": "b504a",
+   "seg": "seg5",
+   "start": 1013.754,
+   "dur_s": 31.464,
+   "voice": "project/voice/beat_b504a.mp3",
+   "visuals": [
+    {
+     "kind": "image",
+     "path": "project/media/img025.jpg",
+     "asset_id": "img025",
+     "license": "CC:BY-ND 2.0",
+     "artist": "FotoGrazio",
+     "credit": "flickr",
+     "origin_url": "https://www.flickr.com/photos/94075184@N00/54268401050",
+     "title": "Celestial Embrace",
+     "dur_s": 15.732,
+     "kb": "right"
+    },
+    {
+     "kind": "image",
+     "path": "project/media/img043.jpg",
+     "asset_id": "img043",
+     "license": "CC:BY 2.0",
+     "artist": "dejankrsmanovic",
+     "credit": "flickr",
+     "origin_url": "https://www.flickr.com/photos/155403590@N07/46771748902",
+     "title": "Faders of a Mixing Console",
+     "dur_s": 15.732,
+     "kb": "in"
+    }
+   ],
+   "on_screen": []
+  },
+  {
+   "beat_id": "b505",
+   "seg": "seg5",
+   "start": 1046.773,
+   "dur_s": 26.304,
+   "voice": "project/voice/beat_b505.mp3",
+   "visuals": [
+    {
+     "kind": "image",
+     "path": "project/media/img025.jpg",
+     "asset_id": "img025",
+     "license": "CC:BY-ND 2.0",
+     "artist": "FotoGrazio",
+     "credit": "flickr",
+     "origin_url": "https://www.flickr.com/photos/94075184@N00/54268401050",
+     "title": "Celestial Embrace",
+     "dur_s": 13.152,
+     "kb": "out"
+    },
+    {
+     "kind": "image",
+     "path": "project/media/img026.jpg",
+     "asset_id": "img026",
+     "license": "CC:CC0 1.0",
+     "artist": "Free Nature Stock",
+     "credit": "stocksnap",
+     "origin_url": "https://stocksnap.io/photo/winter-tree-RT2I3Z3UT8",
+     "title": "Winter Tree",
+     "dur_s": 13.152,
+     "kb": "left"
+    }
+   ],
+   "on_screen": []
+  },
+  {
+   "beat_id": "b601",
+   "seg": "seg6",
+   "start": 1074.437,
+   "dur_s": 30.552,
+   "voice": "project/voice/beat_b601.mp3",
+   "visuals": [
+    {
+     "kind": "card",
+     "path": "project/cards/b601_0.png",
+     "dur_s": 15.276,
+     "kb": "right"
+    },
+    {
+     "kind": "card",
+     "path": "project/cards/b601_1.png",
+     "dur_s": 15.276,
+     "kb": "in"
+    }
+   ],
+   "on_screen": [
+    "NOV 1, 2024 \u2014 DRIP",
+    "820K FIRST WEEK \u00b7 1M+ DOMESTIC",
+    "BILLBOARD 200 #149"
+   ]
+  },
+  {
+   "beat_id": "b601a",
+   "seg": "seg6",
+   "start": 1106.35,
+   "dur_s": 29.04,
+   "voice": "project/voice/beat_b601a.mp3",
+   "visuals": [
+    {
+     "kind": "card",
+     "path": "project/cards/b601a_0.png",
+     "dur_s": 14.52,
+     "kb": "out"
+    },
+    {
+     "kind": "image",
+     "path": "project/media/img026.jpg",
+     "asset_id": "img026",
+     "license": "CC:CC0 1.0",
+     "artist": "Free Nature Stock",
+     "credit": "stocksnap",
+     "origin_url": "https://stocksnap.io/photo/winter-tree-RT2I3Z3UT8",
+     "title": "Winter Tree",
+     "dur_s": 14.52,
+     "kb": "left"
+    }
+   ],
+   "on_screen": [
+    "JUL 1, 2024 \u2014 \"FOREVER\""
+   ]
+  },
+  {
+   "beat_id": "b602",
+   "seg": "seg6",
+   "start": 1136.75,
+   "dur_s": 23.808,
+   "voice": "project/voice/beat_b602.mp3",
+   "visuals": [
+    {
+     "kind": "card",
+     "path": "project/cards/b602_0.png",
+     "dur_s": 7.936,
+     "kb": "right"
+    },
+    {
+     "kind": "card",
+     "path": "project/cards/b602_1.png",
+     "dur_s": 7.936,
+     "kb": "in"
+    },
+    {
+     "kind": "image",
+     "path": "project/media/img027.jpg",
+     "asset_id": "img027",
+     "license": "CC:BY 2.0",
+     "artist": "Grand Canyon NPS",
+     "credit": "flickr",
+     "origin_url": "https://www.flickr.com/photos/50693818@N08/9345870975",
+     "title": "Grand Canyon National Park: 23 Annual Star Party 2013 - 6240",
+     "dur_s": 7.936,
+     "kb": "out"
+    }
+   ],
+   "on_screen": [
+    "JAN 25, 2025 \u2014 KSPO DOME",
+    "FASTEST FEMALE ACT EVER TO HEADLINE \u2014 8 MONTHS"
+   ]
+  },
+  {
+   "beat_id": "b603",
+   "seg": "seg6",
+   "start": 1161.919,
+   "dur_s": 23.064,
+   "voice": "project/voice/beat_b603.mp3",
+   "visuals": [
+    {
+     "kind": "card",
+     "path": "project/cards/b603_0.png",
+     "dur_s": 11.532,
+     "kb": "left"
+    },
+    {
+     "kind": "image",
+     "path": "project/media/img028.jpg",
+     "asset_id": "img028",
+     "license": "CC:BY-ND 2.0",
+     "artist": "Space Ritual",
+     "credit": "flickr",
+     "origin_url": "https://www.flickr.com/photos/30354453@N00/2911687449",
+     "title": "About last night....",
+     "dur_s": 11.532,
+     "kb": "right"
+    }
+   ],
+   "on_screen": [
+    "JUL 2025 \u2014 \"HOT SAUCE\"",
+    "OCT 10, 2025 \u2014 WE GO UP"
+   ]
+  },
+  {
+   "beat_id": "b603a",
+   "seg": "seg6",
+   "start": 1186.149,
+   "dur_s": 31.416,
+   "voice": "project/voice/beat_b603a.mp3",
+   "visuals": [
+    {
+     "kind": "image",
+     "path": "project/media/img046.jpg",
+     "asset_id": "img046",
+     "license": "CC:BY 2.0",
+     "artist": "Matt From London",
+     "credit": "flickr",
+     "origin_url": "https://www.flickr.com/photos/57868312@N00/4200008872",
+     "title": "More office windows at night",
+     "dur_s": 15.708,
+     "kb": "in"
+    },
+    {
+     "kind": "image",
+     "path": "project/media/img049.jpg",
+     "asset_id": "img049",
+     "license": "CC:BY 2.0",
+     "artist": "Ian Sane",
+     "credit": "flickr",
+     "origin_url": "https://www.flickr.com/photos/31246066@N04/6456117565",
+     "title": "Go By Streetcar",
+     "dur_s": 15.708,
+     "kb": "out"
+    }
+   ],
+   "on_screen": []
+  },
+  {
+   "beat_id": "b604",
+   "seg": "seg6",
+   "start": 1218.925,
+   "dur_s": 27.504,
+   "voice": "project/voice/beat_b604.mp3",
+   "visuals": [
+    {
+     "kind": "card",
+     "path": "project/cards/b604_0.png",
+     "dur_s": 13.752,
+     "kb": "left"
+    },
+    {
+     "kind": "image",
+     "path": "project/media/img052.jpg",
+     "asset_id": "img052",
+     "license": "CC:BY 2.0",
+     "artist": "bayerberg",
+     "credit": "flickr",
+     "origin_url": "https://www.flickr.com/photos/10127072@N04/3687826747",
+     "title": "Cannes Lions - Palme d'Or",
+     "dur_s": 13.752,
+     "kb": "right"
+    }
+   ],
+   "on_screen": [
+    "MAMA 2025 \u2014 \"GOLDEN\" MEDLEY",
+    "6.68M VIEWS \u2014 TOP PERFORMANCE OF THE NIGHT"
+   ]
+  },
+  {
+   "beat_id": "b605",
+   "seg": "seg6",
+   "start": 1247.79,
+   "dur_s": 20.424,
+   "voice": "project/voice/beat_b605.mp3",
+   "visuals": [
+    {
+     "kind": "card",
+     "path": "project/cards/b605_0.png",
+     "dur_s": 10.212,
+     "kb": "in"
+    },
+    {
+     "kind": "image",
+     "path": "project/media/img053.jpg",
+     "asset_id": "img053",
+     "license": "CC:CC0 1.0",
+     "artist": "Artem Beliaikin",
+     "credit": "flickr",
+     "origin_url": "https://www.flickr.com/photos/157635012@N07/48863714157",
+     "title": "Sound mixer",
+     "dur_s": 10.212,
+     "kb": "out"
+    }
+   ],
+   "on_screen": []
+  },
+  {
+   "beat_id": "b701",
+   "seg": "seg7",
+   "start": 1269.769,
+   "dur_s": 24.048,
+   "voice": "project/voice/beat_b701.mp3",
+   "visuals": [
+    {
+     "kind": "card",
+     "path": "project/cards/b701_0.png",
+     "dur_s": 12.024,
+     "kb": "left"
+    },
+    {
+     "kind": "card",
+     "path": "project/cards/b701_1.png",
+     "dur_s": 12.024,
+     "kb": "right"
+    }
+   ],
+   "on_screen": [
+    "JAN 2026 \u2014 \"REALLY LIKE YOU\"",
+    "#1 YOUTUBE GLOBAL VIRAL 50"
+   ]
+  },
+  {
+   "beat_id": "b702",
+   "seg": "seg7",
+   "start": 1294.983,
+   "dur_s": 21.72,
+   "voice": "project/voice/beat_b702.mp3",
+   "visuals": [
+    {
+     "kind": "card",
+     "path": "project/cards/b702_0.png",
+     "dur_s": 10.86,
+     "kb": "in"
+    },
+    {
+     "kind": "image",
+     "path": "project/media/img028.jpg",
+     "asset_id": "img028",
+     "license": "CC:BY-ND 2.0",
+     "artist": "Space Ritual",
+     "credit": "flickr",
+     "origin_url": "https://www.flickr.com/photos/30354453@N00/2911687449",
+     "title": "About last night....",
+     "dur_s": 10.86,
+     "kb": "out"
+    }
+   ],
+   "on_screen": [
+    "MARCH 2026 \u2014 VOGUE HONG KONG",
+    "\"THE ONLY WAY IS UP\""
+   ]
+  },
+  {
+   "beat_id": "b702a",
+   "seg": "seg7",
+   "start": 1317.869,
+   "dur_s": 27.432,
+   "voice": "project/voice/beat_b702a.mp3",
+   "visuals": [
+    {
+     "kind": "card",
+     "path": "project/cards/b702a_0.png",
+     "dur_s": 13.716,
+     "kb": "left"
+    },
+    {
+     "kind": "image",
+     "path": "project/media/img029.jpg",
+     "asset_id": "img029",
+     "license": "CC:BY-SA 2.0",
+     "artist": "timsackton",
+     "credit": "flickr",
+     "origin_url": "https://www.flickr.com/photos/43581314@N08/27925722642",
+     "title": "Sunrise 38,000 Feet Over the Pacific [182/366]",
+     "dur_s": 13.716,
+     "kb": "right"
+    }
+   ],
+   "on_screen": [
+    "TAIPEI ARENA \u2014 MANDARIN ENCORE"
+   ]
+  },
+  {
+   "beat_id": "b703",
+   "seg": "seg7",
+   "start": 1346.662,
+   "dur_s": 27.624,
+   "voice": "project/voice/beat_b703.mp3",
+   "visuals": [
+    {
+     "kind": "card",
+     "path": "project/cards/b703_0.png",
+     "dur_s": 9.208,
+     "kb": "in"
+    },
+    {
+     "kind": "card",
+     "path": "project/cards/b703_1.png",
+     "dur_s": 9.208,
+     "kb": "out"
+    },
+    {
+     "kind": "image",
+     "path": "project/media/img030.jpg",
+     "asset_id": "img030",
+     "license": "CC:BY-SA 2.0",
+     "artist": "wbaiv",
+     "credit": "flickr",
+     "origin_url": "https://www.flickr.com/photos/9998127@N06/7533896454",
+     "title": "Boeing 737 - Classic? NG? Alaska Airlines",
+     "dur_s": 9.208,
+     "kb": "left"
+    }
+   ],
+   "on_screen": [
+    "KGMA \u2014 33,380 VOTES (85.81%)",
+    "APR 17, 2026 \u2014 \"SHEESH\" 400M"
+   ]
+  },
+  {
+   "beat_id": "b703a",
+   "seg": "seg7",
+   "start": 1375.646,
+   "dur_s": 27.768,
+   "voice": "project/voice/beat_b703a.mp3",
+   "visuals": [
+    {
+     "kind": "image",
+     "path": "project/media/img030.jpg",
+     "asset_id": "img030",
+     "license": "CC:BY-SA 2.0",
+     "artist": "wbaiv",
+     "credit": "flickr",
+     "origin_url": "https://www.flickr.com/photos/9998127@N06/7533896454",
+     "title": "Boeing 737 - Classic? NG? Alaska Airlines",
+     "dur_s": 13.884,
+     "kb": "right"
+    },
+    {
+     "kind": "card",
+     "path": "project/cards/b703a_1.png",
+     "dur_s": 13.884,
+     "kb": "in"
+    }
+   ],
+   "on_screen": []
+  },
+  {
+   "beat_id": "b704",
+   "seg": "seg7",
+   "start": 1404.775,
+   "dur_s": 23.76,
+   "voice": "project/voice/beat_b704.mp3",
+   "visuals": [
+    {
+     "kind": "card",
+     "path": "project/cards/b704_0.png",
+     "dur_s": 11.88,
+     "kb": "out"
+    },
+    {
+     "kind": "image",
+     "path": "project/media/img056.jpg",
+     "asset_id": "img056",
+     "license": "CC:BY 2.0",
+     "artist": "dejankrsmanovic",
+     "credit": "flickr",
+     "origin_url": "https://www.flickr.com/photos/155403590@N07/46099045164",
+     "title": "Mixing Console Details",
+     "dur_s": 11.88,
+     "kb": "left"
+    }
+   ],
+   "on_screen": [
+    "MAY 4, 2026 \u2014 CHOOM",
+    "JUL 2026 \u2014 MEDIABASE TOP 40 #35"
+   ]
+  },
+  {
+   "beat_id": "b704a",
+   "seg": "seg7",
+   "start": 1429.701,
+   "dur_s": 32.472,
+   "voice": "project/voice/beat_b704a.mp3",
+   "visuals": [
+    {
+     "kind": "image",
+     "path": "project/media/img031.jpg",
+     "asset_id": "img031",
+     "license": "CC:BY-SA 2.0",
+     "artist": "bobu",
+     "credit": "flickr",
+     "origin_url": "https://www.flickr.com/photos/68406347@N00/1625824750",
+     "title": "Sunrise over Texas 2",
+     "dur_s": 16.236,
+     "kb": "right"
+    },
+    {
+     "kind": "card",
+     "path": "project/cards/b704a_1.png",
+     "dur_s": 16.236,
+     "kb": "in"
+    }
+   ],
+   "on_screen": []
+  },
+  {
+   "beat_id": "b705",
+   "seg": "seg7",
+   "start": 1463.728,
+   "dur_s": 25.776,
+   "voice": "project/voice/beat_b705.mp3",
+   "visuals": [
+    {
+     "kind": "card",
+     "path": "project/cards/b705_0.png",
+     "dur_s": 12.888,
+     "kb": "out"
+    },
+    {
+     "kind": "image",
+     "path": "project/media/img031.jpg",
+     "asset_id": "img031",
+     "license": "CC:BY-SA 2.0",
+     "artist": "bobu",
+     "credit": "flickr",
+     "origin_url": "https://www.flickr.com/photos/68406347@N00/1625824750",
+     "title": "Sunrise over Texas 2",
+     "dur_s": 12.888,
+     "kb": "left"
+    }
+   ],
+   "on_screen": [
+    "\"SUGAR HONEY ICE TEA\" \u2014 #1 GLOBAL DAILY",
+    "THE AHYEON MARCH"
+   ]
+  },
+  {
+   "beat_id": "b705a",
+   "seg": "seg7",
+   "start": 1490.864,
+   "dur_s": 34.68,
+   "voice": "project/voice/beat_b705a.mp3",
+   "visuals": [
+    {
+     "kind": "image",
+     "path": "project/media/img032.jpg",
+     "asset_id": "img032",
+     "license": "CC:BY 2.0",
+     "artist": "etharooni",
+     "credit": "flickr",
+     "origin_url": "https://www.flickr.com/photos/22828588@N03/2648639630",
+     "title": "Typiewriter!",
+     "dur_s": 17.34,
+     "kb": "right"
+    },
+    {
+     "kind": "image",
+     "path": "project/media/img033.jpg",
+     "asset_id": "img033",
+     "license": "CC:BY 2.0",
+     "artist": "homegets.com",
+     "credit": "flickr",
+     "origin_url": "https://www.flickr.com/photos/141436406@N04/49492045537",
+     "title": "Close up photo of gray typewriter - Credit to https://homegets.com/",
+     "dur_s": 17.34,
+     "kb": "in"
+    }
+   ],
+   "on_screen": []
+  },
+  {
+   "beat_id": "b706",
+   "seg": "seg7",
+   "start": 1526.905,
+   "dur_s": 18.624,
+   "voice": "project/voice/beat_b706.mp3",
+   "visuals": [
+    {
+     "kind": "card",
+     "path": "project/cards/b706_0.png",
+     "dur_s": 9.312,
+     "kb": "out"
+    },
+    {
+     "kind": "image",
+     "path": "project/media/img033.jpg",
+     "asset_id": "img033",
+     "license": "CC:BY 2.0",
+     "artist": "homegets.com",
+     "credit": "flickr",
+     "origin_url": "https://www.flickr.com/photos/141436406@N04/49492045537",
+     "title": "Close up photo of gray typewriter - Credit to https://homegets.com/",
+     "dur_s": 9.312,
+     "kb": "left"
+    }
+   ],
+   "on_screen": [
+    "SEP 3, 2026 \u2014 10 BILLION VIEWS",
+    "FASTEST GG CHANNEL EVER \u2014 2ND EVER TO 10B"
+   ]
+  },
+  {
+   "beat_id": "b706a",
+   "seg": "seg7",
+   "start": 1547.278,
+   "dur_s": 25.8,
+   "voice": "project/voice/beat_b706a.mp3",
+   "visuals": [
+    {
+     "kind": "card",
+     "path": "project/cards/b706a_0.png",
+     "dur_s": 12.9,
+     "kb": "right"
+    },
+    {
+     "kind": "image",
+     "path": "project/media/img060.jpg",
+     "asset_id": "img060",
+     "license": "CC:BY 2.0",
+     "artist": "Brett Levin Photography",
+     "credit": "flickr",
+     "origin_url": "https://www.flickr.com/photos/51117559@N03/5434015698",
+     "title": "2008 Ford Escape Dash",
+     "dur_s": 12.9,
+     "kb": "in"
+    }
+   ],
+   "on_screen": []
+  },
+  {
+   "beat_id": "b801",
+   "seg": "seg8",
+   "start": 1574.633,
+   "dur_s": 26.496,
+   "voice": "project/voice/beat_b801.mp3",
+   "visuals": [
+    {
+     "kind": "card",
+     "path": "project/cards/b801_0.png",
+     "dur_s": 13.248,
+     "kb": "out"
+    },
+    {
+     "kind": "image",
+     "path": "project/media/img034.jpg",
+     "asset_id": "img034",
+     "license": "CC:BY 2.0",
+     "artist": "jurvetson",
+     "credit": "flickr",
+     "origin_url": "https://www.flickr.com/photos/44124348109@N01/10438860",
+     "title": "IBM's $10 Billion Machine",
+     "dur_s": 13.248,
+     "kb": "left"
+    }
+   ],
+   "on_screen": [
+    "SEP 22\u201323, 2026",
+    "KYOCERA DOME, OSAKA"
+   ]
+  },
+  {
+   "beat_id": "b802",
+   "seg": "seg8",
+   "start": 1602.489,
+   "dur_s": 22.2,
+   "voice": "project/voice/beat_b802.mp3",
+   "visuals": [
+    {
+     "kind": "card",
+     "path": "project/cards/b802_0.png",
+     "dur_s": 11.1,
+     "kb": "right"
+    },
+    {
+     "kind": "image",
+     "path": "project/media/img061.jpg",
+     "asset_id": "img061",
+     "license": "CC:BY 2.0",
+     "artist": "Computer Science Geek",
+     "credit": "flickr",
+     "origin_url": "https://www.flickr.com/photos/90146879@N00/521027252",
+     "title": "Winter Constellations and Zodiacal light",
+     "dur_s": 11.1,
+     "kb": "in"
+    }
+   ],
+   "on_screen": []
+  },
+  {
+   "beat_id": "b802a",
+   "seg": "seg8",
+   "start": 1626.05,
+   "dur_s": 34.248,
+   "voice": "project/voice/beat_b802a.mp3",
+   "visuals": [
+    {
+     "kind": "image",
+     "path": "project/media/img035.jpg",
+     "asset_id": "img035",
+     "license": "CC:PDM 1.0",
+     "artist": "ritamds",
+     "credit": "flickr",
+     "origin_url": "https://www.flickr.com/photos/143129038@N07/42764895135",
+     "title": "Hubble Discovery of Runaway Star Yields Clues to Breakup of Multiple-Star System",
+     "dur_s": 17.124,
+     "kb": "out"
+    },
+    {
+     "kind": "image",
+     "path": "project/media/img035.jpg",
+     "asset_id": "img035",
+     "license": "CC:PDM 1.0",
+     "artist": "ritamds",
+     "credit": "flickr",
+     "origin_url": "https://www.flickr.com/photos/143129038@N07/42764895135",
+     "title": "Hubble Discovery of Runaway Star Yields Clues to Breakup of Multiple-Star System",
+     "dur_s": 17.124,
+     "kb": "left"
+    }
+   ],
+   "on_screen": []
+  },
+  {
+   "beat_id": "b803",
+   "seg": "seg8",
+   "start": 1661.853,
+   "dur_s": 19.92,
+   "voice": "project/voice/beat_b803.mp3",
+   "visuals": [
+    {
+     "kind": "card",
+     "path": "project/cards/b803_0.png",
+     "dur_s": 9.96,
+     "kb": "right"
+    },
+    {
+     "kind": "image",
+     "path": "project/media/img038.jpg",
+     "asset_id": "img038",
+     "license": "CC:BY 2.0",
+     "artist": "Piano Piano!",
+     "credit": "flickr",
+     "origin_url": "https://www.flickr.com/photos/11076844@N00/3601432980",
+     "title": "Backside Bruce Springsteen - Cover Me, Shut Out The Light, Dancing In The Dark, Jersey Girl, Maxi-Single 12 inch 45 rpm",
+     "dur_s": 9.96,
+     "kb": "in"
+    }
+   ],
+   "on_screen": [
+    "SHE IS 19",
+    "THE STORY IS STILL BEING WRITTEN"
+   ]
+  },
+  {
+   "beat_id": "b803a",
+   "seg": "seg8",
+   "start": 1682.744,
+   "dur_s": 24.696,
+   "voice": "project/voice/beat_b803a.mp3",
+   "visuals": [
+    {
+     "kind": "card",
+     "path": "project/cards/b803a_0.png",
+     "dur_s": 12.348,
+     "kb": "out"
+    },
+    {
+     "kind": "image",
+     "path": "project/media/img064.jpg",
+     "asset_id": "img064",
+     "license": "CC:CC0 1.0",
+     "artist": "Unknown",
+     "credit": "rawpixel",
+     "origin_url": "https://www.rawpixel.com/image/4021250/photo-image-background-green-leaf",
+     "title": "Idea leuconoe. Commonly known as",
+     "dur_s": 12.348,
+     "kb": "left"
+    }
+   ],
+   "on_screen": [
+    "FOR THE MONSTIEZ \ud83e\udd8b"
+   ]
+  },
+  {
+   "beat_id": "b804",
+   "seg": "seg8",
+   "start": 1709.19,
+   "dur_s": 8.616,
+   "voice": "project/voice/beat_b804.mp3",
+   "visuals": [
+    {
+     "kind": "card",
+     "path": "project/cards/b804_0.png",
+     "dur_s": 8.616,
+     "kb": "right"
+    }
+   ],
+   "on_screen": []
+  }
+ ]
+}

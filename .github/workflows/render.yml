@@ -1,0 +1,55 @@
+name: Render Documentary
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths: ['project/**', 'pipeline/**', '.github/workflows/render.yml']
+
+jobs:
+  render:
+    runs-on: ubuntu-latest
+    timeout-minutes: 350
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Install ffmpeg
+        run: sudo apt-get update && sudo apt-get install -y ffmpeg fonts-noto-core fonts-dejavu-core
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install deps
+        run: pip install pillow
+
+      - name: Rebuild timeline (deterministic)
+        run: python pipeline/build_timeline.py
+
+      - name: Render segments
+        run: python pipeline/render.py
+
+      - name: QC
+        run: python pipeline/qc.py
+
+      - name: Upload final as artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: ahyeon-documentary-1080p
+          path: project/final.mp4
+          retention-days: 7
+
+      - name: Attach to Release v1.0
+        uses: softprops/action-gh-release@v2
+        with:
+          tag_name: v1.0
+          name: "JUNG AHYEON — The One Who Was Worth the Wait (v1.0)"
+          body: |
+            29-minute documentary, 1080p30 H.264, AAC 192k, −14 LUFS.
+            Built autonomously: research → verified script → edge-tts narration →
+            licensed media (Commons/Openverse/CC0) → motion-card system → FFmpeg render.
+            Fact-checked via NVIDIA NIM. Sources & attributions in video description (project/metadata.json).
+          files: project/final.mp4
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
