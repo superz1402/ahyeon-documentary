@@ -12,7 +12,13 @@ TARGET = s["target_total_s"]
 INTRO, OUTRO = s["intro_music_s"], s["outro_music_s"]
 FPS, W, H = s["fps"], s["width"], s["height"]
 
-tmap = {b["id"]: b for b in timing["beats"]}
+def relpath(p):
+    p = p.replace("\\", "/")
+    if "project/" in p:
+        p = "project/" + p.split("project/")[-1]
+    return p
+
+tmap = {b["id"]: {**b, "file": relpath(b["file"]), "srt": relpath(b.get("srt", b["file"]))} for b in timing["beats"]}
 qidx = {}
 for a in manifest["assets"]:
     if a["kind"] == "image":

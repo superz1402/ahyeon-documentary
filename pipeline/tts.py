@@ -42,7 +42,7 @@ for seg in s["segments"]:
                 fails.append(bid); continue
         dur = float(subprocess.check_output(
             ["ffprobe", "-v", "error", "-show_entries", "format=duration", "-of", "csv=p=0", mp3]).decode().strip())
-        timing["beats"].append({"id": bid, "file": mp3, "srt": srt, "duration_s": round(dur, 3),
+        timing["beats"].append({"id": bid, "file": os.path.relpath(mp3, BASE), "srt": os.path.relpath(srt, BASE), "duration_s": round(dur, 3),
                                  "pause_after": b.get("pause_after", s["beat_gap_s"]), "provider": "edge-tts"})
         print(f"{bid}: {dur:.1f}s", flush=True)
         time.sleep(0.35)

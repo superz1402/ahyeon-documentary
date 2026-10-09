@@ -83,7 +83,7 @@ order.append(out)
 
 with open(f"{SEGS}/list.txt", "w") as f:
     for o in order:
-        f.write(f"file '{o}'\n")
+        f.write(f"file '{os.path.basename(o)}'\n")
 
 # ---- Phase 2: concat (video-only master) ----
 if not os.path.exists("project/master_video.mp4") or os.path.getsize("project/master_video.mp4") < 10_000_000:

@@ -2,536 +2,536 @@
  "beats": [
   {
    "id": "b001",
-   "file": "/home/z/my-project/ahyeon-doc/project/voice/beat_b001.mp3",
-   "srt": "/home/z/my-project/ahyeon-doc/project/voice/beat_b001.srt",
+   "file": "project/voice/beat_b001.mp3",
+   "srt": "project/voice/beat_b001.srt",
    "duration_s": 18.912,
    "pause_after": 0.6,
    "provider": "edge-tts"
   },
   {
    "id": "b002",
-   "file": "/home/z/my-project/ahyeon-doc/project/voice/beat_b002.mp3",
-   "srt": "/home/z/my-project/ahyeon-doc/project/voice/beat_b002.srt",
+   "file": "project/voice/beat_b002.mp3",
+   "srt": "project/voice/beat_b002.srt",
    "duration_s": 14.208,
    "pause_after": 0.6,
    "provider": "edge-tts"
   },
   {
    "id": "b003",
-   "file": "/home/z/my-project/ahyeon-doc/project/voice/beat_b003.mp3",
-   "srt": "/home/z/my-project/ahyeon-doc/project/voice/beat_b003.srt",
+   "file": "project/voice/beat_b003.mp3",
+   "srt": "project/voice/beat_b003.srt",
    "duration_s": 18.912,
    "pause_after": 0.8,
    "provider": "edge-tts"
   },
   {
    "id": "b004",
-   "file": "/home/z/my-project/ahyeon-doc/project/voice/beat_b004.mp3",
-   "srt": "/home/z/my-project/ahyeon-doc/project/voice/beat_b004.srt",
+   "file": "project/voice/beat_b004.mp3",
+   "srt": "project/voice/beat_b004.srt",
    "duration_s": 16.176,
    "pause_after": 1.2,
    "provider": "edge-tts"
   },
   {
    "id": "b101",
-   "file": "/home/z/my-project/ahyeon-doc/project/voice/beat_b101.mp3",
-   "srt": "/home/z/my-project/ahyeon-doc/project/voice/beat_b101.srt",
+   "file": "project/voice/beat_b101.mp3",
+   "srt": "project/voice/beat_b101.srt",
    "duration_s": 19.968,
    "pause_after": 0.5,
    "provider": "edge-tts"
   },
   {
    "id": "b102",
-   "file": "/home/z/my-project/ahyeon-doc/project/voice/beat_b102.mp3",
-   "srt": "/home/z/my-project/ahyeon-doc/project/voice/beat_b102.srt",
+   "file": "project/voice/beat_b102.mp3",
+   "srt": "project/voice/beat_b102.srt",
    "duration_s": 22.68,
    "pause_after": 0.5,
    "provider": "edge-tts"
   },
   {
    "id": "b103",
-   "file": "/home/z/my-project/ahyeon-doc/project/voice/beat_b103.mp3",
-   "srt": "/home/z/my-project/ahyeon-doc/project/voice/beat_b103.srt",
+   "file": "project/voice/beat_b103.mp3",
+   "srt": "project/voice/beat_b103.srt",
    "duration_s": 22.872,
    "pause_after": 0.6,
    "provider": "edge-tts"
   },
   {
    "id": "b104",
-   "file": "/home/z/my-project/ahyeon-doc/project/voice/beat_b104.mp3",
-   "srt": "/home/z/my-project/ahyeon-doc/project/voice/beat_b104.srt",
+   "file": "project/voice/beat_b104.mp3",
+   "srt": "project/voice/beat_b104.srt",
    "duration_s": 20.736,
    "pause_after": 0.6,
    "provider": "edge-tts"
   },
   {
    "id": "b105",
-   "file": "/home/z/my-project/ahyeon-doc/project/voice/beat_b105.mp3",
-   "srt": "/home/z/my-project/ahyeon-doc/project/voice/beat_b105.srt",
+   "file": "project/voice/beat_b105.mp3",
+   "srt": "project/voice/beat_b105.srt",
    "duration_s": 23.736,
    "pause_after": 0.6,
    "provider": "edge-tts"
   },
   {
    "id": "b106",
-   "file": "/home/z/my-project/ahyeon-doc/project/voice/beat_b106.mp3",
-   "srt": "/home/z/my-project/ahyeon-doc/project/voice/beat_b106.srt",
+   "file": "project/voice/beat_b106.mp3",
+   "srt": "project/voice/beat_b106.srt",
    "duration_s": 20.112,
    "pause_after": 0.8,
    "provider": "edge-tts"
   },
   {
    "id": "b107",
-   "file": "/home/z/my-project/ahyeon-doc/project/voice/beat_b107.mp3",
-   "srt": "/home/z/my-project/ahyeon-doc/project/voice/beat_b107.srt",
+   "file": "project/voice/beat_b107.mp3",
+   "srt": "project/voice/beat_b107.srt",
    "duration_s": 23.664,
    "pause_after": 0.6,
    "provider": "edge-tts"
   },
   {
    "id": "b108",
-   "file": "/home/z/my-project/ahyeon-doc/project/voice/beat_b108.mp3",
-   "srt": "/home/z/my-project/ahyeon-doc/project/voice/beat_b108.srt",
+   "file": "project/voice/beat_b108.mp3",
+   "srt": "project/voice/beat_b108.srt",
    "duration_s": 26.832,
    "pause_after": 0.8,
    "provider": "edge-tts"
   },
   {
    "id": "b201",
-   "file": "/home/z/my-project/ahyeon-doc/project/voice/beat_b201.mp3",
-   "srt": "/home/z/my-project/ahyeon-doc/project/voice/beat_b201.srt",
+   "file": "project/voice/beat_b201.mp3",
+   "srt": "project/voice/beat_b201.srt",
    "duration_s": 23.976,
    "pause_after": 0.6,
    "provider": "edge-tts"
   },
   {
    "id": "b202",
-   "file": "/home/z/my-project/ahyeon-doc/project/voice/beat_b202.mp3",
-   "srt": "/home/z/my-project/ahyeon-doc/project/voice/beat_b202.srt",
+   "file": "project/voice/beat_b202.mp3",
+   "srt": "project/voice/beat_b202.srt",
    "duration_s": 22.128,
    "pause_after": 0.6,
    "provider": "edge-tts"
   },
   {
    "id": "b203",
-   "file": "/home/z/my-project/ahyeon-doc/project/voice/beat_b203.mp3",
-   "srt": "/home/z/my-project/ahyeon-doc/project/voice/beat_b203.srt",
+   "file": "project/voice/beat_b203.mp3",
+   "srt": "project/voice/beat_b203.srt",
    "duration_s": 23.136,
    "pause_after": 0.6,
    "provider": "edge-tts"
   },
   {
    "id": "b204",
-   "file": "/home/z/my-project/ahyeon-doc/project/voice/beat_b204.mp3",
-   "srt": "/home/z/my-project/ahyeon-doc/project/voice/beat_b204.srt",
+   "file": "project/voice/beat_b204.mp3",
+   "srt": "project/voice/beat_b204.srt",
    "duration_s": 27.96,
    "pause_after": 0.6,
    "provider": "edge-tts"
   },
   {
    "id": "b205",
-   "file": "/home/z/my-project/ahyeon-doc/project/voice/beat_b205.mp3",
-   "srt": "/home/z/my-project/ahyeon-doc/project/voice/beat_b205.srt",
+   "file": "project/voice/beat_b205.mp3",
+   "srt": "project/voice/beat_b205.srt",
    "duration_s": 23.232,
    "pause_after": 0.6,
    "provider": "edge-tts"
   },
   {
    "id": "b207",
-   "file": "/home/z/my-project/ahyeon-doc/project/voice/beat_b207.mp3",
-   "srt": "/home/z/my-project/ahyeon-doc/project/voice/beat_b207.srt",
+   "file": "project/voice/beat_b207.mp3",
+   "srt": "project/voice/beat_b207.srt",
    "duration_s": 29.088,
    "pause_after": 0.6,
    "provider": "edge-tts"
   },
   {
    "id": "b208",
-   "file": "/home/z/my-project/ahyeon-doc/project/voice/beat_b208.mp3",
-   "srt": "/home/z/my-project/ahyeon-doc/project/voice/beat_b208.srt",
+   "file": "project/voice/beat_b208.mp3",
+   "srt": "project/voice/beat_b208.srt",
    "duration_s": 24.168,
    "pause_after": 0.8,
    "provider": "edge-tts"
   },
   {
    "id": "b206",
-   "file": "/home/z/my-project/ahyeon-doc/project/voice/beat_b206.mp3",
-   "srt": "/home/z/my-project/ahyeon-doc/project/voice/beat_b206.srt",
+   "file": "project/voice/beat_b206.mp3",
+   "srt": "project/voice/beat_b206.srt",
    "duration_s": 25.752,
    "pause_after": 0.9,
    "provider": "edge-tts"
   },
   {
    "id": "b301",
-   "file": "/home/z/my-project/ahyeon-doc/project/voice/beat_b301.mp3",
-   "srt": "/home/z/my-project/ahyeon-doc/project/voice/beat_b301.srt",
+   "file": "project/voice/beat_b301.mp3",
+   "srt": "project/voice/beat_b301.srt",
    "duration_s": 21.192,
    "pause_after": 0.6,
    "provider": "edge-tts"
   },
   {
    "id": "b302",
-   "file": "/home/z/my-project/ahyeon-doc/project/voice/beat_b302.mp3",
-   "srt": "/home/z/my-project/ahyeon-doc/project/voice/beat_b302.srt",
+   "file": "project/voice/beat_b302.mp3",
+   "srt": "project/voice/beat_b302.srt",
    "duration_s": 14.808,
    "pause_after": 0.6,
    "provider": "edge-tts"
   },
   {
    "id": "b303",
-   "file": "/home/z/my-project/ahyeon-doc/project/voice/beat_b303.mp3",
-   "srt": "/home/z/my-project/ahyeon-doc/project/voice/beat_b303.srt",
+   "file": "project/voice/beat_b303.mp3",
+   "srt": "project/voice/beat_b303.srt",
    "duration_s": 23.976,
    "pause_after": 0.7,
    "provider": "edge-tts"
   },
   {
    "id": "b304x",
-   "file": "/home/z/my-project/ahyeon-doc/project/voice/beat_b304x.mp3",
-   "srt": "/home/z/my-project/ahyeon-doc/project/voice/beat_b304x.srt",
+   "file": "project/voice/beat_b304x.mp3",
+   "srt": "project/voice/beat_b304x.srt",
    "duration_s": 25.416,
    "pause_after": 0.6,
    "provider": "edge-tts"
   },
   {
    "id": "b304y",
-   "file": "/home/z/my-project/ahyeon-doc/project/voice/beat_b304y.mp3",
-   "srt": "/home/z/my-project/ahyeon-doc/project/voice/beat_b304y.srt",
+   "file": "project/voice/beat_b304y.mp3",
+   "srt": "project/voice/beat_b304y.srt",
    "duration_s": 32.04,
    "pause_after": 0.7,
    "provider": "edge-tts"
   },
   {
    "id": "b304",
-   "file": "/home/z/my-project/ahyeon-doc/project/voice/beat_b304.mp3",
-   "srt": "/home/z/my-project/ahyeon-doc/project/voice/beat_b304.srt",
+   "file": "project/voice/beat_b304.mp3",
+   "srt": "project/voice/beat_b304.srt",
    "duration_s": 22.8,
    "pause_after": 0.7,
    "provider": "edge-tts"
   },
   {
    "id": "b305",
-   "file": "/home/z/my-project/ahyeon-doc/project/voice/beat_b305.mp3",
-   "srt": "/home/z/my-project/ahyeon-doc/project/voice/beat_b305.srt",
+   "file": "project/voice/beat_b305.mp3",
+   "srt": "project/voice/beat_b305.srt",
    "duration_s": 17.472,
    "pause_after": 0.9,
    "provider": "edge-tts"
   },
   {
    "id": "b401",
-   "file": "/home/z/my-project/ahyeon-doc/project/voice/beat_b401.mp3",
-   "srt": "/home/z/my-project/ahyeon-doc/project/voice/beat_b401.srt",
+   "file": "project/voice/beat_b401.mp3",
+   "srt": "project/voice/beat_b401.srt",
    "duration_s": 23.52,
    "pause_after": 0.6,
    "provider": "edge-tts"
   },
   {
    "id": "b402",
-   "file": "/home/z/my-project/ahyeon-doc/project/voice/beat_b402.mp3",
-   "srt": "/home/z/my-project/ahyeon-doc/project/voice/beat_b402.srt",
+   "file": "project/voice/beat_b402.mp3",
+   "srt": "project/voice/beat_b402.srt",
    "duration_s": 27.576,
    "pause_after": 0.7,
    "provider": "edge-tts"
   },
   {
    "id": "b403x",
-   "file": "/home/z/my-project/ahyeon-doc/project/voice/beat_b403x.mp3",
-   "srt": "/home/z/my-project/ahyeon-doc/project/voice/beat_b403x.srt",
+   "file": "project/voice/beat_b403x.mp3",
+   "srt": "project/voice/beat_b403x.srt",
    "duration_s": 33.288,
    "pause_after": 0.7,
    "provider": "edge-tts"
   },
   {
    "id": "b404a",
-   "file": "/home/z/my-project/ahyeon-doc/project/voice/beat_b404a.mp3",
-   "srt": "/home/z/my-project/ahyeon-doc/project/voice/beat_b404a.srt",
+   "file": "project/voice/beat_b404a.mp3",
+   "srt": "project/voice/beat_b404a.srt",
    "duration_s": 30.456,
    "pause_after": 0.7,
    "provider": "edge-tts"
   },
   {
    "id": "b403",
-   "file": "/home/z/my-project/ahyeon-doc/project/voice/beat_b403.mp3",
-   "srt": "/home/z/my-project/ahyeon-doc/project/voice/beat_b403.srt",
+   "file": "project/voice/beat_b403.mp3",
+   "srt": "project/voice/beat_b403.srt",
    "duration_s": 25.104,
    "pause_after": 0.7,
    "provider": "edge-tts"
   },
   {
    "id": "b404",
-   "file": "/home/z/my-project/ahyeon-doc/project/voice/beat_b404.mp3",
-   "srt": "/home/z/my-project/ahyeon-doc/project/voice/beat_b404.srt",
+   "file": "project/voice/beat_b404.mp3",
+   "srt": "project/voice/beat_b404.srt",
    "duration_s": 21.528,
    "pause_after": 0.7,
    "provider": "edge-tts"
   },
   {
    "id": "b404b",
-   "file": "/home/z/my-project/ahyeon-doc/project/voice/beat_b404b.mp3",
-   "srt": "/home/z/my-project/ahyeon-doc/project/voice/beat_b404b.srt",
+   "file": "project/voice/beat_b404b.mp3",
+   "srt": "project/voice/beat_b404b.srt",
    "duration_s": 25.128,
    "pause_after": 0.7,
    "provider": "edge-tts"
   },
   {
    "id": "b405",
-   "file": "/home/z/my-project/ahyeon-doc/project/voice/beat_b405.mp3",
-   "srt": "/home/z/my-project/ahyeon-doc/project/voice/beat_b405.srt",
+   "file": "project/voice/beat_b405.mp3",
+   "srt": "project/voice/beat_b405.srt",
    "duration_s": 19.296,
    "pause_after": 0.8,
    "provider": "edge-tts"
   },
   {
    "id": "b501",
-   "file": "/home/z/my-project/ahyeon-doc/project/voice/beat_b501.mp3",
-   "srt": "/home/z/my-project/ahyeon-doc/project/voice/beat_b501.srt",
+   "file": "project/voice/beat_b501.mp3",
+   "srt": "project/voice/beat_b501.srt",
    "duration_s": 24.816,
    "pause_after": 0.6,
    "provider": "edge-tts"
   },
   {
    "id": "b502",
-   "file": "/home/z/my-project/ahyeon-doc/project/voice/beat_b502.mp3",
-   "srt": "/home/z/my-project/ahyeon-doc/project/voice/beat_b502.srt",
+   "file": "project/voice/beat_b502.mp3",
+   "srt": "project/voice/beat_b502.srt",
    "duration_s": 23.496,
    "pause_after": 0.6,
    "provider": "edge-tts"
   },
   {
    "id": "b503a",
-   "file": "/home/z/my-project/ahyeon-doc/project/voice/beat_b503a.mp3",
-   "srt": "/home/z/my-project/ahyeon-doc/project/voice/beat_b503a.srt",
+   "file": "project/voice/beat_b503a.mp3",
+   "srt": "project/voice/beat_b503a.srt",
    "duration_s": 24.0,
    "pause_after": 0.6,
    "provider": "edge-tts"
   },
   {
    "id": "b503b",
-   "file": "/home/z/my-project/ahyeon-doc/project/voice/beat_b503b.mp3",
-   "srt": "/home/z/my-project/ahyeon-doc/project/voice/beat_b503b.srt",
+   "file": "project/voice/beat_b503b.mp3",
+   "srt": "project/voice/beat_b503b.srt",
    "duration_s": 23.76,
    "pause_after": 0.7,
    "provider": "edge-tts"
   },
   {
    "id": "b503",
-   "file": "/home/z/my-project/ahyeon-doc/project/voice/beat_b503.mp3",
-   "srt": "/home/z/my-project/ahyeon-doc/project/voice/beat_b503.srt",
+   "file": "project/voice/beat_b503.mp3",
+   "srt": "project/voice/beat_b503.srt",
    "duration_s": 22.464,
    "pause_after": 0.7,
    "provider": "edge-tts"
   },
   {
    "id": "b504",
-   "file": "/home/z/my-project/ahyeon-doc/project/voice/beat_b504.mp3",
-   "srt": "/home/z/my-project/ahyeon-doc/project/voice/beat_b504.srt",
+   "file": "project/voice/beat_b504.mp3",
+   "srt": "project/voice/beat_b504.srt",
    "duration_s": 21.144,
    "pause_after": 0.8,
    "provider": "edge-tts"
   },
   {
    "id": "b504a",
-   "file": "/home/z/my-project/ahyeon-doc/project/voice/beat_b504a.mp3",
-   "srt": "/home/z/my-project/ahyeon-doc/project/voice/beat_b504a.srt",
+   "file": "project/voice/beat_b504a.mp3",
+   "srt": "project/voice/beat_b504a.srt",
    "duration_s": 31.464,
    "pause_after": 0.8,
    "provider": "edge-tts"
   },
   {
    "id": "b505",
-   "file": "/home/z/my-project/ahyeon-doc/project/voice/beat_b505.mp3",
-   "srt": "/home/z/my-project/ahyeon-doc/project/voice/beat_b505.srt",
+   "file": "project/voice/beat_b505.mp3",
+   "srt": "project/voice/beat_b505.srt",
    "duration_s": 26.304,
    "pause_after": 0.7,
    "provider": "edge-tts"
   },
   {
    "id": "b601",
-   "file": "/home/z/my-project/ahyeon-doc/project/voice/beat_b601.mp3",
-   "srt": "/home/z/my-project/ahyeon-doc/project/voice/beat_b601.srt",
+   "file": "project/voice/beat_b601.mp3",
+   "srt": "project/voice/beat_b601.srt",
    "duration_s": 30.552,
    "pause_after": 0.7,
    "provider": "edge-tts"
   },
   {
    "id": "b601a",
-   "file": "/home/z/my-project/ahyeon-doc/project/voice/beat_b601a.mp3",
-   "srt": "/home/z/my-project/ahyeon-doc/project/voice/beat_b601a.srt",
+   "file": "project/voice/beat_b601a.mp3",
+   "srt": "project/voice/beat_b601a.srt",
    "duration_s": 29.04,
    "pause_after": 0.7,
    "provider": "edge-tts"
   },
   {
    "id": "b602",
-   "file": "/home/z/my-project/ahyeon-doc/project/voice/beat_b602.mp3",
-   "srt": "/home/z/my-project/ahyeon-doc/project/voice/beat_b602.srt",
+   "file": "project/voice/beat_b602.mp3",
+   "srt": "project/voice/beat_b602.srt",
    "duration_s": 23.808,
    "pause_after": 0.7,
    "provider": "edge-tts"
   },
   {
    "id": "b603",
-   "file": "/home/z/my-project/ahyeon-doc/project/voice/beat_b603.mp3",
-   "srt": "/home/z/my-project/ahyeon-doc/project/voice/beat_b603.srt",
+   "file": "project/voice/beat_b603.mp3",
+   "srt": "project/voice/beat_b603.srt",
    "duration_s": 23.064,
    "pause_after": 0.6,
    "provider": "edge-tts"
   },
   {
    "id": "b603a",
-   "file": "/home/z/my-project/ahyeon-doc/project/voice/beat_b603a.mp3",
-   "srt": "/home/z/my-project/ahyeon-doc/project/voice/beat_b603a.srt",
+   "file": "project/voice/beat_b603a.mp3",
+   "srt": "project/voice/beat_b603a.srt",
    "duration_s": 31.416,
    "pause_after": 0.7,
    "provider": "edge-tts"
   },
   {
    "id": "b604",
-   "file": "/home/z/my-project/ahyeon-doc/project/voice/beat_b604.mp3",
-   "srt": "/home/z/my-project/ahyeon-doc/project/voice/beat_b604.srt",
+   "file": "project/voice/beat_b604.mp3",
+   "srt": "project/voice/beat_b604.srt",
    "duration_s": 27.504,
    "pause_after": 0.7,
    "provider": "edge-tts"
   },
   {
    "id": "b605",
-   "file": "/home/z/my-project/ahyeon-doc/project/voice/beat_b605.mp3",
-   "srt": "/home/z/my-project/ahyeon-doc/project/voice/beat_b605.srt",
+   "file": "project/voice/beat_b605.mp3",
+   "srt": "project/voice/beat_b605.srt",
    "duration_s": 20.424,
    "pause_after": 0.8,
    "provider": "edge-tts"
   },
   {
    "id": "b701",
-   "file": "/home/z/my-project/ahyeon-doc/project/voice/beat_b701.mp3",
-   "srt": "/home/z/my-project/ahyeon-doc/project/voice/beat_b701.srt",
+   "file": "project/voice/beat_b701.mp3",
+   "srt": "project/voice/beat_b701.srt",
    "duration_s": 24.048,
    "pause_after": 0.6,
    "provider": "edge-tts"
   },
   {
    "id": "b702",
-   "file": "/home/z/my-project/ahyeon-doc/project/voice/beat_b702.mp3",
-   "srt": "/home/z/my-project/ahyeon-doc/project/voice/beat_b702.srt",
+   "file": "project/voice/beat_b702.mp3",
+   "srt": "project/voice/beat_b702.srt",
    "duration_s": 21.72,
    "pause_after": 0.6,
    "provider": "edge-tts"
   },
   {
    "id": "b702a",
-   "file": "/home/z/my-project/ahyeon-doc/project/voice/beat_b702a.mp3",
-   "srt": "/home/z/my-project/ahyeon-doc/project/voice/beat_b702a.srt",
+   "file": "project/voice/beat_b702a.mp3",
+   "srt": "project/voice/beat_b702a.srt",
    "duration_s": 27.432,
    "pause_after": 0.7,
    "provider": "edge-tts"
   },
   {
    "id": "b703",
-   "file": "/home/z/my-project/ahyeon-doc/project/voice/beat_b703.mp3",
-   "srt": "/home/z/my-project/ahyeon-doc/project/voice/beat_b703.srt",
+   "file": "project/voice/beat_b703.mp3",
+   "srt": "project/voice/beat_b703.srt",
    "duration_s": 27.624,
    "pause_after": 0.7,
    "provider": "edge-tts"
   },
   {
    "id": "b703a",
-   "file": "/home/z/my-project/ahyeon-doc/project/voice/beat_b703a.mp3",
-   "srt": "/home/z/my-project/ahyeon-doc/project/voice/beat_b703a.srt",
+   "file": "project/voice/beat_b703a.mp3",
+   "srt": "project/voice/beat_b703a.srt",
    "duration_s": 27.768,
    "pause_after": 0.7,
    "provider": "edge-tts"
   },
   {
    "id": "b704",
-   "file": "/home/z/my-project/ahyeon-doc/project/voice/beat_b704.mp3",
-   "srt": "/home/z/my-project/ahyeon-doc/project/voice/beat_b704.srt",
+   "file": "project/voice/beat_b704.mp3",
+   "srt": "project/voice/beat_b704.srt",
    "duration_s": 23.76,
    "pause_after": 0.6,
    "provider": "edge-tts"
   },
   {
    "id": "b704a",
-   "file": "/home/z/my-project/ahyeon-doc/project/voice/beat_b704a.mp3",
-   "srt": "/home/z/my-project/ahyeon-doc/project/voice/beat_b704a.srt",
+   "file": "project/voice/beat_b704a.mp3",
+   "srt": "project/voice/beat_b704a.srt",
    "duration_s": 32.472,
    "pause_after": 0.8,
    "provider": "edge-tts"
   },
   {
    "id": "b705",
-   "file": "/home/z/my-project/ahyeon-doc/project/voice/beat_b705.mp3",
-   "srt": "/home/z/my-project/ahyeon-doc/project/voice/beat_b705.srt",
+   "file": "project/voice/beat_b705.mp3",
+   "srt": "project/voice/beat_b705.srt",
    "duration_s": 25.776,
    "pause_after": 0.7,
    "provider": "edge-tts"
   },
   {
    "id": "b705a",
-   "file": "/home/z/my-project/ahyeon-doc/project/voice/beat_b705a.mp3",
-   "srt": "/home/z/my-project/ahyeon-doc/project/voice/beat_b705a.srt",
+   "file": "project/voice/beat_b705a.mp3",
+   "srt": "project/voice/beat_b705a.srt",
    "duration_s": 34.68,
    "pause_after": 0.7,
    "provider": "edge-tts"
   },
   {
    "id": "b706",
-   "file": "/home/z/my-project/ahyeon-doc/project/voice/beat_b706.mp3",
-   "srt": "/home/z/my-project/ahyeon-doc/project/voice/beat_b706.srt",
+   "file": "project/voice/beat_b706.mp3",
+   "srt": "project/voice/beat_b706.srt",
    "duration_s": 18.624,
    "pause_after": 0.9,
    "provider": "edge-tts"
   },
   {
    "id": "b706a",
-   "file": "/home/z/my-project/ahyeon-doc/project/voice/beat_b706a.mp3",
-   "srt": "/home/z/my-project/ahyeon-doc/project/voice/beat_b706a.srt",
+   "file": "project/voice/beat_b706a.mp3",
+   "srt": "project/voice/beat_b706a.srt",
    "duration_s": 25.8,
    "pause_after": 0.8,
    "provider": "edge-tts"
   },
   {
    "id": "b801",
-   "file": "/home/z/my-project/ahyeon-doc/project/voice/beat_b801.mp3",
-   "srt": "/home/z/my-project/ahyeon-doc/project/voice/beat_b801.srt",
+   "file": "project/voice/beat_b801.mp3",
+   "srt": "project/voice/beat_b801.srt",
    "duration_s": 26.496,
    "pause_after": 0.7,
    "provider": "edge-tts"
   },
   {
    "id": "b802",
-   "file": "/home/z/my-project/ahyeon-doc/project/voice/beat_b802.mp3",
-   "srt": "/home/z/my-project/ahyeon-doc/project/voice/beat_b802.srt",
+   "file": "project/voice/beat_b802.mp3",
+   "srt": "project/voice/beat_b802.srt",
    "duration_s": 22.2,
    "pause_after": 0.7,
    "provider": "edge-tts"
   },
   {
    "id": "b802a",
-   "file": "/home/z/my-project/ahyeon-doc/project/voice/beat_b802a.mp3",
-   "srt": "/home/z/my-project/ahyeon-doc/project/voice/beat_b802a.srt",
+   "file": "project/voice/beat_b802a.mp3",
+   "srt": "project/voice/beat_b802a.srt",
    "duration_s": 34.248,
    "pause_after": 0.8,
    "provider": "edge-tts"
   },
   {
    "id": "b803",
-   "file": "/home/z/my-project/ahyeon-doc/project/voice/beat_b803.mp3",
-   "srt": "/home/z/my-project/ahyeon-doc/project/voice/beat_b803.srt",
+   "file": "project/voice/beat_b803.mp3",
+   "srt": "project/voice/beat_b803.srt",
    "duration_s": 19.92,
    "pause_after": 0.5,
    "provider": "edge-tts"
   },
   {
    "id": "b803a",
-   "file": "/home/z/my-project/ahyeon-doc/project/voice/beat_b803a.mp3",
-   "srt": "/home/z/my-project/ahyeon-doc/project/voice/beat_b803a.srt",
+   "file": "project/voice/beat_b803a.mp3",
+   "srt": "project/voice/beat_b803a.srt",
    "duration_s": 24.696,
    "pause_after": 0.9,
    "provider": "edge-tts"
   },
   {
    "id": "b804",
-   "file": "/home/z/my-project/ahyeon-doc/project/voice/beat_b804.mp3",
-   "srt": "/home/z/my-project/ahyeon-doc/project/voice/beat_b804.srt",
+   "file": "project/voice/beat_b804.mp3",
+   "srt": "project/voice/beat_b804.srt",
    "duration_s": 8.616,
    "pause_after": 0.1,
    "provider": "edge-tts"
