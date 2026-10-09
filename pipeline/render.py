@@ -103,7 +103,7 @@ for idx, c in enumerate(tl["clips"]):
     ms = int(c["start"] * 1000)
     fc.append(f"[{idx + 2}:a]aresample=48000,adelay={ms}|{ms}[v{idx}]")
     vins.append(f"[v{idx}]")
-fc.append("".join(vins) + f"amix=inputs={len(vins)}:normalize=0,volume=1.0[voice]")
+fc.append("".join(vins) + f"amix=inputs={len(vins)}:normalize=0,volume=1.0,aresample=48000,apad=whole_dur={TOTAL}[voice]")
 fc.append("[1:a]aloop=loop=-1:size=2e9,atrim=0:" + str(TOTAL) + ",aresample=48000,volume=0.32,afade=t=in:st=0:d=2.5,afade=t=out:st=" + str(TOTAL - 4) + ":d=4[bed]")
 fc.append("[voice]asplit=2[sc][vmix]")
 fc.append("[bed][sc]sidechaincompress=threshold=0.015:ratio=7:attack=120:release=700[bedd]")
@@ -112,7 +112,7 @@ fc.append("[vmix][bedd]amix=inputs=2:normalize=0,loudnorm=I=-14:TP=-1.5:LRA=11[a
 cmd = (["ffmpeg", "-y", "-loglevel", "error", "-threads", "0"] + inputs +
        ["-filter_complex", ";".join(fc),
         "-map", "0:v", "-map", "[aout]",
-        "-vf", "ass=project/captions.ass",
+        "-vf", f"ass=project/captions.ass,tpad=stop_mode=clone:stop_duration=45",
         "-c:v", "libx264", "-preset", "veryfast", "-crf", "21",
         "-c:a", "aac", "-b:a", "192k",
         "-movflags", "+faststart", "-t", str(TOTAL),
