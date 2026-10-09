@@ -1,0 +1,40 @@
+{
+ "checks": [
+  {
+   "name": "duration_29min",
+   "pass": true,
+   "detail": "1740.0s vs 1740.0s (\u00b145s)"
+  },
+  {
+   "name": "resolution_1080p",
+   "pass": true,
+   "detail": "1920x1080"
+  },
+  {
+   "name": "fps_30",
+   "pass": true,
+   "detail": "30/1"
+  },
+  {
+   "name": "video_h264",
+   "pass": true,
+   "detail": "h264"
+  },
+  {
+   "name": "audio_aac",
+   "pass": true,
+   "detail": "aac"
+  },
+  {
+   "name": "size_sane",
+   "pass": true,
+   "detail": "208 MB @ 0.96 Mbps"
+  },
+  {
+   "name": "loudness~-14LUFS(sampled)",
+   "pass": true,
+   "detail": "sampled avg -14.7 dBFS-LUFS-ish [np.float32(-14.7), np.float32(-14.5), np.float32(-14.7), np.float32(-14.8)]"
+  }
+ ],
+ "overall": "PASS"
+}
