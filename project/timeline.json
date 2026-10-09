@@ -13,7 +13,8 @@
    "beat_id": "b001",
    "seg": "seg0",
    "start": 8.0,
-   "dur_s": 18.912,
+   "dur_s": 20.078,
+   "voice_s": 18.912,
    "voice": "project/voice/beat_b001.mp3",
    "visuals": [
     {
@@ -25,13 +26,13 @@
      "credit": "flickr",
      "origin_url": "https://www.flickr.com/photos/24879135@N04/49175035266",
      "title": "Seoul city skyline at night from Namsan Mountain",
-     "dur_s": 9.456,
+     "dur_s": 10.039,
      "kb": "in"
     },
     {
      "kind": "card",
      "path": "project/cards/b001_1.png",
-     "dur_s": 9.456,
+     "dur_s": 10.039,
      "kb": "out"
     }
    ],
@@ -44,13 +45,14 @@
    "beat_id": "b002",
    "seg": "seg0",
    "start": 28.078,
-   "dur_s": 14.208,
+   "dur_s": 15.374,
+   "voice_s": 14.208,
    "voice": "project/voice/beat_b002.mp3",
    "visuals": [
     {
      "kind": "card",
      "path": "project/cards/b002_0.png",
-     "dur_s": 7.104,
+     "dur_s": 7.687,
      "kb": "left"
     },
     {
@@ -62,7 +64,7 @@
      "credit": "flickr",
      "origin_url": "https://www.flickr.com/photos/28502132@N05/8147134510",
      "title": "The Unblinking Eye",
-     "dur_s": 7.104,
+     "dur_s": 7.687,
      "kb": "right"
     }
    ],
@@ -72,13 +74,14 @@
    "beat_id": "b003",
    "seg": "seg0",
    "start": 43.452,
-   "dur_s": 18.912,
+   "dur_s": 20.467,
+   "voice_s": 18.912,
    "voice": "project/voice/beat_b003.mp3",
    "visuals": [
     {
      "kind": "card",
      "path": "project/cards/b003_0.png",
-     "dur_s": 9.456,
+     "dur_s": 10.233,
      "kb": "in"
     },
     {
@@ -90,7 +93,7 @@
      "credit": "flickr",
      "origin_url": "https://www.flickr.com/photos/24879135@N04/49175035266",
      "title": "Seoul city skyline at night from Namsan Mountain",
-     "dur_s": 9.456,
+     "dur_s": 10.233,
      "kb": "out"
     }
    ],
@@ -103,13 +106,14 @@
    "beat_id": "b004",
    "seg": "seg0",
    "start": 63.919,
-   "dur_s": 16.176,
+   "dur_s": 18.508,
+   "voice_s": 16.176,
    "voice": "project/voice/beat_b004.mp3",
    "visuals": [
     {
      "kind": "card",
      "path": "project/cards/b004_0.png",
-     "dur_s": 8.088,
+     "dur_s": 9.254,
      "kb": "left"
     },
     {
@@ -121,7 +125,7 @@
      "credit": "flickr",
      "origin_url": "https://www.flickr.com/photos/24879135@N04/49174548523",
      "title": "Seoul city skyline at night from Namsan Mountain",
-     "dur_s": 8.088,
+     "dur_s": 9.254,
      "kb": "right"
     }
    ],
@@ -131,7 +135,8 @@
    "beat_id": "b101",
    "seg": "seg1",
    "start": 82.427,
-   "dur_s": 19.968,
+   "dur_s": 20.94,
+   "voice_s": 19.968,
    "voice": "project/voice/beat_b101.mp3",
    "visuals": [
     {
@@ -143,7 +148,7 @@
      "credit": "flickr",
      "origin_url": "https://www.flickr.com/photos/24879135@N04/49174548523",
      "title": "Seoul city skyline at night from Namsan Mountain",
-     "dur_s": 6.656,
+     "dur_s": 6.98,
      "kb": "in"
     },
     {
@@ -155,13 +160,13 @@
      "credit": "flickr",
      "origin_url": "https://www.flickr.com/photos/28502132@N05/8147134510",
      "title": "The Unblinking Eye",
-     "dur_s": 6.656,
+     "dur_s": 6.98,
      "kb": "out"
     },
     {
      "kind": "card",
      "path": "project/cards/b101_2.png",
-     "dur_s": 6.656,
+     "dur_s": 6.98,
      "kb": "left"
     }
    ],
@@ -174,7 +179,8 @@
    "beat_id": "b102",
    "seg": "seg1",
    "start": 103.367,
-   "dur_s": 22.68,
+   "dur_s": 23.652,
+   "voice_s": 22.68,
    "voice": "project/voice/beat_b102.mp3",
    "visuals": [
     {
@@ -186,7 +192,7 @@
      "credit": "flickr",
      "origin_url": "https://www.flickr.com/photos/31687107@N07/4887641208",
      "title": "PG21-HANBOKSSummer School brings Korean, American kids together",
-     "dur_s": 11.34,
+     "dur_s": 11.826,
      "kb": "right"
     },
     {
@@ -198,7 +204,7 @@
      "credit": "flickr",
      "origin_url": "https://www.flickr.com/photos/31687107@N07/4887641208",
      "title": "PG21-HANBOKSSummer School brings Korean, American kids together",
-     "dur_s": 11.34,
+     "dur_s": 11.826,
      "kb": "in"
     }
    ],
@@ -210,7 +216,8 @@
    "beat_id": "b103",
    "seg": "seg1",
    "start": 127.019,
-   "dur_s": 22.872,
+   "dur_s": 24.038,
+   "voice_s": 22.872,
    "voice": "project/voice/beat_b103.mp3",
    "visuals": [
     {
@@ -222,13 +229,13 @@
      "credit": "flickr",
      "origin_url": "https://www.flickr.com/photos/31687107@N07/4887650414",
      "title": "felipa camp 213Summer School brings Korean, American kids together",
-     "dur_s": 11.436,
+     "dur_s": 12.019,
      "kb": "out"
     },
     {
      "kind": "card",
      "path": "project/cards/b103_1.png",
-     "dur_s": 11.436,
+     "dur_s": 12.019,
      "kb": "left"
     }
    ],
@@ -241,7 +248,8 @@
    "beat_id": "b104",
    "seg": "seg1",
    "start": 151.057,
-   "dur_s": 20.736,
+   "dur_s": 21.902,
+   "voice_s": 20.736,
    "voice": "project/voice/beat_b104.mp3",
    "visuals": [
     {
@@ -253,7 +261,7 @@
      "credit": "flickr",
      "origin_url": "https://www.flickr.com/photos/31687107@N07/4887650414",
      "title": "felipa camp 213Summer School brings Korean, American kids together",
-     "dur_s": 10.368,
+     "dur_s": 10.951,
      "kb": "right"
     },
     {
@@ -265,7 +273,7 @@
      "credit": "flickr",
      "origin_url": "https://www.flickr.com/photos/31687107@N07/4887651586",
      "title": "felipa camp 254Summer School brings Korean, American kids together",
-     "dur_s": 10.368,
+     "dur_s": 10.951,
      "kb": "in"
     }
    ],
@@ -275,13 +283,14 @@
    "beat_id": "b105",
    "seg": "seg1",
    "start": 172.959,
-   "dur_s": 23.736,
+   "dur_s": 24.902,
+   "voice_s": 23.736,
    "voice": "project/voice/beat_b105.mp3",
    "visuals": [
     {
      "kind": "card",
      "path": "project/cards/b105_0.png",
-     "dur_s": 7.912,
+     "dur_s": 8.301,
      "kb": "out"
     },
     {
@@ -293,7 +302,7 @@
      "credit": "flickr",
      "origin_url": "https://www.flickr.com/photos/31687107@N07/4887651586",
      "title": "felipa camp 254Summer School brings Korean, American kids together",
-     "dur_s": 7.912,
+     "dur_s": 8.301,
      "kb": "left"
     },
     {
@@ -305,7 +314,7 @@
      "credit": "flickr",
      "origin_url": "https://www.flickr.com/photos/50169152@N06/11519193454",
      "title": "Sun over the Juniper Dunes Wilderness",
-     "dur_s": 7.912,
+     "dur_s": 8.301,
      "kb": "right"
     }
    ],
@@ -317,7 +326,8 @@
    "beat_id": "b106",
    "seg": "seg1",
    "start": 197.861,
-   "dur_s": 20.112,
+   "dur_s": 21.667,
+   "voice_s": 20.112,
    "voice": "project/voice/beat_b106.mp3",
    "visuals": [
     {
@@ -329,7 +339,7 @@
      "credit": "flickr",
      "origin_url": "https://www.flickr.com/photos/50169152@N06/11519193454",
      "title": "Sun over the Juniper Dunes Wilderness",
-     "dur_s": 10.056,
+     "dur_s": 10.833,
      "kb": "in"
     },
     {
@@ -341,7 +351,7 @@
      "credit": "flickr",
      "origin_url": "https://www.flickr.com/photos/50169152@N06/11519299283",
      "title": "Sun over the Juniper Dunes Wilderness",
-     "dur_s": 10.056,
+     "dur_s": 10.833,
      "kb": "out"
     }
    ],
@@ -351,7 +361,8 @@
    "beat_id": "b107",
    "seg": "seg1",
    "start": 219.528,
-   "dur_s": 23.664,
+   "dur_s": 24.83,
+   "voice_s": 23.664,
    "voice": "project/voice/beat_b107.mp3",
    "visuals": [
     {
@@ -363,7 +374,7 @@
      "credit": "flickr",
      "origin_url": "https://www.flickr.com/photos/50169152@N06/11519299283",
      "title": "Sun over the Juniper Dunes Wilderness",
-     "dur_s": 11.832,
+     "dur_s": 12.415,
      "kb": "left"
     },
     {
@@ -375,7 +386,7 @@
      "credit": "flickr",
      "origin_url": "https://www.flickr.com/photos/50169152@N06/11519034604",
      "title": "Sun Trees",
-     "dur_s": 11.832,
+     "dur_s": 12.415,
      "kb": "right"
     }
    ],
@@ -387,13 +398,14 @@
    "beat_id": "b108",
    "seg": "seg1",
    "start": 244.358,
-   "dur_s": 26.832,
+   "dur_s": 28.387,
+   "voice_s": 26.832,
    "voice": "project/voice/beat_b108.mp3",
    "visuals": [
     {
      "kind": "card",
      "path": "project/cards/b108_0.png",
-     "dur_s": 13.416,
+     "dur_s": 14.193,
      "kb": "in"
     },
     {
@@ -405,7 +417,7 @@
      "credit": "flickr",
      "origin_url": "https://www.flickr.com/photos/50169152@N06/11519034604",
      "title": "Sun Trees",
-     "dur_s": 13.416,
+     "dur_s": 14.193,
      "kb": "out"
     }
    ],
@@ -417,13 +429,14 @@
    "beat_id": "b201",
    "seg": "seg2",
    "start": 272.745,
-   "dur_s": 23.976,
+   "dur_s": 25.142,
+   "voice_s": 23.976,
    "voice": "project/voice/beat_b201.mp3",
    "visuals": [
     {
      "kind": "card",
      "path": "project/cards/b201_0.png",
-     "dur_s": 11.988,
+     "dur_s": 12.571,
      "kb": "left"
     },
     {
@@ -435,7 +448,7 @@
      "credit": "flickr",
      "origin_url": "https://www.flickr.com/photos/155403590@N07/46099045164",
      "title": "Mixing Console Details",
-     "dur_s": 11.988,
+     "dur_s": 12.571,
      "kb": "right"
     }
    ],
@@ -448,13 +461,14 @@
    "beat_id": "b202",
    "seg": "seg2",
    "start": 297.888,
-   "dur_s": 22.128,
+   "dur_s": 23.294,
+   "voice_s": 22.128,
    "voice": "project/voice/beat_b202.mp3",
    "visuals": [
     {
      "kind": "card",
      "path": "project/cards/b202_0.png",
-     "dur_s": 11.064,
+     "dur_s": 11.647,
      "kb": "in"
     },
     {
@@ -466,7 +480,7 @@
      "credit": "flickr",
      "origin_url": "https://www.flickr.com/photos/155403590@N07/46099045164",
      "title": "Mixing Console Details",
-     "dur_s": 11.064,
+     "dur_s": 11.647,
      "kb": "out"
     }
    ],
@@ -479,13 +493,14 @@
    "beat_id": "b203",
    "seg": "seg2",
    "start": 321.182,
-   "dur_s": 23.136,
+   "dur_s": 24.302,
+   "voice_s": 23.136,
    "voice": "project/voice/beat_b203.mp3",
    "visuals": [
     {
      "kind": "card",
      "path": "project/cards/b203_0.png",
-     "dur_s": 11.568,
+     "dur_s": 12.151,
      "kb": "left"
     },
     {
@@ -497,7 +512,7 @@
      "credit": "flickr",
      "origin_url": "https://www.flickr.com/photos/155403590@N07/45909180055",
      "title": "Mixing Console Buttons",
-     "dur_s": 11.568,
+     "dur_s": 12.151,
      "kb": "right"
     }
    ],
@@ -509,13 +524,14 @@
    "beat_id": "b204",
    "seg": "seg2",
    "start": 345.484,
-   "dur_s": 27.96,
+   "dur_s": 29.126,
+   "voice_s": 27.96,
    "voice": "project/voice/beat_b204.mp3",
    "visuals": [
     {
      "kind": "card",
      "path": "project/cards/b204_0.png",
-     "dur_s": 13.98,
+     "dur_s": 14.563,
      "kb": "in"
     },
     {
@@ -527,7 +543,7 @@
      "credit": "flickr",
      "origin_url": "https://www.flickr.com/photos/50169152@N06/11519193454",
      "title": "Sun over the Juniper Dunes Wilderness",
-     "dur_s": 13.98,
+     "dur_s": 14.563,
      "kb": "out"
     }
    ],
@@ -540,19 +556,20 @@
    "beat_id": "b205",
    "seg": "seg2",
    "start": 374.61,
-   "dur_s": 23.232,
+   "dur_s": 24.398,
+   "voice_s": 23.232,
    "voice": "project/voice/beat_b205.mp3",
    "visuals": [
     {
      "kind": "card",
      "path": "project/cards/b205_0.png",
-     "dur_s": 7.744,
+     "dur_s": 8.133,
      "kb": "left"
     },
     {
      "kind": "card",
      "path": "project/cards/b205_1.png",
-     "dur_s": 7.744,
+     "dur_s": 8.133,
      "kb": "right"
     },
     {
@@ -564,7 +581,7 @@
      "credit": "flickr",
      "origin_url": "https://www.flickr.com/photos/155403590@N07/45909180055",
      "title": "Mixing Console Buttons",
-     "dur_s": 7.744,
+     "dur_s": 8.133,
      "kb": "in"
     }
    ],
@@ -577,7 +594,8 @@
    "beat_id": "b207",
    "seg": "seg2",
    "start": 399.008,
-   "dur_s": 29.088,
+   "dur_s": 30.254,
+   "voice_s": 29.088,
    "voice": "project/voice/beat_b207.mp3",
    "visuals": [
     {
@@ -589,7 +607,7 @@
      "credit": "flickr",
      "origin_url": "https://www.flickr.com/photos/155403590@N07/32961446438",
      "title": "Modern Mixing Console",
-     "dur_s": 14.544,
+     "dur_s": 15.127,
      "kb": "out"
     },
     {
@@ -601,7 +619,7 @@
      "credit": "flickr",
      "origin_url": "https://www.flickr.com/photos/155403590@N07/32961446438",
      "title": "Modern Mixing Console",
-     "dur_s": 14.544,
+     "dur_s": 15.127,
      "kb": "left"
     }
    ],
@@ -611,7 +629,8 @@
    "beat_id": "b208",
    "seg": "seg2",
    "start": 429.262,
-   "dur_s": 24.168,
+   "dur_s": 25.723,
+   "voice_s": 24.168,
    "voice": "project/voice/beat_b208.mp3",
    "visuals": [
     {
@@ -623,13 +642,13 @@
      "credit": "rawpixel",
      "origin_url": "https://www.rawpixel.com/image/3293206/free-photo-image-hill-shadow-bishop-peak-93405",
      "title": "Silhouette San Luis Obispo mountain",
-     "dur_s": 12.084,
+     "dur_s": 12.861,
      "kb": "right"
     },
     {
      "kind": "card",
      "path": "project/cards/b208_1.png",
-     "dur_s": 12.084,
+     "dur_s": 12.861,
      "kb": "in"
     }
    ],
@@ -639,13 +658,14 @@
    "beat_id": "b206",
    "seg": "seg2",
    "start": 454.985,
-   "dur_s": 25.752,
+   "dur_s": 27.501,
+   "voice_s": 25.752,
    "voice": "project/voice/beat_b206.mp3",
    "visuals": [
     {
      "kind": "card",
      "path": "project/cards/b206_0.png",
-     "dur_s": 12.876,
+     "dur_s": 13.751,
      "kb": "out"
     },
     {
@@ -657,7 +677,7 @@
      "credit": "rawpixel",
      "origin_url": "https://www.rawpixel.com/image/3293206/free-photo-image-hill-shadow-bishop-peak-93405",
      "title": "Silhouette San Luis Obispo mountain",
-     "dur_s": 12.876,
+     "dur_s": 13.751,
      "kb": "left"
     }
    ],
@@ -669,13 +689,14 @@
    "beat_id": "b301",
    "seg": "seg3",
    "start": 482.486,
-   "dur_s": 21.192,
+   "dur_s": 22.358,
+   "voice_s": 21.192,
    "voice": "project/voice/beat_b301.mp3",
    "visuals": [
     {
      "kind": "card",
      "path": "project/cards/b301_0.png",
-     "dur_s": 10.596,
+     "dur_s": 11.179,
      "kb": "right"
     },
     {
@@ -687,7 +708,7 @@
      "credit": "flickr",
      "origin_url": "https://www.flickr.com/photos/83346641@N00/5284222139",
      "title": "Iron Man vs. Destro Setup",
-     "dur_s": 10.596,
+     "dur_s": 11.179,
      "kb": "in"
     }
    ],
@@ -699,7 +720,8 @@
    "beat_id": "b302",
    "seg": "seg3",
    "start": 504.844,
-   "dur_s": 14.808,
+   "dur_s": 15.974,
+   "voice_s": 14.808,
    "voice": "project/voice/beat_b302.mp3",
    "visuals": [
     {
@@ -711,7 +733,7 @@
      "credit": "flickr",
      "origin_url": "https://www.flickr.com/photos/83346641@N00/5284222139",
      "title": "Iron Man vs. Destro Setup",
-     "dur_s": 7.404,
+     "dur_s": 7.987,
      "kb": "out"
     },
     {
@@ -723,7 +745,7 @@
      "credit": "flickr",
      "origin_url": "https://www.flickr.com/photos/83346641@N00/4930253955",
      "title": "RoboCop vs. Cyborg Setup",
-     "dur_s": 7.404,
+     "dur_s": 7.987,
      "kb": "left"
     }
    ],
@@ -733,13 +755,14 @@
    "beat_id": "b303",
    "seg": "seg3",
    "start": 520.819,
-   "dur_s": 23.976,
+   "dur_s": 25.337,
+   "voice_s": 23.976,
    "voice": "project/voice/beat_b303.mp3",
    "visuals": [
     {
      "kind": "card",
      "path": "project/cards/b303_0.png",
-     "dur_s": 11.988,
+     "dur_s": 12.668,
      "kb": "right"
     },
     {
@@ -751,7 +774,7 @@
      "credit": "flickr",
      "origin_url": "https://www.flickr.com/photos/83346641@N00/4930253955",
      "title": "RoboCop vs. Cyborg Setup",
-     "dur_s": 11.988,
+     "dur_s": 12.668,
      "kb": "in"
     }
    ],
@@ -764,7 +787,8 @@
    "beat_id": "b304x",
    "seg": "seg3",
    "start": 546.155,
-   "dur_s": 25.416,
+   "dur_s": 26.582,
+   "voice_s": 25.416,
    "voice": "project/voice/beat_b304x.mp3",
    "visuals": [
     {
@@ -776,7 +800,7 @@
      "credit": "flickr",
      "origin_url": "https://www.flickr.com/photos/155403590@N07/46099045164",
      "title": "Mixing Console Details",
-     "dur_s": 12.708,
+     "dur_s": 13.291,
      "kb": "out"
     },
     {
@@ -788,7 +812,7 @@
      "credit": "rawpixel",
      "origin_url": "https://www.rawpixel.com/image/3293206/free-photo-image-hill-shadow-bishop-peak-93405",
      "title": "Silhouette San Luis Obispo mountain",
-     "dur_s": 12.708,
+     "dur_s": 13.291,
      "kb": "left"
     }
    ],
@@ -798,7 +822,8 @@
    "beat_id": "b304y",
    "seg": "seg3",
    "start": 572.737,
-   "dur_s": 32.04,
+   "dur_s": 33.401,
+   "voice_s": 32.04,
    "voice": "project/voice/beat_b304y.mp3",
    "visuals": [
     {
@@ -810,13 +835,13 @@
      "credit": "flickr",
      "origin_url": "https://www.flickr.com/photos/83346641@N00/5042994321",
      "title": "Donkey Kong vs. King Homer Setup",
-     "dur_s": 16.02,
+     "dur_s": 16.7,
      "kb": "right"
     },
     {
      "kind": "card",
      "path": "project/cards/b304y_1.png",
-     "dur_s": 16.02,
+     "dur_s": 16.7,
      "kb": "in"
     }
    ],
@@ -828,13 +853,14 @@
    "beat_id": "b304",
    "seg": "seg3",
    "start": 606.138,
-   "dur_s": 22.8,
+   "dur_s": 24.161,
+   "voice_s": 22.8,
    "voice": "project/voice/beat_b304.mp3",
    "visuals": [
     {
      "kind": "card",
      "path": "project/cards/b304_0.png",
-     "dur_s": 11.4,
+     "dur_s": 12.08,
      "kb": "out"
     },
     {
@@ -846,7 +872,7 @@
      "credit": "flickr",
      "origin_url": "https://www.flickr.com/photos/83346641@N00/5042994321",
      "title": "Donkey Kong vs. King Homer Setup",
-     "dur_s": 11.4,
+     "dur_s": 12.08,
      "kb": "left"
     }
    ],
@@ -858,13 +884,14 @@
    "beat_id": "b305",
    "seg": "seg3",
    "start": 630.298,
-   "dur_s": 17.472,
+   "dur_s": 19.221,
+   "voice_s": 17.472,
    "voice": "project/voice/beat_b305.mp3",
    "visuals": [
     {
      "kind": "card",
      "path": "project/cards/b305_0.png",
-     "dur_s": 8.736,
+     "dur_s": 9.611,
      "kb": "right"
     },
     {
@@ -876,7 +903,7 @@
      "credit": "flickr",
      "origin_url": "https://www.flickr.com/photos/83346641@N00/5284222139",
      "title": "Iron Man vs. Destro Setup",
-     "dur_s": 8.736,
+     "dur_s": 9.611,
      "kb": "in"
     }
    ],
@@ -889,13 +916,14 @@
    "beat_id": "b401",
    "seg": "seg4",
    "start": 649.52,
-   "dur_s": 23.52,
+   "dur_s": 24.686,
+   "voice_s": 23.52,
    "voice": "project/voice/beat_b401.mp3",
    "visuals": [
     {
      "kind": "card",
      "path": "project/cards/b401_0.png",
-     "dur_s": 11.76,
+     "dur_s": 12.343,
      "kb": "out"
     },
     {
@@ -907,7 +935,7 @@
      "credit": "flickr",
      "origin_url": "https://www.flickr.com/photos/42427670@N08/10954858144",
      "title": "Minotaur Rocket Launch Wallops Island VA 11-19-13",
-     "dur_s": 11.76,
+     "dur_s": 12.343,
      "kb": "left"
     }
    ],
@@ -919,19 +947,20 @@
    "beat_id": "b402",
    "seg": "seg4",
    "start": 674.206,
-   "dur_s": 27.576,
+   "dur_s": 28.937,
+   "voice_s": 27.576,
    "voice": "project/voice/beat_b402.mp3",
    "visuals": [
     {
      "kind": "card",
      "path": "project/cards/b402_0.png",
-     "dur_s": 9.192,
+     "dur_s": 9.646,
      "kb": "right"
     },
     {
      "kind": "card",
      "path": "project/cards/b402_1.png",
-     "dur_s": 9.192,
+     "dur_s": 9.646,
      "kb": "in"
     },
     {
@@ -943,7 +972,7 @@
      "credit": "flickr",
      "origin_url": "https://www.flickr.com/photos/42427670@N08/10954858144",
      "title": "Minotaur Rocket Launch Wallops Island VA 11-19-13",
-     "dur_s": 9.192,
+     "dur_s": 9.646,
      "kb": "out"
     }
    ],
@@ -956,7 +985,8 @@
    "beat_id": "b403x",
    "seg": "seg4",
    "start": 703.142,
-   "dur_s": 33.288,
+   "dur_s": 34.649,
+   "voice_s": 33.288,
    "voice": "project/voice/beat_b403x.mp3",
    "visuals": [
     {
@@ -968,7 +998,7 @@
      "credit": "flickr",
      "origin_url": "https://www.flickr.com/photos/60291025@N05/13880957485",
      "title": "Filmakers in Somerset House",
-     "dur_s": 16.644,
+     "dur_s": 17.324,
      "kb": "left"
     },
     {
@@ -980,7 +1010,7 @@
      "credit": "flickr",
      "origin_url": "https://www.flickr.com/photos/18161271@N00/4141349391",
      "title": "last standing rose",
-     "dur_s": 16.644,
+     "dur_s": 17.324,
      "kb": "right"
     }
    ],
@@ -992,7 +1022,8 @@
    "beat_id": "b404a",
    "seg": "seg4",
    "start": 737.791,
-   "dur_s": 30.456,
+   "dur_s": 31.817,
+   "voice_s": 30.456,
    "voice": "project/voice/beat_b404a.mp3",
    "visuals": [
     {
@@ -1004,13 +1035,13 @@
      "credit": "flickr",
      "origin_url": "https://www.flickr.com/photos/76093456@N04/25431492401",
      "title": "SES9 Falcon9 Launch by SpaceX",
-     "dur_s": 15.228,
+     "dur_s": 15.908,
      "kb": "in"
     },
     {
      "kind": "card",
      "path": "project/cards/b404a_1.png",
-     "dur_s": 15.228,
+     "dur_s": 15.908,
      "kb": "out"
     }
    ],
@@ -1020,7 +1051,8 @@
    "beat_id": "b403",
    "seg": "seg4",
    "start": 769.607,
-   "dur_s": 25.104,
+   "dur_s": 26.465,
+   "voice_s": 25.104,
    "voice": "project/voice/beat_b403.mp3",
    "visuals": [
     {
@@ -1032,7 +1064,7 @@
      "credit": "flickr",
      "origin_url": "https://www.flickr.com/photos/50693818@N08/9345870975",
      "title": "Grand Canyon National Park: 23 Annual Star Party 2013 - 6240",
-     "dur_s": 12.552,
+     "dur_s": 13.232,
      "kb": "left"
     },
     {
@@ -1044,7 +1076,7 @@
      "credit": "flickr",
      "origin_url": "https://www.flickr.com/photos/76093456@N04/25431492401",
      "title": "SES9 Falcon9 Launch by SpaceX",
-     "dur_s": 12.552,
+     "dur_s": 13.232,
      "kb": "right"
     }
    ],
@@ -1056,13 +1088,14 @@
    "beat_id": "b404",
    "seg": "seg4",
    "start": 796.072,
-   "dur_s": 21.528,
+   "dur_s": 22.889,
+   "voice_s": 21.528,
    "voice": "project/voice/beat_b404.mp3",
    "visuals": [
     {
      "kind": "card",
      "path": "project/cards/b404_0.png",
-     "dur_s": 10.764,
+     "dur_s": 11.444,
      "kb": "in"
     },
     {
@@ -1074,7 +1107,7 @@
      "credit": "flickr",
      "origin_url": "https://www.flickr.com/photos/43581314@N08/27925722642",
      "title": "Sunrise 38,000 Feet Over the Pacific [182/366]",
-     "dur_s": 10.764,
+     "dur_s": 11.444,
      "kb": "out"
     }
    ],
@@ -1084,7 +1117,8 @@
    "beat_id": "b404b",
    "seg": "seg4",
    "start": 818.96,
-   "dur_s": 25.128,
+   "dur_s": 26.489,
+   "voice_s": 25.128,
    "voice": "project/voice/beat_b404b.mp3",
    "visuals": [
     {
@@ -1096,7 +1130,7 @@
      "credit": "flickr",
      "origin_url": "https://www.flickr.com/photos/22828588@N03/2648639630",
      "title": "Typiewriter!",
-     "dur_s": 12.564,
+     "dur_s": 13.244,
      "kb": "left"
     },
     {
@@ -1108,7 +1142,7 @@
      "credit": "flickr",
      "origin_url": "https://www.flickr.com/photos/76093456@N04/19256701982",
      "title": "Long Exposure at SpaceX LC-40",
-     "dur_s": 12.564,
+     "dur_s": 13.244,
      "kb": "right"
     }
    ],
@@ -1118,19 +1152,20 @@
    "beat_id": "b405",
    "seg": "seg4",
    "start": 845.449,
-   "dur_s": 19.296,
+   "dur_s": 20.851,
+   "voice_s": 19.296,
    "voice": "project/voice/beat_b405.mp3",
    "visuals": [
     {
      "kind": "card",
      "path": "project/cards/b405_0.png",
-     "dur_s": 6.432,
+     "dur_s": 6.95,
      "kb": "in"
     },
     {
      "kind": "card",
      "path": "project/cards/b405_1.png",
-     "dur_s": 6.432,
+     "dur_s": 6.95,
      "kb": "out"
     },
     {
@@ -1142,7 +1177,7 @@
      "credit": "flickr",
      "origin_url": "https://www.flickr.com/photos/76093456@N04/19256701982",
      "title": "Long Exposure at SpaceX LC-40",
-     "dur_s": 6.432,
+     "dur_s": 6.95,
      "kb": "left"
     }
    ],
@@ -1155,19 +1190,20 @@
    "beat_id": "b501",
    "seg": "seg5",
    "start": 866.3,
-   "dur_s": 24.816,
+   "dur_s": 25.982,
+   "voice_s": 24.816,
    "voice": "project/voice/beat_b501.mp3",
    "visuals": [
     {
      "kind": "card",
      "path": "project/cards/b501_0.png",
-     "dur_s": 12.408,
+     "dur_s": 12.991,
      "kb": "right"
     },
     {
      "kind": "card",
      "path": "project/cards/b501_1.png",
-     "dur_s": 12.408,
+     "dur_s": 12.991,
      "kb": "in"
     }
    ],
@@ -1179,7 +1215,8 @@
    "beat_id": "b502",
    "seg": "seg5",
    "start": 892.282,
-   "dur_s": 23.496,
+   "dur_s": 24.662,
+   "voice_s": 23.496,
    "voice": "project/voice/beat_b502.mp3",
    "visuals": [
     {
@@ -1191,7 +1228,7 @@
      "credit": "flickr",
      "origin_url": "https://www.flickr.com/photos/60291025@N05/13880957485",
      "title": "Filmakers in Somerset House",
-     "dur_s": 11.748,
+     "dur_s": 12.331,
      "kb": "out"
     },
     {
@@ -1203,7 +1240,7 @@
      "credit": "flickr",
      "origin_url": "https://www.flickr.com/photos/44124348109@N01/10438860",
      "title": "IBM's $10 Billion Machine",
-     "dur_s": 11.748,
+     "dur_s": 12.331,
      "kb": "left"
     }
    ],
@@ -1213,13 +1250,14 @@
    "beat_id": "b503a",
    "seg": "seg5",
    "start": 916.944,
-   "dur_s": 24.0,
+   "dur_s": 25.166,
+   "voice_s": 24.0,
    "voice": "project/voice/beat_b503a.mp3",
    "visuals": [
     {
      "kind": "card",
      "path": "project/cards/b503a_0.png",
-     "dur_s": 12.0,
+     "dur_s": 12.583,
      "kb": "right"
     },
     {
@@ -1231,7 +1269,7 @@
      "credit": "flickr",
      "origin_url": "https://www.flickr.com/photos/11076844@N00/3601432980",
      "title": "Backside Bruce Springsteen - Cover Me, Shut Out The Light, Dancing In The Dark, Jersey Girl, Maxi-Single 12 inch 45 rpm",
-     "dur_s": 12.0,
+     "dur_s": 12.583,
      "kb": "in"
     }
    ],
@@ -1243,7 +1281,8 @@
    "beat_id": "b503b",
    "seg": "seg5",
    "start": 942.11,
-   "dur_s": 23.76,
+   "dur_s": 25.121,
+   "voice_s": 23.76,
    "voice": "project/voice/beat_b503b.mp3",
    "visuals": [
     {
@@ -1255,13 +1294,13 @@
      "credit": "wikimedia",
      "origin_url": "https://commons.wikimedia.org/w/index.php?curid=196984410",
      "title": "Blake 1",
-     "dur_s": 11.88,
+     "dur_s": 12.56,
      "kb": "out"
     },
     {
      "kind": "card",
      "path": "project/cards/b503b_1.png",
-     "dur_s": 11.88,
+     "dur_s": 12.56,
      "kb": "left"
     }
    ],
@@ -1271,13 +1310,14 @@
    "beat_id": "b503",
    "seg": "seg5",
    "start": 967.231,
-   "dur_s": 22.464,
+   "dur_s": 23.825,
+   "voice_s": 22.464,
    "voice": "project/voice/beat_b503.mp3",
    "visuals": [
     {
      "kind": "card",
      "path": "project/cards/b503_0.png",
-     "dur_s": 11.232,
+     "dur_s": 11.912,
      "kb": "right"
     },
     {
@@ -1289,7 +1329,7 @@
      "credit": "flickr",
      "origin_url": "https://www.flickr.com/photos/18161271@N00/4141349391",
      "title": "last standing rose",
-     "dur_s": 11.232,
+     "dur_s": 11.912,
      "kb": "in"
     }
    ],
@@ -1302,13 +1342,14 @@
    "beat_id": "b504",
    "seg": "seg5",
    "start": 991.055,
-   "dur_s": 21.144,
+   "dur_s": 22.699,
+   "voice_s": 21.144,
    "voice": "project/voice/beat_b504.mp3",
    "visuals": [
     {
      "kind": "card",
      "path": "project/cards/b504_0.png",
-     "dur_s": 10.572,
+     "dur_s": 11.349,
      "kb": "out"
     },
     {
@@ -1320,7 +1361,7 @@
      "credit": "flickr",
      "origin_url": "https://www.flickr.com/photos/9998127@N06/39395595782",
      "title": "B29A pilot's station, Model Master Acryl paint suggestions. 95-15-9A",
-     "dur_s": 10.572,
+     "dur_s": 11.349,
      "kb": "left"
     }
    ],
@@ -1332,7 +1373,8 @@
    "beat_id": "b504a",
    "seg": "seg5",
    "start": 1013.754,
-   "dur_s": 31.464,
+   "dur_s": 33.019,
+   "voice_s": 31.464,
    "voice": "project/voice/beat_b504a.mp3",
    "visuals": [
     {
@@ -1344,7 +1386,7 @@
      "credit": "flickr",
      "origin_url": "https://www.flickr.com/photos/94075184@N00/54268401050",
      "title": "Celestial Embrace",
-     "dur_s": 15.732,
+     "dur_s": 16.509,
      "kb": "right"
     },
     {
@@ -1356,7 +1398,7 @@
      "credit": "flickr",
      "origin_url": "https://www.flickr.com/photos/155403590@N07/46771748902",
      "title": "Faders of a Mixing Console",
-     "dur_s": 15.732,
+     "dur_s": 16.509,
      "kb": "in"
     }
    ],
@@ -1366,7 +1408,8 @@
    "beat_id": "b505",
    "seg": "seg5",
    "start": 1046.773,
-   "dur_s": 26.304,
+   "dur_s": 27.665,
+   "voice_s": 26.304,
    "voice": "project/voice/beat_b505.mp3",
    "visuals": [
     {
@@ -1378,7 +1421,7 @@
      "credit": "flickr",
      "origin_url": "https://www.flickr.com/photos/94075184@N00/54268401050",
      "title": "Celestial Embrace",
-     "dur_s": 13.152,
+     "dur_s": 13.832,
      "kb": "out"
     },
     {
@@ -1390,7 +1433,7 @@
      "credit": "stocksnap",
      "origin_url": "https://stocksnap.io/photo/winter-tree-RT2I3Z3UT8",
      "title": "Winter Tree",
-     "dur_s": 13.152,
+     "dur_s": 13.832,
      "kb": "left"
     }
    ],
@@ -1400,19 +1443,20 @@
    "beat_id": "b601",
    "seg": "seg6",
    "start": 1074.437,
-   "dur_s": 30.552,
+   "dur_s": 31.913,
+   "voice_s": 30.552,
    "voice": "project/voice/beat_b601.mp3",
    "visuals": [
     {
      "kind": "card",
      "path": "project/cards/b601_0.png",
-     "dur_s": 15.276,
+     "dur_s": 15.956,
      "kb": "right"
     },
     {
      "kind": "card",
      "path": "project/cards/b601_1.png",
-     "dur_s": 15.276,
+     "dur_s": 15.956,
      "kb": "in"
     }
    ],
@@ -1426,13 +1470,14 @@
    "beat_id": "b601a",
    "seg": "seg6",
    "start": 1106.35,
-   "dur_s": 29.04,
+   "dur_s": 30.401,
+   "voice_s": 29.04,
    "voice": "project/voice/beat_b601a.mp3",
    "visuals": [
     {
      "kind": "card",
      "path": "project/cards/b601a_0.png",
-     "dur_s": 14.52,
+     "dur_s": 15.2,
      "kb": "out"
     },
     {
@@ -1444,7 +1489,7 @@
      "credit": "stocksnap",
      "origin_url": "https://stocksnap.io/photo/winter-tree-RT2I3Z3UT8",
      "title": "Winter Tree",
-     "dur_s": 14.52,
+     "dur_s": 15.2,
      "kb": "left"
     }
    ],
@@ -1456,19 +1501,20 @@
    "beat_id": "b602",
    "seg": "seg6",
    "start": 1136.75,
-   "dur_s": 23.808,
+   "dur_s": 25.169,
+   "voice_s": 23.808,
    "voice": "project/voice/beat_b602.mp3",
    "visuals": [
     {
      "kind": "card",
      "path": "project/cards/b602_0.png",
-     "dur_s": 7.936,
+     "dur_s": 8.39,
      "kb": "right"
     },
     {
      "kind": "card",
      "path": "project/cards/b602_1.png",
-     "dur_s": 7.936,
+     "dur_s": 8.39,
      "kb": "in"
     },
     {
@@ -1480,7 +1526,7 @@
      "credit": "flickr",
      "origin_url": "https://www.flickr.com/photos/50693818@N08/9345870975",
      "title": "Grand Canyon National Park: 23 Annual Star Party 2013 - 6240",
-     "dur_s": 7.936,
+     "dur_s": 8.39,
      "kb": "out"
     }
    ],
@@ -1493,13 +1539,14 @@
    "beat_id": "b603",
    "seg": "seg6",
    "start": 1161.919,
-   "dur_s": 23.064,
+   "dur_s": 24.23,
+   "voice_s": 23.064,
    "voice": "project/voice/beat_b603.mp3",
    "visuals": [
     {
      "kind": "card",
      "path": "project/cards/b603_0.png",
-     "dur_s": 11.532,
+     "dur_s": 12.115,
      "kb": "left"
     },
     {
@@ -1511,7 +1558,7 @@
      "credit": "flickr",
      "origin_url": "https://www.flickr.com/photos/30354453@N00/2911687449",
      "title": "About last night....",
-     "dur_s": 11.532,
+     "dur_s": 12.115,
      "kb": "right"
     }
    ],
@@ -1524,7 +1571,8 @@
    "beat_id": "b603a",
    "seg": "seg6",
    "start": 1186.149,
-   "dur_s": 31.416,
+   "dur_s": 32.777,
+   "voice_s": 31.416,
    "voice": "project/voice/beat_b603a.mp3",
    "visuals": [
     {
@@ -1536,7 +1584,7 @@
      "credit": "flickr",
      "origin_url": "https://www.flickr.com/photos/57868312@N00/4200008872",
      "title": "More office windows at night",
-     "dur_s": 15.708,
+     "dur_s": 16.388,
      "kb": "in"
     },
     {
@@ -1548,7 +1596,7 @@
      "credit": "flickr",
      "origin_url": "https://www.flickr.com/photos/31246066@N04/6456117565",
      "title": "Go By Streetcar",
-     "dur_s": 15.708,
+     "dur_s": 16.388,
      "kb": "out"
     }
    ],
@@ -1558,13 +1606,14 @@
    "beat_id": "b604",
    "seg": "seg6",
    "start": 1218.925,
-   "dur_s": 27.504,
+   "dur_s": 28.865,
+   "voice_s": 27.504,
    "voice": "project/voice/beat_b604.mp3",
    "visuals": [
     {
      "kind": "card",
      "path": "project/cards/b604_0.png",
-     "dur_s": 13.752,
+     "dur_s": 14.432,
      "kb": "left"
     },
     {
@@ -1576,7 +1625,7 @@
      "credit": "flickr",
      "origin_url": "https://www.flickr.com/photos/10127072@N04/3687826747",
      "title": "Cannes Lions - Palme d'Or",
-     "dur_s": 13.752,
+     "dur_s": 14.432,
      "kb": "right"
     }
    ],
@@ -1589,13 +1638,14 @@
    "beat_id": "b605",
    "seg": "seg6",
    "start": 1247.79,
-   "dur_s": 20.424,
+   "dur_s": 21.979,
+   "voice_s": 20.424,
    "voice": "project/voice/beat_b605.mp3",
    "visuals": [
     {
      "kind": "card",
      "path": "project/cards/b605_0.png",
-     "dur_s": 10.212,
+     "dur_s": 10.989,
      "kb": "in"
     },
     {
@@ -1607,7 +1657,7 @@
      "credit": "flickr",
      "origin_url": "https://www.flickr.com/photos/157635012@N07/48863714157",
      "title": "Sound mixer",
-     "dur_s": 10.212,
+     "dur_s": 10.989,
      "kb": "out"
     }
    ],
@@ -1617,19 +1667,20 @@
    "beat_id": "b701",
    "seg": "seg7",
    "start": 1269.769,
-   "dur_s": 24.048,
+   "dur_s": 25.214,
+   "voice_s": 24.048,
    "voice": "project/voice/beat_b701.mp3",
    "visuals": [
     {
      "kind": "card",
      "path": "project/cards/b701_0.png",
-     "dur_s": 12.024,
+     "dur_s": 12.607,
      "kb": "left"
     },
     {
      "kind": "card",
      "path": "project/cards/b701_1.png",
-     "dur_s": 12.024,
+     "dur_s": 12.607,
      "kb": "right"
     }
    ],
@@ -1642,13 +1693,14 @@
    "beat_id": "b702",
    "seg": "seg7",
    "start": 1294.983,
-   "dur_s": 21.72,
+   "dur_s": 22.886,
+   "voice_s": 21.72,
    "voice": "project/voice/beat_b702.mp3",
    "visuals": [
     {
      "kind": "card",
      "path": "project/cards/b702_0.png",
-     "dur_s": 10.86,
+     "dur_s": 11.443,
      "kb": "in"
     },
     {
@@ -1660,7 +1712,7 @@
      "credit": "flickr",
      "origin_url": "https://www.flickr.com/photos/30354453@N00/2911687449",
      "title": "About last night....",
-     "dur_s": 10.86,
+     "dur_s": 11.443,
      "kb": "out"
     }
    ],
@@ -1673,13 +1725,14 @@
    "beat_id": "b702a",
    "seg": "seg7",
    "start": 1317.869,
-   "dur_s": 27.432,
+   "dur_s": 28.793,
+   "voice_s": 27.432,
    "voice": "project/voice/beat_b702a.mp3",
    "visuals": [
     {
      "kind": "card",
      "path": "project/cards/b702a_0.png",
-     "dur_s": 13.716,
+     "dur_s": 14.396,
      "kb": "left"
     },
     {
@@ -1691,7 +1744,7 @@
      "credit": "flickr",
      "origin_url": "https://www.flickr.com/photos/43581314@N08/27925722642",
      "title": "Sunrise 38,000 Feet Over the Pacific [182/366]",
-     "dur_s": 13.716,
+     "dur_s": 14.396,
      "kb": "right"
     }
    ],
@@ -1703,19 +1756,20 @@
    "beat_id": "b703",
    "seg": "seg7",
    "start": 1346.662,
-   "dur_s": 27.624,
+   "dur_s": 28.985,
+   "voice_s": 27.624,
    "voice": "project/voice/beat_b703.mp3",
    "visuals": [
     {
      "kind": "card",
      "path": "project/cards/b703_0.png",
-     "dur_s": 9.208,
+     "dur_s": 9.662,
      "kb": "in"
     },
     {
      "kind": "card",
      "path": "project/cards/b703_1.png",
-     "dur_s": 9.208,
+     "dur_s": 9.662,
      "kb": "out"
     },
     {
@@ -1727,7 +1781,7 @@
      "credit": "flickr",
      "origin_url": "https://www.flickr.com/photos/9998127@N06/7533896454",
      "title": "Boeing 737 - Classic? NG? Alaska Airlines",
-     "dur_s": 9.208,
+     "dur_s": 9.662,
      "kb": "left"
     }
    ],
@@ -1740,7 +1794,8 @@
    "beat_id": "b703a",
    "seg": "seg7",
    "start": 1375.646,
-   "dur_s": 27.768,
+   "dur_s": 29.129,
+   "voice_s": 27.768,
    "voice": "project/voice/beat_b703a.mp3",
    "visuals": [
     {
@@ -1752,13 +1807,13 @@
      "credit": "flickr",
      "origin_url": "https://www.flickr.com/photos/9998127@N06/7533896454",
      "title": "Boeing 737 - Classic? NG? Alaska Airlines",
-     "dur_s": 13.884,
+     "dur_s": 14.564,
      "kb": "right"
     },
     {
      "kind": "card",
      "path": "project/cards/b703a_1.png",
-     "dur_s": 13.884,
+     "dur_s": 14.564,
      "kb": "in"
     }
    ],
@@ -1768,13 +1823,14 @@
    "beat_id": "b704",
    "seg": "seg7",
    "start": 1404.775,
-   "dur_s": 23.76,
+   "dur_s": 24.926,
+   "voice_s": 23.76,
    "voice": "project/voice/beat_b704.mp3",
    "visuals": [
     {
      "kind": "card",
      "path": "project/cards/b704_0.png",
-     "dur_s": 11.88,
+     "dur_s": 12.463,
      "kb": "out"
     },
     {
@@ -1786,7 +1842,7 @@
      "credit": "flickr",
      "origin_url": "https://www.flickr.com/photos/155403590@N07/46099045164",
      "title": "Mixing Console Details",
-     "dur_s": 11.88,
+     "dur_s": 12.463,
      "kb": "left"
     }
    ],
@@ -1799,7 +1855,8 @@
    "beat_id": "b704a",
    "seg": "seg7",
    "start": 1429.701,
-   "dur_s": 32.472,
+   "dur_s": 34.027,
+   "voice_s": 32.472,
    "voice": "project/voice/beat_b704a.mp3",
    "visuals": [
     {
@@ -1811,13 +1868,13 @@
      "credit": "flickr",
      "origin_url": "https://www.flickr.com/photos/68406347@N00/1625824750",
      "title": "Sunrise over Texas 2",
-     "dur_s": 16.236,
+     "dur_s": 17.013,
      "kb": "right"
     },
     {
      "kind": "card",
      "path": "project/cards/b704a_1.png",
-     "dur_s": 16.236,
+     "dur_s": 17.013,
      "kb": "in"
     }
    ],
@@ -1827,13 +1884,14 @@
    "beat_id": "b705",
    "seg": "seg7",
    "start": 1463.728,
-   "dur_s": 25.776,
+   "dur_s": 27.137,
+   "voice_s": 25.776,
    "voice": "project/voice/beat_b705.mp3",
    "visuals": [
     {
      "kind": "card",
      "path": "project/cards/b705_0.png",
-     "dur_s": 12.888,
+     "dur_s": 13.568,
      "kb": "out"
     },
     {
@@ -1845,7 +1903,7 @@
      "credit": "flickr",
      "origin_url": "https://www.flickr.com/photos/68406347@N00/1625824750",
      "title": "Sunrise over Texas 2",
-     "dur_s": 12.888,
+     "dur_s": 13.568,
      "kb": "left"
     }
    ],
@@ -1858,7 +1916,8 @@
    "beat_id": "b705a",
    "seg": "seg7",
    "start": 1490.864,
-   "dur_s": 34.68,
+   "dur_s": 36.041,
+   "voice_s": 34.68,
    "voice": "project/voice/beat_b705a.mp3",
    "visuals": [
     {
@@ -1870,7 +1929,7 @@
      "credit": "flickr",
      "origin_url": "https://www.flickr.com/photos/22828588@N03/2648639630",
      "title": "Typiewriter!",
-     "dur_s": 17.34,
+     "dur_s": 18.02,
      "kb": "right"
     },
     {
@@ -1882,7 +1941,7 @@
      "credit": "flickr",
      "origin_url": "https://www.flickr.com/photos/141436406@N04/49492045537",
      "title": "Close up photo of gray typewriter - Credit to https://homegets.com/",
-     "dur_s": 17.34,
+     "dur_s": 18.02,
      "kb": "in"
     }
    ],
@@ -1892,13 +1951,14 @@
    "beat_id": "b706",
    "seg": "seg7",
    "start": 1526.905,
-   "dur_s": 18.624,
+   "dur_s": 20.373,
+   "voice_s": 18.624,
    "voice": "project/voice/beat_b706.mp3",
    "visuals": [
     {
      "kind": "card",
      "path": "project/cards/b706_0.png",
-     "dur_s": 9.312,
+     "dur_s": 10.187,
      "kb": "out"
     },
     {
@@ -1910,7 +1970,7 @@
      "credit": "flickr",
      "origin_url": "https://www.flickr.com/photos/141436406@N04/49492045537",
      "title": "Close up photo of gray typewriter - Credit to https://homegets.com/",
-     "dur_s": 9.312,
+     "dur_s": 10.187,
      "kb": "left"
     }
    ],
@@ -1923,13 +1983,14 @@
    "beat_id": "b706a",
    "seg": "seg7",
    "start": 1547.278,
-   "dur_s": 25.8,
+   "dur_s": 27.355,
+   "voice_s": 25.8,
    "voice": "project/voice/beat_b706a.mp3",
    "visuals": [
     {
      "kind": "card",
      "path": "project/cards/b706a_0.png",
-     "dur_s": 12.9,
+     "dur_s": 13.677,
      "kb": "right"
     },
     {
@@ -1941,7 +2002,7 @@
      "credit": "flickr",
      "origin_url": "https://www.flickr.com/photos/51117559@N03/5434015698",
      "title": "2008 Ford Escape Dash",
-     "dur_s": 12.9,
+     "dur_s": 13.677,
      "kb": "in"
     }
    ],
@@ -1951,13 +2012,14 @@
    "beat_id": "b801",
    "seg": "seg8",
    "start": 1574.633,
-   "dur_s": 26.496,
+   "dur_s": 27.857,
+   "voice_s": 26.496,
    "voice": "project/voice/beat_b801.mp3",
    "visuals": [
     {
      "kind": "card",
      "path": "project/cards/b801_0.png",
-     "dur_s": 13.248,
+     "dur_s": 13.928,
      "kb": "out"
     },
     {
@@ -1969,7 +2031,7 @@
      "credit": "flickr",
      "origin_url": "https://www.flickr.com/photos/44124348109@N01/10438860",
      "title": "IBM's $10 Billion Machine",
-     "dur_s": 13.248,
+     "dur_s": 13.928,
      "kb": "left"
     }
    ],
@@ -1982,13 +2044,14 @@
    "beat_id": "b802",
    "seg": "seg8",
    "start": 1602.489,
-   "dur_s": 22.2,
+   "dur_s": 23.561,
+   "voice_s": 22.2,
    "voice": "project/voice/beat_b802.mp3",
    "visuals": [
     {
      "kind": "card",
      "path": "project/cards/b802_0.png",
-     "dur_s": 11.1,
+     "dur_s": 11.78,
      "kb": "right"
     },
     {
@@ -2000,7 +2063,7 @@
      "credit": "flickr",
      "origin_url": "https://www.flickr.com/photos/90146879@N00/521027252",
      "title": "Winter Constellations and Zodiacal light",
-     "dur_s": 11.1,
+     "dur_s": 11.78,
      "kb": "in"
     }
    ],
@@ -2010,7 +2073,8 @@
    "beat_id": "b802a",
    "seg": "seg8",
    "start": 1626.05,
-   "dur_s": 34.248,
+   "dur_s": 35.803,
+   "voice_s": 34.248,
    "voice": "project/voice/beat_b802a.mp3",
    "visuals": [
     {
@@ -2022,7 +2086,7 @@
      "credit": "flickr",
      "origin_url": "https://www.flickr.com/photos/143129038@N07/42764895135",
      "title": "Hubble Discovery of Runaway Star Yields Clues to Breakup of Multiple-Star System",
-     "dur_s": 17.124,
+     "dur_s": 17.901,
      "kb": "out"
     },
     {
@@ -2034,7 +2098,7 @@
      "credit": "flickr",
      "origin_url": "https://www.flickr.com/photos/143129038@N07/42764895135",
      "title": "Hubble Discovery of Runaway Star Yields Clues to Breakup of Multiple-Star System",
-     "dur_s": 17.124,
+     "dur_s": 17.901,
      "kb": "left"
     }
    ],
@@ -2044,13 +2108,14 @@
    "beat_id": "b803",
    "seg": "seg8",
    "start": 1661.853,
-   "dur_s": 19.92,
+   "dur_s": 20.892,
+   "voice_s": 19.92,
    "voice": "project/voice/beat_b803.mp3",
    "visuals": [
     {
      "kind": "card",
      "path": "project/cards/b803_0.png",
-     "dur_s": 9.96,
+     "dur_s": 10.446,
      "kb": "right"
     },
     {
@@ -2062,7 +2127,7 @@
      "credit": "flickr",
      "origin_url": "https://www.flickr.com/photos/11076844@N00/3601432980",
      "title": "Backside Bruce Springsteen - Cover Me, Shut Out The Light, Dancing In The Dark, Jersey Girl, Maxi-Single 12 inch 45 rpm",
-     "dur_s": 9.96,
+     "dur_s": 10.446,
      "kb": "in"
     }
    ],
@@ -2075,13 +2140,14 @@
    "beat_id": "b803a",
    "seg": "seg8",
    "start": 1682.744,
-   "dur_s": 24.696,
+   "dur_s": 26.445,
+   "voice_s": 24.696,
    "voice": "project/voice/beat_b803a.mp3",
    "visuals": [
     {
      "kind": "card",
      "path": "project/cards/b803a_0.png",
-     "dur_s": 12.348,
+     "dur_s": 13.223,
      "kb": "out"
     },
     {
@@ -2093,7 +2159,7 @@
      "credit": "rawpixel",
      "origin_url": "https://www.rawpixel.com/image/4021250/photo-image-background-green-leaf",
      "title": "Idea leuconoe. Commonly known as",
-     "dur_s": 12.348,
+     "dur_s": 13.223,
      "kb": "left"
     }
    ],
@@ -2105,13 +2171,14 @@
    "beat_id": "b804",
    "seg": "seg8",
    "start": 1709.19,
-   "dur_s": 8.616,
+   "dur_s": 8.81,
+   "voice_s": 8.616,
    "voice": "project/voice/beat_b804.mp3",
    "visuals": [
     {
      "kind": "card",
      "path": "project/cards/b804_0.png",
-     "dur_s": 8.616,
+     "dur_s": 8.81,
      "kb": "right"
     }
    ],

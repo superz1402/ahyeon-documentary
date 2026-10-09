@@ -52,7 +52,9 @@ for seg in s["segments"]:
     seg_starts.append({"seg": seg["id"], "act": seg["act"], "title": seg["chapter_title"], "start": round(cursor, 2)})
     for b in seg["beats"]:
         t = tmap[b["id"]]
-        dur = t["duration_s"]
+        dur = t["duration_s"]                      # voice length
+        pause = t.get("pause_after", s["beat_gap_s"]) * scale
+        beat_dur = dur + pause                     # visuals cover voice + breathing gap
         vis, local_used = [], set()
         for i, v in enumerate(b.get("visuals", [])):
             if v.get("kind") == "card":
@@ -69,21 +71,22 @@ for seg in s["segments"]:
                              "title": a.get("title", "")})
         if not vis:
             vis = [{"kind": "card", "path": f"project/cards/ambient_{seg['id']}.png"}]
-        # share beat duration across visuals (each >= 2.4s)
+        # share FULL beat duration (voice + pause) across visuals (each >= 2.4s)
         n = len(vis)
-        share = max(2.4, dur / n)
+        share = max(2.4, beat_dur / n)
         cuts = [share] * n
         # normalize to beat duration
-        f = dur / sum(cuts)
+        f = beat_dur / sum(cuts)
         cuts = [c * f for c in cuts]
         for j, c in enumerate(cuts):
             mode = kb_modes[kb_i % 4]; kb_i += 1
             vis[j]["dur_s"] = round(c, 3)
             vis[j]["kb"] = mode
         clips.append({"beat_id": b["id"], "seg": seg["id"], "start": round(cursor, 3),
-                       "dur_s": round(dur, 3), "voice": t["file"].replace(f"{BASE}/", ""),
+                       "dur_s": round(beat_dur, 3), "voice_s": round(dur, 3),
+                       "voice": t["file"].replace(f"{BASE}/", ""),
                        "visuals": vis, "on_screen": b.get("on_screen", [])})
-        cursor += dur + t["pause_after"] * scale
+        cursor += beat_dur
 
 total = cursor + OUTRO
 print(f"calibrated total: {total:.1f}s ({total/60:.2f} min) target {TARGET}s")
@@ -120,7 +123,7 @@ ass = ["[Script Info]", "ScriptType: v4.00+", f"PlayResX: {W}", f"PlayResY: {H}"
 for c in clips:
     for t0, t1, text in parse_srt(f"{BASE}/{c['voice'].replace('.mp3', '.srt')}", c["start"]):
         text = text.replace("{", "(").replace("}", ")")
-        ass.append(f"Dialogue: 0,{ts(t0)},{ts(min(t1, c['start'] + c['dur_s']))},Cap,,0,0,0,,{{\\fad(140,140)}}{text}")
+        ass.append(f"Dialogue: 0,{ts(t0)},{ts(min(t1, c['start'] + c.get('voice_s', c['dur_s'])))},Cap,,0,0,0,,{{\\fad(140,140)}}{text}")
     lines = c.get("on_screen") or []
     n = len(lines)
     for i, line in enumerate(lines):
