@@ -60,7 +60,7 @@ def beat_ass(clip):
 
 step = sys.argv[1]
 
-if step == "audio":
+if step == "audio" and not os.path.exists("project/audio_full.wav"):
     # 1) build raw mix (voices + ducked bed)
     if not os.path.exists(f"{SEGS}/mix_raw.wav"):
         inputs = ["-stream_loop", "-1", "-t", str(TOTAL), "-i", "project/music/bed.mp3"]
@@ -89,8 +89,8 @@ if step == "audio":
     ln = (f"loudnorm=I=-14:TP=-1.5:LRA=11:measured_I={lj['input_I']}:measured_TP={lj['input_TP']}:"
           f"measured_LRA={lj['input_LRA']}:measured_thresh={lj['input_thresh']}:offset={lj['target_offset']}")
     run(["ffmpeg", "-y", "-loglevel", "error", "-i", f"{SEGS}/mix_raw.wav", "-af", ln,
-         "-c:a", "aac", "-b:a", "192k", "project/audio_full.m4a"], "loudnorm", timeout=520)
-    print("audio_full.m4a done")
+         "-c:a", "pcm_s16le", "project/audio_full.wav"], "loudnorm", timeout=520)
+    print("audio_full.wav done")
 
 elif step == "beats":
     t0 = time.time()
@@ -105,8 +105,8 @@ elif step == "beats":
         # concat beat visuals with copy → temp, then burn captions (re-encode)
         lst = f"{SEGS}/beats/{c['beat_id']}_list.txt"
         with open(lst, "w") as f:
-            for v in c["visuals"]:
-                f.write(f"file '../../{SEGS}/{c['beat_id']}_{c['visuals'].index(v)}.mp4'\n")
+            for vi, v in enumerate(c["visuals"]):
+                f.write(f"file '../{c['beat_id']}_{vi}.mp4'\n")
         run(["ffmpeg", "-y", "-loglevel", "error", "-f", "concat", "-safe", "0", "-i", lst,
              "-vf", f"ass={ass}", "-r", str(FPS), "-c:v", "libx264", "-preset", "veryfast",
              "-crf", "21", "-pix_fmt", "yuv420p", out], c["beat_id"], timeout=460)
@@ -120,7 +120,7 @@ elif step == "mux":
         for c in tl["clips"]:
             f.write(f"file '{c['beat_id']}.mp4'\n")
     run(["ffmpeg", "-y", "-loglevel", "error", "-f", "concat", "-safe", "0", "-i", f"{SEGS}/beats/all.txt",
-         "-i", "project/audio_full.m4a", "-map", "0:v", "-map", "1:a",
+         "-i", "project/audio_full.wav", "-map", "0:v", "-map", "1:a",
          "-c:v", "copy", "-c:a", "copy", "-movflags", "+faststart", "-t", str(TOTAL),
          "project/final.mp4"], "mux", timeout=520)
     print("final.mp4 done")
