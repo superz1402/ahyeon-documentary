@@ -3,7 +3,8 @@
 Writes project/media_manifest.json with licenses per asset."""
 import json, os, subprocess, sys, time, urllib.parse, urllib.request
 
-BASE = "/home/z/my-project/ahyeon-doc"
+import os as _os
+BASE = _os.path.dirname(_os.path.dirname(_os.path.abspath(__file__)))
 MEDIA = f"{BASE}/project/media"
 MUSIC = f"{BASE}/project/music"
 os.makedirs(MEDIA, exist_ok=True); os.makedirs(MUSIC, exist_ok=True)

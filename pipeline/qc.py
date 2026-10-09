@@ -2,7 +2,8 @@
 """QC battery: duration, resolution, loudness, streams. Writes qc_report.json."""
 import json, subprocess, sys, os
 
-BASE = "/home/z/my-project/ahyeon-doc"
+import os as _os
+BASE = _os.path.dirname(_os.path.dirname(_os.path.abspath(__file__)))
 os.chdir(BASE)
 tl = json.load(open("project/timeline.json"))
 target = tl["actual"]

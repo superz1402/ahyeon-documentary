@@ -2,7 +2,8 @@
 """Batch TTS for all beats via edge-tts CLI. Outputs voice/beat_<id>.mp3 + .srt + timing.json"""
 import json, os, re, subprocess, sys, time
 
-BASE = "/home/z/my-project/ahyeon-doc"
+import os as _os
+BASE = _os.path.dirname(_os.path.dirname(_os.path.abspath(__file__)))
 s = json.load(open(f"{BASE}/project/script.json"))
 VOICE = s["voice"]
 RATE = "-3%"

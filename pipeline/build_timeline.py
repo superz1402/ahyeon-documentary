@@ -2,7 +2,8 @@
 """Build timeline.json (EDL), captions.ass, metadata.json. Calibrates gaps to land 29:00."""
 import json, math, os, re, subprocess
 
-BASE = "/home/z/my-project/ahyeon-doc"
+import os as _os
+BASE = _os.path.dirname(_os.path.dirname(_os.path.abspath(__file__)))
 s = json.load(open(f"{BASE}/project/script.json"))
 timing = json.load(open(f"{BASE}/project/timing.json"))
 manifest = json.load(open(f"{BASE}/project/media_manifest.json"))

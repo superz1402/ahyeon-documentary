@@ -3,7 +3,8 @@
 Phase3 audio mix (ducked music + voices) + caption burn + loudnorm. Resumable."""
 import json, os, subprocess, sys, math
 
-BASE = "/home/z/my-project/ahyeon-doc"
+import os as _os
+BASE = _os.path.dirname(_os.path.dirname(_os.path.abspath(__file__)))
 os.chdir(BASE)
 tl = json.load(open("project/timeline.json"))
 FPS, W, H = tl["fps"], tl["w"], tl["h"]

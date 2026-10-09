@@ -3,7 +3,8 @@
 import json, math, os
 from PIL import Image, ImageDraw, ImageFont, ImageFilter
 
-BASE = "/home/z/my-project/ahyeon-doc"
+import os as _os
+BASE = _os.path.dirname(_os.path.dirname(_os.path.abspath(__file__)))
 s = json.load(open(f"{BASE}/project/script.json"))
 OUT = f"{BASE}/project/cards"
 os.makedirs(OUT, exist_ok=True)
