@@ -114,14 +114,16 @@ jobs:
                   --merge-output-format mp4
                   --postprocessor-args "ffmpeg:-movflags +faststart"
                   -o "video_${VID}.%(ext)s")
-          # Ladder: (1) tv via WARP — GVS-token-exempt, no IP mismatch
-          #         (2) mweb/web_safari via WARP
-          #         (3) web direct — same egress IP as BGutil so the PO token binds
-          #         (4) tv direct   (5) default clients direct
-          yt-dlp "${COMMON[@]}" --extractor-args "youtube:player_client=tv" $PROXY_ARGS -f "18/best[ext=mp4]/b[ext=mp4]/worst" "https://www.youtube.com/watch?v=${VID}" \
+          # Ladder: (1) embedded clients via WARP — iframes serve fmt18, lightest checks
+          #         (2) embedded clients direct
+          #         (3) tv via WARP  (4) mweb/web_safari via WARP
+          #         (5) web direct — same egress IP as BGutil so the PO token binds
+          #         (6) default clients direct
+          yt-dlp "${COMMON[@]}" --extractor-args "youtube:player_client=web_embedded,tv_embedded" $PROXY_ARGS -f "18/best[ext=mp4]/b[ext=mp4]/worst" "https://www.youtube.com/watch?v=${VID}" \
+            || yt-dlp "${COMMON[@]}" --extractor-args "youtube:player_client=web_embedded,tv_embedded" -f "18/best[ext=mp4]/b[ext=mp4]/worst" "https://www.youtube.com/watch?v=${VID}" \
+            || yt-dlp "${COMMON[@]}" --extractor-args "youtube:player_client=tv" $PROXY_ARGS -f "18/best[ext=mp4]/b[ext=mp4]/worst" "https://www.youtube.com/watch?v=${VID}" \
             || yt-dlp "${COMMON[@]}" --extractor-args "youtube:player_client=mweb,web_safari" $PROXY_ARGS -f "18/best[ext=mp4]/b[ext=mp4]/worst" "https://www.youtube.com/watch?v=${VID}" \
             || yt-dlp "${COMMON[@]}" --extractor-args "youtube:player_client=web" -f "18/best[ext=mp4]/b[ext=mp4]/worst" "https://www.youtube.com/watch?v=${VID}" \
-            || yt-dlp "${COMMON[@]}" --extractor-args "youtube:player_client=tv" -f "best[ext=mp4]/worst" "https://www.youtube.com/watch?v=${VID}" \
             || yt-dlp --no-cache-dir -f "best[ext=mp4]/worst[ext=mp4]/worst" --merge-output-format mp4 -o "video_${VID}.%(ext)s" "https://www.youtube.com/watch?v=${VID}"
 
       - name: Verify video
