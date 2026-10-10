@@ -59,18 +59,19 @@ jobs:
           echo "deb [signed-by=/usr/share/keyrings/cloudflare-warp-archive-keyring.gpg] https://pkg.cloudflareclient.com/ $(lsb_release -cs) main" | sudo tee /etc/apt/sources.list.d/cloudflare-client.list
           sudo apt-get update -qq
           sudo apt-get install -y -qq cloudflare-warp
-          # daemon must be up before warp-cli can talk to it
-          sudo systemctl start warp-svc 2>/dev/null || sudo warp-svc & 
+          # warp-cli demands a TTY for TOS acceptance — fake one with `script`
+          warp() { script -qec "$*" /dev/null; }
+          sudo systemctl start warp-svc 2>/dev/null || (sudo warp-svc > /tmp/warpsvc.log 2>&1 &)
           for i in $(seq 1 15); do
-            if warp-cli status >/dev/null 2>&1; then break; fi
+            if warp "warp-cli status" >/dev/null 2>&1; then break; fi
             sleep 2
           done
-          warp-cli registration new --accept-tos
-          warp-cli mode proxy --accept-tos
-          warp-cli connect --accept-tos
+          warp "warp-cli registration new"
+          warp "warp-cli mode proxy"
+          warp "warp-cli connect"
           sleep 5
-          warp-cli --accept-tos status
-          if warp-cli --accept-tos status 2>/dev/null | grep -q "Connected"; then
+          warp "warp-cli status" || true
+          if warp "warp-cli status" 2>/dev/null | grep -q "Connected"; then
             echo "warp_ok=1" >> "$HOME/.warp_ok"
             echo "WARP connected — proxy http://127.0.0.1:40000 available"
           else
