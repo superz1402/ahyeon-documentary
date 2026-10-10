@@ -114,26 +114,15 @@ jobs:
                   --merge-output-format mp4
                   --postprocessor-args "ffmpeg:-movflags +faststart"
                   -o "video_${VID}.%(ext)s")
-          # 1) tv client via WARP (tv historically GVS-PO-token-exempt; avoids token/IP mismatch)
-          yt-dlp "${COMMON[@]}" --extractor-args "youtube:player_client=tv" \
-            $PROXY_ARGS -f "18/best[ext=mp4]/b[ext=mp4]/worst" \
-            "https://www.youtube.com/watch?v=${VID}" \
-          # 2) mweb + web_safari via WARP
-          || yt-dlp "${COMMON[@]}" --extractor-args "youtube:player_client=mweb,web_safari" \
-            $PROXY_ARGS -f "18/best[ext=mp4]/b[ext=mp4]/worst" \
-            "https://www.youtube.com/watch?v=${VID}" \
-          # 3) web client DIRECT (same egress IP as BGutil server → token binds)
-          || yt-dlp "${COMMON[@]}" --extractor-args "youtube:player_client=web" \
-            -f "18/best[ext=mp4]/b[ext=mp4]/worst" \
-            "https://www.youtube.com/watch?v=${VID}" \
-          # 4) tv DIRECT
-          || yt-dlp "${COMMON[@]}" --extractor-args "youtube:player_client=tv" \
-            -f "best[ext=mp4]/worst" \
-            "https://www.youtube.com/watch?v=${VID}" \
-          # 5) absolute fallback: default clients direct
-          || yt-dlp --no-cache-dir -f "best[ext=mp4]/worst[ext=mp4]/worst" \
-                    --merge-output-format mp4 -o "video_${VID}.%(ext)s" \
-                    "https://www.youtube.com/watch?v=${VID}"
+          # Ladder: (1) tv via WARP — GVS-token-exempt, no IP mismatch
+          #         (2) mweb/web_safari via WARP
+          #         (3) web direct — same egress IP as BGutil so the PO token binds
+          #         (4) tv direct   (5) default clients direct
+          yt-dlp "${COMMON[@]}" --extractor-args "youtube:player_client=tv" $PROXY_ARGS -f "18/best[ext=mp4]/b[ext=mp4]/worst" "https://www.youtube.com/watch?v=${VID}" \
+            || yt-dlp "${COMMON[@]}" --extractor-args "youtube:player_client=mweb,web_safari" $PROXY_ARGS -f "18/best[ext=mp4]/b[ext=mp4]/worst" "https://www.youtube.com/watch?v=${VID}" \
+            || yt-dlp "${COMMON[@]}" --extractor-args "youtube:player_client=web" -f "18/best[ext=mp4]/b[ext=mp4]/worst" "https://www.youtube.com/watch?v=${VID}" \
+            || yt-dlp "${COMMON[@]}" --extractor-args "youtube:player_client=tv" -f "best[ext=mp4]/worst" "https://www.youtube.com/watch?v=${VID}" \
+            || yt-dlp --no-cache-dir -f "best[ext=mp4]/worst[ext=mp4]/worst" --merge-output-format mp4 -o "video_${VID}.%(ext)s" "https://www.youtube.com/watch?v=${VID}"
 
       - name: Verify video
         run: |
