@@ -66,8 +66,18 @@ for c in tl["clips"]:
         name = f"{c['beat_id']}_{i}"
         is_last_of_film = (c["beat_id"] == tl["clips"][-1]["beat_id"] and i == len(c["visuals"]) - 1)
         fade_out = is_last_of_film
-        order.append(seg_out(name, v["dur_s"], kb_filter(v["kb"], v["dur_s"], True, fade_out),
-                             ["-loop", "1", "-t", str(v["dur_s"]), "-i", v["path"]]))
+        if v["kind"] == "video":
+            # real footage slot: loop clip if shorter than slot, scale/crop to frame,
+            # gentle fades, no Ken Burns (footage already moves)
+            f = (f"scale={W}:{H}:force_original_aspect_ratio=increase,crop={W}:{H},"
+                 f"fps={FPS},eq=contrast=1.03:saturation=1.05")
+            f += ",fade=t=in:st=0:d=0.28"
+            f += f",fade=t=out:st={max(v['dur_s'] - 2.6, 0):.2f}:d=2.6" if fade_out else ""
+            order.append(seg_out(name, v["dur_s"], f,
+                                 ["-stream_loop", "-1", "-t", str(v["dur_s"]), "-i", v["path"]]))
+        else:
+            order.append(seg_out(name, v["dur_s"], kb_filter(v["kb"], v["dur_s"], True, fade_out),
+                                 ["-loop", "1", "-t", str(v["dur_s"]), "-i", v["path"]]))
     print(f"seg {c['beat_id']} ok", flush=True)
 
 # outro black

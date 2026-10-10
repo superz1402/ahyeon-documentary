@@ -1,0 +1,31 @@
+{
+  "_comment": "Curated subject-footage wishlist. Segment times are approximate — adjust freely. Each clip is a short excerpt used as documentary commentary B-roll. Downloads run through ytagent (see docs/INTEGRATIONS.md). Non-UMG or embeddable uploads succeed most often; label-owned MVs may be blocked on datacenter/runner IPs.",
+  "sources": [
+    {
+      "video_id": "2wA_b6YHjqQ",
+      "label": "SHEESH — Official M/V",
+      "credit": "BABYMONSTER official YouTube channel",
+      "segments": [
+        {"start_s": 96, "dur_s": 8, "query": "Sheesh performance"},
+        {"start_s": 150, "dur_s": 8, "query": "Sheesh choreography"}
+      ]
+    },
+    {
+      "video_id": "la_MJmcSPs8",
+      "label": "DRIP — Official M/V",
+      "credit": "BABYMONSTER official YouTube channel",
+      "segments": [
+        {"start_s": 80, "dur_s": 8, "query": "Drip performance"},
+        {"start_s": 130, "dur_s": 8, "query": "Drip choreography"}
+      ]
+    },
+    {
+      "video_id": "6ZUIwjgF6Y8",
+      "label": "FOREVER — Official M/V",
+      "credit": "BABYMONSTER official YouTube channel",
+      "segments": [
+        {"start_s": 70, "dur_s": 8, "query": "Forever performance"}
+      ]
+    }
+  ]
+}

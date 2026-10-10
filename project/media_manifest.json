@@ -809,6 +809,21 @@
    "license": "CC0 (1.0)",
    "artist": "deleted_user_14597403",
    "credit": "freesound"
+  },
+  {
+   "asset_id": "vid999",
+   "kind": "video",
+   "query": "concert crowd lights dark arena",
+   "source": "pexels",
+   "title": "test clip",
+   "origin_url": "https://example.com",
+   "local_path": "project/media/videos/vid999.mp4",
+   "license": "Pexels License",
+   "artist": "Test",
+   "credit": "",
+   "w": 1280,
+   "h": 720,
+   "dur_s": 6
   }
  ],
  "queries": [

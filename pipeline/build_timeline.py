@@ -26,6 +26,25 @@ for a in manifest["assets"]:
 spare_pool = [a for a in manifest["assets"] if a["kind"] == "image" and a["query"] not in qidx]
 all_imgs = [a for a in manifest["assets"] if a["kind"] == "image"]
 
+# video pool (populated by pipeline/mpt_bridge.py and/or pipeline/ytagent_bridge.py)
+vqidx = {}
+for a in manifest["assets"]:
+    if a["kind"] == "video":
+        vqidx.setdefault(a["query"], []).append(a)
+all_vids = [a for a in manifest["assets"] if a["kind"] == "video"]
+USE_VIDEOS = os.environ.get("USE_VIDEOS", "1") != "0"
+
+def video_for(query, used):
+    """Return an unused video asset for this query, else None. Deterministic order.
+    Drops assets whose files are missing (e.g. fresh clone without bridge run)."""
+    if not USE_VIDEOS:
+        return None
+    cands = vqidx.get(query) or all_vids
+    for a in cands:
+        if used.get(a["local_path"], 0) < 2 and os.path.exists(f"{BASE}/{a['local_path']}"):
+            return a
+    return None
+
 def asset_for(query, used):
     cands = qidx.get(query) or spare_pool or all_imgs
     for a in cands:
@@ -63,12 +82,20 @@ for seg in s["segments"]:
                     p = f"project/cards/ambient_{seg['id']}.png"
                 vis.append({"kind": "card", "path": p})
             else:
-                a = asset_for(v["query"], used)
-                used[a["local_path"]] = used.get(a["local_path"], 0) + 1
-                vis.append({"kind": "image", "path": a["local_path"], "asset_id": a["asset_id"],
-                             "license": a["license"], "artist": a.get("artist", ""),
-                             "credit": a.get("credit", ""), "origin_url": a.get("origin_url", ""),
-                             "title": a.get("title", "")})
+                va = video_for(v["query"], used)
+                if va is not None:
+                    used[va["local_path"]] = used.get(va["local_path"], 0) + 1
+                    vis.append({"kind": "video", "path": va["local_path"], "asset_id": va["asset_id"],
+                                 "license": va["license"], "artist": va.get("artist", ""),
+                                 "credit": va.get("credit", ""), "origin_url": va.get("origin_url", ""),
+                                 "title": va.get("title", "")})
+                else:
+                    a = asset_for(v["query"], used)
+                    used[a["local_path"]] = used.get(a["local_path"], 0) + 1
+                    vis.append({"kind": "image", "path": a["local_path"], "asset_id": a["asset_id"],
+                                 "license": a["license"], "artist": a.get("artist", ""),
+                                 "credit": a.get("credit", ""), "origin_url": a.get("origin_url", ""),
+                                 "title": a.get("title", "")})
         if not vis:
             vis = [{"kind": "card", "path": f"project/cards/ambient_{seg['id']}.png"}]
         # share FULL beat duration (voice + pause) across visuals (each >= 2.4s)
@@ -146,6 +173,9 @@ for a in manifest["assets"]:
     if a["kind"] == "image":
         who = a.get("artist") or a.get("credit") or "Unknown"
         attribs.append(f"· {a['title'][:70]} — {a['license']} — {who[:60]} — {a['origin_url']}")
+    elif a["kind"] == "video":
+        who = a.get("artist") or "Unknown"
+        attribs.append(f"· Footage: {a['title'][:60]} — {a['license']} — {who[:60]} — {a.get('origin_url','')}")
     elif a["kind"] == "audio_music":
         attribs.append(f"· Music: {a['title']} by {a.get('artist','')} — {a['license']} — {a.get('origin_url','')}")
 

@@ -26,6 +26,17 @@ jobs:
       - name: Install deps
         run: pip install pillow
 
+      - name: Enrich media (optional bridges — run only when their secrets are set)
+        env:
+          ENABLE_MPT_STOCK: ${{ secrets.ENABLE_MPT_STOCK }}
+          PEXELS_API_KEY: ${{ secrets.PEXELS_API_KEY }}
+          PIXABAY_API_KEY: ${{ secrets.PIXABAY_API_KEY }}
+          ENABLE_YTAGENT: ${{ secrets.ENABLE_YTAGENT }}
+          YTAGENT_GH_TOKEN: ${{ secrets.FARM_PAT }}
+        run: |
+          python pipeline/mpt_bridge.py
+          python pipeline/ytagent_bridge.py
+
       - name: Rebuild timeline (deterministic)
         run: python pipeline/build_timeline.py
 

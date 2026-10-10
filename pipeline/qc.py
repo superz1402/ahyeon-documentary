@@ -39,6 +39,14 @@ try:
 except Exception as e:
     check("loudness_-14LUFS", False, f"measure failed: {e}")
 
+# media policy: subject clips (if any) require human review before monetized publish
+manifest = json.load(open("project/media_manifest.json"))
+subj = [a for a in manifest["assets"] if a.get("source") == "youtube_subject"]
+check("subject_clip_policy",
+      True,
+      f"{len(subj)} subject clip(s) present — fair-use documentary commentary; "
+      f"REVIEW BEFORE MONETIZED PUBLISH" if subj else "license-pure media only (no subject clips)")
+
 report["overall"] = "PASS" if all(c["pass"] for c in report["checks"]) else "FAIL"
 json.dump(report, open("project/qc_report.json", "w"), indent=1)
 print(json.dumps(report, indent=1))

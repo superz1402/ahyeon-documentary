@@ -7,3 +7,7 @@ project/segments/mix_raw.wav
 __pycache__/
 project/tts.log
 project/media.log
+project/media/videos/
+project/ytdl_cache/
+ytdl-agent/
+project/ytagent_log.json
