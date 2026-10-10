@@ -59,8 +59,8 @@ jobs:
           echo "deb [signed-by=/usr/share/keyrings/cloudflare-warp-archive-keyring.gpg] https://pkg.cloudflareclient.com/ $(lsb_release -cs) main" | sudo tee /etc/apt/sources.list.d/cloudflare-client.list
           sudo apt-get update -qq
           sudo apt-get install -y -qq cloudflare-warp
-          # warp-cli demands a TTY for TOS acceptance — fake one with `script`
-          warp() { script -qec "$*" /dev/null; }
+          # warp-cli demands a TTY for TOS acceptance — fake one AND answer the [y/N] prompt
+          warp() { printf 'y\n' | script -qec "$*" /dev/null; }
           sudo systemctl start warp-svc 2>/dev/null || (sudo warp-svc > /tmp/warpsvc.log 2>&1 &)
           for i in $(seq 1 15); do
             if warp "warp-cli status" >/dev/null 2>&1; then break; fi
