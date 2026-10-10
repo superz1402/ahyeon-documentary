@@ -65,12 +65,12 @@ jobs:
             if warp-cli status >/dev/null 2>&1; then break; fi
             sleep 2
           done
-          warp-cli registration new
-          warp-cli mode proxy
-          warp-cli connect
+          warp-cli registration new --accept-tos
+          warp-cli mode proxy --accept-tos
+          warp-cli connect --accept-tos
           sleep 5
-          warp-cli status
-          if warp-cli status 2>/dev/null | grep -q "Connected"; then
+          warp-cli --accept-tos status
+          if warp-cli --accept-tos status 2>/dev/null | grep -q "Connected"; then
             echo "warp_ok=1" >> "$HOME/.warp_ok"
             echo "WARP connected — proxy http://127.0.0.1:40000 available"
           else
