@@ -111,16 +111,23 @@ jobs:
             PROXY_ARGS="--proxy http://127.0.0.1:40000"
           fi
           COMMON=(--no-cache-dir --no-check-certificates
-                  --extractor-args "youtube:player_client=android_vr,web"
-                  -f "best[ext=mp4]/worst[ext=mp4]/worst"
                   --merge-output-format mp4
                   --postprocessor-args "ffmpeg:-movflags +faststart"
                   -o "video_${VID}.%(ext)s")
-          # 1) WARP proxy + BGutil
-          yt-dlp "${COMMON[@]}" $PROXY_ARGS "https://www.youtube.com/watch?v=${VID}" \
-          # 2) direct + BGutil
-          || yt-dlp "${COMMON[@]}" "https://www.youtube.com/watch?v=${VID}" \
-          # 3) direct, default clients (BGutil plugin still active)
+          # 1) web client (matches BGutil's GVS PO token) + WARP proxy if connected
+          yt-dlp "${COMMON[@]}" --extractor-args "youtube:player_client=web" \
+            $PROXY_ARGS -f "18/best[ext=mp4]/worst[ext=mp4]/worst" \
+            "https://www.youtube.com/watch?v=${VID}" \
+          # 2) web client direct
+          || yt-dlp "${COMMON[@]}" --extractor-args "youtube:player_client=web" \
+            -f "18/best[ext=mp4]/worst[ext=mp4]/worst" \
+            "https://www.youtube.com/watch?v=${VID}" \
+          # 3) tv+web_safari clients direct (BGutil still serves tokens)
+          || yt-dlp "${COMMON[@]}" \
+            --extractor-args "youtube:player_client=tv,web_safari" \
+            -f "best[ext=mp4]/worst[ext=mp4]/worst" \
+            "https://www.youtube.com/watch?v=${VID}" \
+          # 4) absolute fallback: default clients direct
           || yt-dlp --no-cache-dir -f "best[ext=mp4]/worst[ext=mp4]/worst" \
                     --merge-output-format mp4 -o "video_${VID}.%(ext)s" \
                     "https://www.youtube.com/watch?v=${VID}"
