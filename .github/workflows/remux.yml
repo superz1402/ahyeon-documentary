@@ -1,0 +1,61 @@
+name: Remux Release Audio (48kHz stereo)
+
+on:
+  workflow_dispatch:
+
+jobs:
+  remux:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    timeout-minutes: 30
+    steps:
+      - name: Install ffmpeg
+        run: sudo apt-get update && sudo apt-get install -y ffmpeg
+
+      - name: Download release asset
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          gh release download v1.0 --repo "${{ github.repository }}" \
+            --pattern "final.mp4" --output final_in.mp4
+          ls -la final_in.mp4
+
+      - name: Remux audio to 48kHz stereo (video copied untouched)
+        run: |
+          ffmpeg -y -loglevel warning -i final_in.mp4 \
+            -map 0:v -map 0:a -c:v copy \
+            -af "aresample=48000,aformat=channel_layouts=stereo" \
+            -c:a aac -b:a 192k -ar 48000 -ac 2 \
+            -movflags +faststart final_out.mp4
+
+      - name: QC the remux
+        run: |
+          python3 - <<'EOF'
+          import json, subprocess
+          def probe(f):
+              r = subprocess.run(["ffprobe","-v","error","-show_streams","-show_format","-of","json",f],
+                                 capture_output=True, text=True)
+              return json.loads(r.stdout)
+          a, b = probe("final_in.mp4"), probe("final_out.mp4")
+          da = float(a["format"]["duration"]); db = float(b["format"]["duration"])
+          vs = [s for s in b["streams"] if s["codec_type"]=="video"][0]
+          au = [s for s in b["streams"] if s["codec_type"]=="audio"][0]
+          assert abs(da-db) < 1.0, f"duration drift {da} -> {db}"
+          assert vs["codec_name"]=="h264" and vs["width"]==1920 and vs["height"]==1080
+          assert au["codec_name"]=="aac" and au["sample_rate"]=="48000" and au["channels"]==2
+          print(f"QC PASS: {db:.1f}s, 1920x1080 h264, aac 48kHz stereo")
+          EOF
+
+      - name: Replace release asset
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          gh release delete-asset v1.0 final.mp4 --repo "${{ github.repository }}" --yes || true
+          gh release upload v1.0 final_out.mp4 --repo "${{ github.repository }}" --clobber
+          # rename asset to final.mp4
+          ASSET_ID=$(gh api "repos/${{ github.repository }}/releases/tags/v1.0" \
+            --jq '.assets[] | select(.name=="final_out.mp4") | .id')
+          gh api -X PATCH "repos/${{ github.repository }}/releases/assets/${ASSET_ID}" \
+            -f name=final.mp4
+          gh release view v1.0 --repo "${{ github.repository }}"

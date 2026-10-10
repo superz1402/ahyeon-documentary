@@ -114,7 +114,7 @@ cmd = (["ffmpeg", "-y", "-loglevel", "error", "-threads", "0"] + inputs +
         "-map", "0:v", "-map", "[aout]",
         "-vf", f"ass=project/captions.ass,tpad=stop_mode=clone:stop_duration=45",
         "-c:v", "libx264", "-preset", "veryfast", "-crf", "21",
-        "-c:a", "aac", "-b:a", "192k",
+        "-c:a", "aac", "-b:a", "192k", "-ar", "48000", "-ac", "2",
         "-movflags", "+faststart", "-t", str(TOTAL),
         "project/final.mp4"])
 run(cmd, "final")
