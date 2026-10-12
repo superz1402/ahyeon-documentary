@@ -1,17 +1,19 @@
 # .github/workflows/yt-download-farm.yml
-# Remote download farm for ytagent (hardened).
+# Remote download farm for ytagent.
 #
-# Triggered via API from a blocked cloud environment by ytagent's
-# github_actions_farm method (github_owner/github_repo opts point here).
-# Runs on GitHub's runners (Azure IPs that YouTube doesn't block), installs
-# Cloudflare WARP best-effort for extra safety, downloads the video with
-# yt-dlp + BGutil PO token, verifies it, and uploads it as a workflow artifact.
+# Triggered via API from a blocked cloud environment. Runs on GitHub's
+# runners (Azure IPs that YouTube doesn't block), installs Cloudflare WARP
+# for extra safety, downloads the video with yt-dlp, and uploads it as a
+# workflow artifact.
 #
-# Trigger manually via API:
+# Trigger from ytagent:
+#   ytagent download <url> --method github_actions_farm
+#
+# Or trigger manually via API:
 #   curl -X POST \
 #     -H "Authorization: token $GITHUB_TOKEN" \
 #     -H "Accept: application/vnd.github+json" \
-#     https://api.github.com/repos/superz1402/ahyeon-documentary/actions/workflows/yt-download-farm.yml/dispatches \
+#     https://api.github.com/repos/Bilal140202/ytagent/actions/workflows/yt-download-farm.yml/dispatches \
 #     -d '{"ref":"main","inputs":{"video_url":"https://www.youtube.com/watch?v=VIDEO_ID"}}'
 
 name: YT Download Farm
@@ -44,40 +46,24 @@ jobs:
           URL="${{ github.event.inputs.video_url }}"
           VID="${{ github.event.inputs.video_id }}"
           if [ -z "$VID" ]; then
-            VID=$(echo "$URL" | grep -oE 'v=([A-Za-z0-9_-]{11})' | cut -d= -f2 | head -1)
-          fi
-          if [ -z "$VID" ]; then
             VID=$(echo "$URL" | grep -oE '[A-Za-z0-9_-]{11}' | head -1)
           fi
           echo "video_id=$VID" >> $GITHUB_OUTPUT
           echo "Parsed video ID: $VID"
 
-      - name: Install Cloudflare WARP (best-effort)
+      - name: Install Cloudflare WARP
         run: |
-          set +e
           curl -fsSL https://pkg.cloudflareclient.com/pubkey.gpg | sudo gpg --yes --dearmor --output /usr/share/keyrings/cloudflare-warp-archive-keyring.gpg
           echo "deb [signed-by=/usr/share/keyrings/cloudflare-warp-archive-keyring.gpg] https://pkg.cloudflareclient.com/ $(lsb_release -cs) main" | sudo tee /etc/apt/sources.list.d/cloudflare-client.list
           sudo apt-get update -qq
-          sudo apt-get install -y -qq cloudflare-warp
-          # warp-cli demands a TTY for TOS acceptance — fake one AND answer the [y/N] prompt
-          warp() { printf 'y\n' | script -qec "$*" /dev/null; }
-          sudo systemctl start warp-svc 2>/dev/null || (sudo warp-svc > /tmp/warpsvc.log 2>&1 &)
-          for i in $(seq 1 15); do
-            if warp "warp-cli status" >/dev/null 2>&1; then break; fi
-            sleep 2
-          done
-          warp "warp-cli registration new"
-          warp "warp-cli mode proxy"
-          warp "warp-cli connect"
-          sleep 5
-          warp "warp-cli status" || true
-          if warp "warp-cli status" 2>/dev/null | grep -q "Connected"; then
-            echo "warp_ok=1" >> "$HOME/.warp_ok"
-            echo "WARP connected — proxy http://127.0.0.1:40000 available"
-          else
-            echo "WARP not connected — will download directly (Azure IPs usually allowed)"
-          fi
-          exit 0
+          sudo apt-get install -y cloudflare-warp
+          warp-cli registration new || true
+          warp-cli mode proxy
+          warp-cli connect
+          sleep 3
+          echo "WARP status:"
+          warp-cli status
+          echo "Proxy: http://127.0.0.1:40000"
 
       - name: Set up Python
         uses: actions/setup-python@v5
@@ -87,7 +73,6 @@ jobs:
       - name: Install yt-dlp + BGutil
         run: |
           pip install -U yt-dlp bgutil-ytdlp-pot-provider requests
-          sudo apt-get install -y -qq ffmpeg || true
 
       - name: Set up BGutil POT provider
         run: |
@@ -96,9 +81,9 @@ jobs:
           npm install --production
           npm install typescript
           ./node_modules/.bin/tsc
-          nohup node build/main.js --port 4416 > /tmp/bgutil.log 2>&1 &
+          nohup node build/main.js --port 4416 &
           sleep 5
-          curl -s http://127.0.0.1:4416/ping || true
+          curl -s http://127.0.0.1:4416/ping
 
       - name: Download video
         env:
@@ -106,32 +91,32 @@ jobs:
         run: |
           VID="${{ steps.vid.outputs.video_id }}"
           echo "Downloading video: $VID"
-          PROXY_ARGS=""
-          if [ -f "$HOME/.warp_ok" ]; then
-            PROXY_ARGS="--proxy http://127.0.0.1:40000"
-          fi
-          COMMON=(--no-cache-dir --no-check-certificates
-                  --merge-output-format mp4
-                  --postprocessor-args "ffmpeg:-movflags +faststart"
-                  -o "video_${VID}.%(ext)s")
-          # Ladder: (1) embedded clients via WARP — iframes serve fmt18, lightest checks
-          #         (2) embedded clients direct
-          #         (3) tv via WARP  (4) mweb/web_safari via WARP
-          #         (5) web direct — same egress IP as BGutil so the PO token binds
-          #         (6) default clients direct
-          yt-dlp "${COMMON[@]}" --extractor-args "youtube:player_client=web_embedded,tv_embedded" $PROXY_ARGS -f "18/best[ext=mp4]/b[ext=mp4]/worst" "https://www.youtube.com/watch?v=${VID}" \
-            || yt-dlp "${COMMON[@]}" --extractor-args "youtube:player_client=web_embedded,tv_embedded" -f "18/best[ext=mp4]/b[ext=mp4]/worst" "https://www.youtube.com/watch?v=${VID}" \
-            || yt-dlp "${COMMON[@]}" --extractor-args "youtube:player_client=tv" $PROXY_ARGS -f "18/best[ext=mp4]/b[ext=mp4]/worst" "https://www.youtube.com/watch?v=${VID}" \
-            || yt-dlp "${COMMON[@]}" --extractor-args "youtube:player_client=mweb,web_safari" $PROXY_ARGS -f "18/best[ext=mp4]/b[ext=mp4]/worst" "https://www.youtube.com/watch?v=${VID}" \
-            || yt-dlp "${COMMON[@]}" --extractor-args "youtube:player_client=web" -f "18/best[ext=mp4]/b[ext=mp4]/worst" "https://www.youtube.com/watch?v=${VID}" \
-            || yt-dlp --no-cache-dir -f "best[ext=mp4]/worst[ext=mp4]/worst" --merge-output-format mp4 -o "video_${VID}.%(ext)s" "https://www.youtube.com/watch?v=${VID}"
+
+          # Try with WARP proxy + BGutil PO token
+          yt-dlp --no-cache-dir --no-check-certificates \
+            --proxy http://127.0.0.1:40000 \
+            --extractor-args "youtube:player_client=android_vr,web" \
+            -f "best[ext=mp4]/worst[ext=mp4]/worst" \
+            --merge-output-format mp4 \
+            --postprocessor-args "ffmpeg:-movflags +faststart" \
+            -o "video_${VID}.%(ext)s" \
+            "https://www.youtube.com/watch?v=${VID}" \
+            || \
+          # Fallback without WARP
+          yt-dlp --no-cache-dir --no-check-certificates \
+            --extractor-args "youtube:player_client=android_vr,web" \
+            -f "best[ext=mp4]/worst[ext=mp4]/worst" \
+            --merge-output-format mp4 \
+            --postprocessor-args "ffmpeg:-movflags +faststart" \
+            -o "video_${VID}.%(ext)s" \
+            "https://www.youtube.com/watch?v=${VID}"
 
       - name: Verify video
         run: |
           VID="${{ steps.vid.outputs.video_id }}"
-          ls -la video_${VID}.* || exit 1
+          ls -la video_${VID}.*
           file video_${VID}.*
-          ffprobe -v error -show_entries format=duration,size -show_entries stream=codec_name video_${VID}.* 2>&1 | head -10
+          ffprobe -v error -show_format -show_streams video_${VID}.* 2>&1 | head -20
 
       - name: Upload artifact
         uses: actions/upload-artifact@v4
