@@ -145,3 +145,26 @@ video description.
 | Farm worker | `.github/workflows/yt-download-farm.yml` |
 | MPT bridge (stock footage, key-gated) | `pipeline/mpt_bridge.py` |
 | ytagent bridge (subject clips, farm) | `pipeline/ytagent_bridge.py` |
+
+## 6. SUCCESS RECORD — first production Shorts run (2026-10-12)
+
+| Item | Result |
+|---|---|
+| Workflow run | `Render Shorts (MoneyPrinterTurbo)` #38191435800 / #38191436028 — **completed / success** |
+| Release | **`shorts-v1` — "Shorts Pack — MoneyPrinterTurbo × Ahyeon Documentary"** |
+| Assets | `short1_the_wait.mp4` (16.2 MB, 43.9 s) · `short2_the_records.mp4` (11.2 MB) · `short3_the_dome.mp4` (11.7 MB) |
+| Specs | 1080×1920 (9:16), H.264 + AAC 192k 48 kHz **stereo**, −14 LUFS, faststart — QC PASS on all three |
+| Render time | ~12 min for all three on a GitHub runner (MPT CLI + moviepy) |
+
+Bugs fixed to get there (all in `pipeline/shorts.py`): MPT CLI must run with
+`cwd=MPT_DIR`; post-master must map the filter output `[a]` (not `0:a`, else
+"unconnected output"); BGM staged into MPT's `storage/bgm/`; UUID task-ids;
+deterministic output discovery via `storage/tasks/<task_id>/final-1.mp4`.
+
+Side effect: a `pipeline/**` push also re-triggered the film render
+(run #38190435198, success) which **rebuilt v1.0 natively with the 48 kHz-stereo
+audio fix** — re-verified: 1740.0 s, 1080p30, AAC 48 kHz stereo. `render.yml` is
+now `workflow_dispatch`-only so pushes no longer re-render the film.
+
+**Full integration status: MoneyPrinterTurbo = OPERATIONAL (NIM script-gen +
+Shorts render + CI); ytagent = OPERATIONAL infra, UMG stream-gate documented.**
