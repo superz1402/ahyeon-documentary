@@ -1,0 +1,73 @@
+name: Render Shorts (MoneyPrinterTurbo)
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths: ['pipeline/shorts.py', 'integrations/**', '.github/workflows/shorts.yml']
+
+jobs:
+  shorts:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    timeout-minutes: 120
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          submodules: recursive
+
+      - name: Install ffmpeg
+        run: sudo apt-get update && sudo apt-get install -y ffmpeg
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install MoneyPrinterTurbo deps
+        working-directory: integrations/MoneyPrinterTurbo
+        run: pip install -r requirements.txt
+
+      - name: Stage CC0 music bed into MPT storage/bgm
+        run: |
+          mkdir -p integrations/MoneyPrinterTurbo/storage/bgm
+          cp project/music/bed.mp3 integrations/MoneyPrinterTurbo/storage/bgm/bed.mp3
+
+      - name: Plan (deterministic material selection)
+        run: python pipeline/shorts.py plan
+
+      - name: Render 3 Shorts via MPT CLI
+        run: python pipeline/shorts.py render
+
+      - name: QC summary
+        run: |
+          cat project/shorts/report.json
+          python3 - <<'EOF'
+          import json
+          r = json.load(open('project/shorts/report.json'))
+          assert all(x['pass'] for x in r), f"QC failed: {r}"
+          print(f"SHORTS QC PASS: {len(r)} shorts, all vertical 1080x1920 h264+aac")
+          EOF
+
+      - name: Upload artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: shorts-pack
+          path: project/shorts/*.mp4
+          retention-days: 14
+
+      - name: Attach to Release shorts-v1
+        uses: softprops/action-gh-release@v2
+        with:
+          tag_name: shorts-v1
+          name: "Shorts Pack — MoneyPrinterTurbo × Ahyeon Documentary"
+          body: |
+            Three hook-first 9:16 Shorts (1080×1920, h264+aac, −14 LUFS) cut from the
+            verified documentary narration. Rendered end-to-end by MoneyPrinterTurbo
+            (harry0703, MIT) pinned at 4204d0f: local licensed media pool → edge-tts
+            (en-US-Andrew) → burned captions → custom CC0 music bed → mp4.
+            Scripts are fact-gated to the dossier; no LLM at render time.
+          files: project/shorts/*.mp4
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

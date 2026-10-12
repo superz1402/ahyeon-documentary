@@ -96,3 +96,52 @@ video description.
 | + stock footage (Pexels/Pixabay) | `ENABLE_MPT_STOCK=1` + keys |
 | + subject clips via farm | `ENABLE_YTAGENT=1` + `YTAGENT_GH_TOKEN`/`FARM_PAT` |
 | render without videos | `USE_VIDEOS=0 python pipeline/build_timeline.py` |
+
+---
+
+## 5. Round 2 — 2026-10-12: full MPT engine + farm hardening
+
+### MoneyPrinterTurbo is now IN the repo
+
+- Vendored as a **pinned git submodule**: `integrations/MoneyPrinterTurbo` @ `4204d0f` (MIT, v1.3.8).
+- **Live NIM script-generation run** (the real MPT LLM path): MPT CLI `--stop-at script`,
+  `llm_provider="openai"` → `https://integrate.api.nvidia.com/v1`,
+  `nvidia/nemotron-3-super-120b-a12b`. Task `c422312c` produced a fact-correct,
+  slop-free Short script from a fact-guarded prompt (verified against the dossier).
+  Config lives inside the submodule working tree (`config.toml`, MPT-gitignored).
+- **Shorts engine**: `pipeline/shorts.py` + `.github/workflows/shorts.yml`.
+  Three hook-first 9:16 Shorts cut from the VERIFIED narration (no LLM at render
+  time — deterministic CI): local licensed media pool → MPT render methodology
+  (9:16 cover-crop, sequential concat, 4 s clips) → edge-tts `en-US-Andrew` →
+  burned captions → CC0 music bed via `--bgm-type custom` (must live inside MPT's
+  `storage/bgm/` — the workflow stages it) → mp4 → −14 LUFS master → QC gate
+  (1080×1920, h264, aac, 25–90 s) → Release `shorts-v1`.
+- **Smoke-render proof** (sandbox, 12 s task): MPT produced `1080×1920 h264+aac`,
+  materials + TTS + captions + custom BGM all verified. PPU throttling limits
+  sandbox render speed; CI renders the real Shorts.
+- MPT lessons encoded: `--task-id` must be a UUID; `--subtitle-enabled` is a
+  BooleanOptionalAction (flag only); BGM file path must be inside `storage/bgm/`
+  or `resource/songs/`; output discovery prefers `storage/tasks/<task_id>/final-1.mp4`.
+
+### ytagent farm — round 2 results (runs 38188083171 → 38188954349)
+
+| # | What was fixed / proven |
+|---|---|
+| 1 | `warp-cli` **2026.8 does accept a global `--accept-tos`** flag on every subcommand (registration/mode/connect/status) — non-interactive TOS acceptance on runners |
+| 2 | Interleaved comments in backslash-continued `\|\|` ladders still bit us in a different form — replaced the ladder with a `try_dl()` shell function (no continuation parsing hazards) |
+| 3 | Restrictive format strings break web clients — relaxed to `bv*[height<=720]+ba/b/bv*+ba` |
+| 4 | **AUTH WALL BEATEN via WARP + BGutil PO tokens**: `mweb`, `web`, `web_safari` clients generate player/GVS PO tokens through the farm's BGutil server and **pass YouTube's bot-check** (round 1 saw `LOGIN_REQUIRED` on every client) |
+| 5 | Remaining ceiling for THIS video (UMG-distributed MV `2wA_b6YHjqQ`): web clients return an **empty format list** post-auth (stream-gating), `android_vr` reaches real download but needs a client GVS token → `HTTP 403`. Direct-IP (no WARP) attempts stay bot-walled |
+| 6 | Verdict unchanged from round 1, but one step closer: **farm infra is production-ready and auth passes**; UMG stream-gating remains. Subject clips from residential IPs (or self-hosted Cobalt+WARP) still work — see `pipeline/ytagent_bridge.py` usage |
+
+### Where everything lives
+
+| Piece | Path |
+|---|---|
+| MPT checkout (pinned) | `integrations/MoneyPrinterTurbo/` (submodule) |
+| Shorts engine | `pipeline/shorts.py` (plan / render / post / QC) |
+| Shorts CI | `.github/workflows/shorts.yml` → Release `shorts-v1` |
+| Subject-footage wishlist | `project/subject_sources.json` |
+| Farm worker | `.github/workflows/yt-download-farm.yml` |
+| MPT bridge (stock footage, key-gated) | `pipeline/mpt_bridge.py` |
+| ytagent bridge (subject clips, farm) | `pipeline/ytagent_bridge.py` |

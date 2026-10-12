@@ -11,3 +11,5 @@ project/media/videos/
 project/ytdl_cache/
 ytdl-agent/
 project/ytagent_log.json
+project/media/subject/
+integrations/MoneyPrinterTurbo/storage/
