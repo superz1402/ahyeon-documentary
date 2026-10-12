@@ -2,9 +2,6 @@ name: Render Documentary
 
 on:
   workflow_dispatch:
-  push:
-    branches: [main]
-    paths: ['project/**', 'pipeline/**', '.github/workflows/render.yml']
 
 jobs:
   render:

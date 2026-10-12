@@ -207,7 +207,7 @@ def post(raw: Path, out: Path):
     """MPT already mixed the CC0 bed (custom BGM) — master to -14 LUFS + faststart."""
     fc = "[0:a]loudnorm=I=-14:TP=-1.5:LRA=11,aresample=48000[a]"
     run(["ffmpeg", "-y", "-loglevel", "error", "-i", str(raw),
-         "-map", "0:v", "-map", "0:a", "-filter_complex", fc,
+         "-map", "0:v", "-map", "[a]", "-filter_complex", fc,
          "-c:v", "copy", "-c:a", "aac", "-b:a", "192k", "-ar", "48000", "-ac", "2",
          "-movflags", "+faststart", str(out)], f"post {out.name}")
 
