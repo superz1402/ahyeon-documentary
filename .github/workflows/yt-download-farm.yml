@@ -62,7 +62,7 @@ jobs:
           warp-cli --accept-tos connect
           sleep 3
           echo "WARP status:"
-          warp-cli status
+          warp-cli --accept-tos status || true
           echo "Proxy: http://127.0.0.1:40000"
 
       - name: Set up Python
