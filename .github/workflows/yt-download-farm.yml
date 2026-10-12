@@ -101,15 +101,23 @@ jobs:
             yt-dlp --no-cache-dir "$@"
           }
 
-          try_dl "warp + web + pot" \
+          try_dl "warp + mweb + pot" \
             --proxy http://127.0.0.1:40000 \
-            --extractor-args "youtube:player_client=web_safari,web,mweb;fetch_pot=always" \
+            --extractor-args "youtube:player_client=mweb;fetch_pot=always" \
             --extractor-args "$BG" \
             -f "$FMT" --merge-output-format mp4 \
             --postprocessor-args "ffmpeg:-movflags +faststart" \
             -o "video_${VID}.%(ext)s" "$URL" \
-          || try_dl "noprx + web + pot" \
-            --extractor-args "youtube:player_client=web_safari,web,mweb;fetch_pot=always" \
+          || try_dl "warp + web + pot" \
+            --proxy http://127.0.0.1:40000 \
+            --extractor-args "youtube:player_client=web;fetch_pot=always" \
+            --extractor-args "$BG" \
+            -f "$FMT" --merge-output-format mp4 \
+            --postprocessor-args "ffmpeg:-movflags +faststart" \
+            -o "video_${VID}.%(ext)s" "$URL" \
+          || try_dl "warp + web_safari + pot" \
+            --proxy http://127.0.0.1:40000 \
+            --extractor-args "youtube:player_client=web_safari;fetch_pot=always" \
             --extractor-args "$BG" \
             -f "$FMT" --merge-output-format mp4 \
             --postprocessor-args "ffmpeg:-movflags +faststart" \
