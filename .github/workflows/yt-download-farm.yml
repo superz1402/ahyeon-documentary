@@ -91,25 +91,42 @@ jobs:
         run: |
           VID="${{ steps.vid.outputs.video_id }}"
           echo "Downloading video: $VID"
+          URL="https://www.youtube.com/watch?v=${VID}"
+          BG="youtubepot-bgutilhttp:base_url=http://127.0.0.1:4416"
+          FMT="bv*[ext=mp4][height<=720]+ba[ext=m4a]/b[ext=mp4]/b"
 
-          # Try with WARP proxy + BGutil PO token
-          yt-dlp --no-cache-dir --no-check-certificates \
+          try_dl () {
+            LABEL="$1"; shift
+            echo "=== attempt: $LABEL ==="
+            yt-dlp --no-cache-dir "$@"
+          }
+
+          try_dl "warp + web + pot" \
             --proxy http://127.0.0.1:40000 \
-            --extractor-args "youtube:player_client=android_vr,web" \
-            -f "best[ext=mp4]/worst[ext=mp4]/worst" \
-            --merge-output-format mp4 \
+            --extractor-args "youtube:player_client=web_safari,web,mweb;fetch_pot=always" \
+            --extractor-args "$BG" \
+            -f "$FMT" --merge-output-format mp4 \
             --postprocessor-args "ffmpeg:-movflags +faststart" \
-            -o "video_${VID}.%(ext)s" \
-            "https://www.youtube.com/watch?v=${VID}" \
-            || \
-          # Fallback without WARP
-          yt-dlp --no-cache-dir --no-check-certificates \
-            --extractor-args "youtube:player_client=android_vr,web" \
-            -f "best[ext=mp4]/worst[ext=mp4]/worst" \
-            --merge-output-format mp4 \
+            -o "video_${VID}.%(ext)s" "$URL" \
+          || try_dl "noprx + web + pot" \
+            --extractor-args "youtube:player_client=web_safari,web,mweb;fetch_pot=always" \
+            --extractor-args "$BG" \
+            -f "$FMT" --merge-output-format mp4 \
             --postprocessor-args "ffmpeg:-movflags +faststart" \
-            -o "video_${VID}.%(ext)s" \
-            "https://www.youtube.com/watch?v=${VID}"
+            -o "video_${VID}.%(ext)s" "$URL" \
+          || try_dl "warp + android_vr + pot" \
+            --proxy http://127.0.0.1:40000 \
+            --extractor-args "youtube:player_client=android_vr;fetch_pot=always" \
+            --extractor-args "$BG" \
+            -f "$FMT" --merge-output-format mp4 \
+            --postprocessor-args "ffmpeg:-movflags +faststart" \
+            -o "video_${VID}.%(ext)s" "$URL" \
+          || try_dl "noprx + tv + pot" \
+            --extractor-args "youtube:player_client=tv,web_embedded;fetch_pot=always" \
+            --extractor-args "$BG" \
+            -f "$FMT" --merge-output-format mp4 \
+            --postprocessor-args "ffmpeg:-movflags +faststart" \
+            -o "video_${VID}.%(ext)s" "$URL"
 
       - name: Verify video
         run: |
