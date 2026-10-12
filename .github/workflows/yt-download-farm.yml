@@ -93,7 +93,7 @@ jobs:
           echo "Downloading video: $VID"
           URL="https://www.youtube.com/watch?v=${VID}"
           BG="youtubepot-bgutilhttp:base_url=http://127.0.0.1:4416"
-          FMT="bv*[ext=mp4][height<=720]+ba[ext=m4a]/b[ext=mp4]/b"
+          FMT="bv*[height<=720]+ba/b/bv*+ba"
 
           try_dl () {
             LABEL="$1"; shift
