@@ -140,9 +140,9 @@ def resolve_assets(queries, want=12):
     return picked[:want]
 
 
-def run(cmd, tag, timeout=1800):
+def run(cmd, tag, timeout=1800, cwd=None):
     print(f"[shorts] {tag} ...", flush=True)
-    r = subprocess.run(cmd, capture_output=True, text=True, timeout=timeout)
+    r = subprocess.run(cmd, capture_output=True, text=True, timeout=timeout, cwd=cwd)
     if r.returncode != 0:
         print(r.stderr[-1500:], file=sys.stderr)
         raise SystemExit(f"[shorts] FAIL {tag}")
@@ -180,8 +180,8 @@ def mpt_render(short):
     if BGM:
         cmd[cmd.index("--stroke-width") + 2:cmd.index("--stroke-width") + 2] = \
             ["--bgm-type", "custom", "--bgm-file", BGM, "--bgm-volume", "0.15"]
-    # MPT resolves --video-materials against CWD; absolute paths are accepted.
-    r = run(cmd, f"MPT render {short['id']}", timeout=3300)
+    # MPT resolves --video-materials and storage/ against CWD — run inside MPT dir.
+    r = run(cmd, f"MPT render {short['id']}", timeout=3300, cwd=str(MPT_DIR))
     # Discovery order: deterministic task dir -> stdout JSON -> newest final-*.mp4
     for cand in [MPT_DIR / "storage" / "tasks" / task_id / "final-1.mp4",
                  MPT_DIR / "storage" / "tasks" / task_id / "combined-1.mp4"]:
